@@ -1,0 +1,11 @@
+.env
+.env.local
+backend/.env
+backend/.env.local
+backend/steel_insight.db
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+

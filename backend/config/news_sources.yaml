@@ -1,0 +1,130 @@
+version: 2
+sources:
+  - source_code: NAVER_NEWS_STEEL_MANUFACTURING
+    source_name: 네이버 뉴스 철강·제조업
+    type: NEWS
+    source_authority: SECONDARY
+    collector_type: HTML_INDEX
+    url: https://search.naver.com/search.naver?where=news&query=%EC%B2%A0%EA%B0%95+%EC%A0%9C%EC%A1%B0%EC%97%85
+    enabled: true
+    priority: 2
+    language: ko
+    industries: [MANUFACTURING, STEEL, AUTOMOTIVE, ENERGY, CONSTRUCTION]
+    keywords: [철강, 철강재, 제철, 제강, 금속, 소재, 제조업, 자동차, 전기차, 배터리, 조선, 건설, 포스코, 현대제철, 공급망, 생산설비, 공장, 투자, 증설, 탄소중립, 수소환원제철]
+    max_items: 30
+    selectors:
+      link: "a[href*='n.news.naver.com/mnews/article']"
+      title: "h1, h2, h3, title"
+      content: "article, main, .news, .content, body"
+
+  - source_code: FERROTIMES
+    source_name: 페로타임즈
+    type: NEWS
+    source_authority: SECONDARY
+    collector_type: HTML_INDEX
+    url: https://www.ferrotimes.com/news/articleList.html?view_type=sm
+    enabled: true
+    priority: 1
+    language: ko
+    industries: [STEEL, MANUFACTURING, CONSTRUCTION, AUTOMOTIVE, ENERGY]
+    keywords: [철강, 철광석, 스크랩, 열연, 냉연, 후판, 철근, 강관, 포스코, 현대제철, 제강, 제철, 금속, 탄소중립]
+    max_items: 30
+    selectors:
+      link: "a[href*='articleView.html']"
+      title: "h1, h2, h3, title"
+      content: "article, .article-view, .view, main, .content"
+
+  - source_code: SNM_NEWS
+    source_name: 철강금속신문
+    type: NEWS
+    source_authority: SECONDARY
+    collector_type: RSS
+    url: https://www.snmnews.com/rss/allArticle.xml
+    enabled: true
+    priority: 1
+    language: ko
+    industries: [STEEL, MANUFACTURING, CONSTRUCTION, AUTOMOTIVE, ENERGY]
+    keywords: [철강, 금속, 철광석, 스크랩, 열연, 냉연, 후판, 철근, 강관, 포스코, 현대제철, 제강, 제철, 탄소중립]
+
+  - source_code: STEELDAILY
+    source_name: 스틸데일리
+    type: NEWS
+    source_authority: SECONDARY
+    collector_type: HTML_INDEX
+    url: https://www.steeldaily.co.kr/
+    enabled: true
+    priority: 1
+    language: ko
+    industries: [STEEL, MANUFACTURING, CONSTRUCTION, AUTOMOTIVE, ENERGY]
+    keywords: [철강, 스테인리스, 철근, 열연, 냉연, 도금, 후판, 강관, 포스코, 현대제철, 제강, 가격, 수입, 수출]
+    max_items: 30
+    selectors:
+      link: "a[href]"
+      title: "h1, h2, h3, title"
+      content: "article, .article, .view, main, .content"
+
+  - source_code: STEELWHERE
+    source_name: 스틸웨어(스틸웨어·SteelWhere)
+    type: NEWS
+    source_authority: SECONDARY
+    collector_type: HTML_INDEX
+    url: https://www.steelwhere.co.kr/news/articleList.html?view_type=sm
+    enabled: true
+    priority: 2
+    language: ko
+    industries: [STEEL, MANUFACTURING, CONSTRUCTION, AUTOMOTIVE, ENERGY]
+    keywords: [철강, 철스크랩, 철광석, 열연, 냉연, 철근, 강관, 가격, 수급, 포스코, 현대제철]
+    max_items: 30
+    selectors:
+      link: "a[href*='articleView.html']"
+      title: "h1, h2, h3, title"
+      content: "article, .article-view, .view, main, .content"
+
+  - source_code: STEELINFOSYS
+    source_name: 스틸인포시스
+    type: NEWS
+    source_authority: SECONDARY
+    collector_type: HTML_INDEX
+    url: https://steelinfosys.com/
+    enabled: true
+    priority: 2
+    language: ko
+    industries: [STEEL, MANUFACTURING, CONSTRUCTION, AUTOMOTIVE, ENERGY]
+    keywords: [철강, 철광석, 원료탄, 코크스, 스크랩, 빌렛, 슬래브, 열연, 후판, 냉연, 전기강판, 철근, 선재, 강관, 가격, 수급]
+    max_items: 30
+    selectors:
+      link: "a[href]"
+      title: "h1, h2, h3, title"
+      content: "article, .article, .view, main, #container"
+
+  - source_code: KOSA_NEWS
+    source_name: 한국철강협회
+    type: INDUSTRY_ASSOCIATION
+    source_authority: OFFICIAL
+    collector_type: HTML_INDEX
+    url: https://www.kosa.or.kr/main.jsp
+    enabled: true
+    priority: 1
+    language: ko
+    industries: [STEEL, MANUFACTURING, AUTOMOTIVE, CONSTRUCTION, ENERGY]
+    keywords: [철강, 철강산업, 철강협회, 철강재, 수급, 생산, 수출, 수입, 탄소중립, 산업정책, 자동차, 조선, 건설]
+    max_items: 20
+    selectors:
+      link: "a[href]"
+      title: "h1, h2, h3, title"
+      content: "article, .board, .contents, main, body"
+
+  - source_code: POSCO_NEWSROOM
+    source_name: POSCO 뉴스룸
+    type: OFFICIAL
+    source_authority: OFFICIAL
+    collector_type: HTML_INDEX
+    url: https://www.posco.com/homepage/docs/eng6/jsp/prcenter/newsroom.jsp
+    enabled: false
+    priority: 1
+    language: ko
+    industries: [STEEL, AUTOMOTIVE, ENERGY]
+    selectors:
+      link: "a[href]"
+      title: "h1, h2, h3, .title"
+      content: "article, main, .content"

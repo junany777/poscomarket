@@ -1,0 +1,15 @@
+{
+  "dataset_version": "mvp-v1",
+  "status": "PENDING_HUMAN_REVIEW",
+  "thresholds": {
+    "evidence_validity_rate": 100,
+    "grade_hallucination_rate": 0,
+    "forbidden_product_violation_rate": 0,
+    "false_event_merge_rate": 5,
+    "event_type_accuracy": 90,
+    "material_category_accuracy": 90,
+    "product_family_accuracy": 90,
+    "explainability_completeness": 95,
+    "strategy_precision": 80
+  }
+}

@@ -1,0 +1,38 @@
+prompts:
+  - name: event_extraction
+    version: v1
+    status: ACTIVE
+    purpose: Extract only source-supported event facts and taxonomy codes.
+    target_errors: [WRONG_EVENT_TYPE, EVENT_OVERCLASSIFIED]
+  - name: strategy_inference
+    version: v1
+    status: ACTIVE
+    purpose: Prefer fewer strategies with explicit event evidence.
+    target_errors: [STRATEGY_OVER_INFERENCE]
+  - name: strategy_inference
+    version: v2
+    status: CANDIDATE
+    based_on: v1
+    purpose: Reduce unsupported strategy inference with explicit negative boundaries.
+    change_reason: [reduce strategy over-inference, require explicit evidence linkage]
+    target_errors: [STRATEGY_OVER_INFERENCE]
+  - name: steel_demand
+    version: v1
+    status: ACTIVE
+    purpose: Resolve industry to application and component before material routing.
+    target_errors: [WRONG_APPLICATION, WRONG_COMPONENT, WRONG_MATERIAL_CATEGORY]
+  - name: opportunity
+    version: v1
+    status: ACTIVE
+    purpose: Require credible event, steel implication, and product relevance.
+    target_errors: [UNSUPPORTED_OPPORTUNITY]
+  - name: digest_daily
+    version: v1
+    status: ACTIVE
+    purpose: Produce a deterministic daily executive digest from persisted opportunities, event clusters, alerts and citations.
+    target_errors: [UNSUPPORTED_OPPORTUNITY, UNCITED_SUMMARY]
+  - name: digest_weekly
+    version: v1
+    status: ACTIVE
+    purpose: Produce a deterministic weekly trend digest with early-signal and repeated-signal boundaries.
+    target_errors: [UNSUPPORTED_TREND, UNCITED_SUMMARY]

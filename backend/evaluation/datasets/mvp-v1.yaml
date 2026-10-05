@@ -1,0 +1,97 @@
+name: Steel Intelligence MVP Gold Set
+version: mvp-v1
+cases:
+  - id: auto-ev-motor-expansion
+    category: DIRECT_POSITIVE
+    source:
+      source_name: Evaluation official release
+      source_type: OFFICIAL
+      title: Hyundai expands EV traction motor production
+      content: Hyundai Motor announced an expansion of EV traction motor production capacity for electric vehicles.
+      language: en
+      metadata_json: {source_authority: OFFICIAL}
+    expected_event: {primary_event_type: CAPACITY_EXPANSION}
+    expected_strategies: {required: [ELECTRIFICATION]}
+    expected_demand: {application: EV_MOTOR, component: MOTOR_CORE, material_category: NON_ORIENTED_ELECTRICAL_STEEL, material_requirements: [LOW_CORE_LOSS]}
+    expected_product: {product_family: HYPER_NO, grade_behavior: UNKNOWN}
+  - id: auto-truck-frame
+    category: DIRECT_POSITIVE
+    source:
+      source_name: Evaluation customer release
+      source_type: OFFICIAL
+      title: Truck frame production expansion
+      content: Hyundai Motor expands commercial truck frame production capacity with high strength structural members.
+      language: en
+      metadata_json: {source_authority: OFFICIAL}
+    expected_event: {primary_event_type: CAPACITY_EXPANSION}
+    expected_strategies: {required: [GROWTH]}
+    expected_demand: {application: VEHICLE_BODY, component: STRUCTURAL_MEMBER, material_category: AUTOMOTIVE_STEEL}
+    expected_product: {product_family: ATOS, grade_behavior: UNKNOWN}
+  - id: auto-battery-negative
+    category: NEGATIVE_ROUTING
+    source:
+      source_name: Evaluation battery release
+      source_type: OFFICIAL
+      title: Battery factory investment announced
+      content: Samsung Electronics announced a battery factory investment for energy storage cells.
+      language: en
+      metadata_json: {source_authority: OFFICIAL}
+    expected_event: {primary_event_type: CAPEX}
+    expected_demand: {application: VEHICLE_BODY, component: STRUCTURAL_MEMBER}
+    expected_product: {forbidden_product_families: [HYPER_NO]}
+  - id: auto-generic-ev
+    category: UNKNOWN_REQUIRED
+    source:
+      source_name: Evaluation generic announcement
+      source_type: NEWS
+      title: Automaker announces new EV strategy
+      content: An automaker announced a new EV strategy without specifying a motor, core, plant, or material requirement.
+      language: en
+    expected_event: {primary_event_type: CAPEX}
+    expected_demand: {application: VEHICLE_BODY, component: STRUCTURAL_MEMBER}
+    expected_product: {grade_behavior: UNKNOWN}
+  - id: coated-galvanized
+    category: COATING_VS_SUBSTRATE
+    source:
+      source_name: Evaluation construction release
+      source_type: NEWS
+      title: Galvanized panels for building envelope
+      content: The construction project will use galvanized steel panels for general corrosion protection.
+      language: en
+    expected_event: {primary_event_type: CAPEX}
+    expected_demand: {application: VEHICLE_BODY, component: STRUCTURAL_MEMBER}
+    expected_product: {product_family: GALVANIZED_STEEL, grade_behavior: UNKNOWN}
+  - id: coated-coastal
+    category: ENVIRONMENT_ROUTING
+    source:
+      source_name: Evaluation coastal structure release
+      source_type: NEWS
+      title: Coastal solar structure faces severe salinity
+      content: A coastal solar structure in high salinity and high humidity requires severe cut-edge corrosion protection.
+      language: en
+    expected_event: {primary_event_type: CAPEX}
+    expected_demand: {application: VEHICLE_BODY, component: STRUCTURAL_MEMBER}
+    expected_product: {product_family: POSMAC_SUPER, grade_behavior: UNKNOWN}
+  - id: shipyard-expansion
+    category: DIRECT_POSITIVE
+    source:
+      source_name: Evaluation shipyard release
+      source_type: OFFICIAL
+      title: HD Hyundai shipyard capacity expansion
+      content: HD Hyundai expands shipyard capacity and adds new vessel production lines.
+      language: en
+      metadata_json: {source_authority: OFFICIAL}
+    expected_event: {primary_event_type: CAPACITY_EXPANSION}
+    expected_strategies: {required: [GROWTH]}
+    expected_demand: {application: VEHICLE_BODY, component: STRUCTURAL_MEMBER}
+    expected_product: {grade_behavior: UNKNOWN}
+  - id: energy-unknown-product
+    category: UNKNOWN_REQUIRED
+    source:
+      source_name: Evaluation energy release
+      source_type: NEWS
+      title: Energy company increases generation investment
+      content: An energy company increases generation investment but does not disclose the construction material or application.
+      language: en
+    expected_event: {primary_event_type: CAPEX}
+    expected_product: {grade_behavior: UNKNOWN}

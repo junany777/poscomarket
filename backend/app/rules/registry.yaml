@@ -1,0 +1,11 @@
+version: rules-v1
+grade_selection:
+  minimum_application_confidence: 0.80
+  minimum_component_confidence: 0.75
+  require_product_evidence: true
+  require_critical_conditions: true
+product_routing:
+  max_product_files: 3
+event_clustering:
+  auto_threshold: 85
+  review_threshold: 70

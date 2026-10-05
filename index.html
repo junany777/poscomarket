@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d1117" />
+    <meta name="description" content="POSCO 철강 시장 인텔리전스 플랫폼" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>POSCO 철강 시장 인텔리전스</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand"><span class="brand-mark">P</span><div><strong>POSCO</strong><span>시장 인텔리전스</span></div></div>
+        <div class="workspace-switcher"><span class="pulse"></span><span>글로벌 전략 워크스페이스</span><span class="chevron">⌄</span></div>
+        <nav class="main-nav" aria-label="주 메뉴">
+          <p class="nav-label">워크스페이스</p>
+          <a class="nav-item active" href="#dashboard"><span>⌂</span>대시보드</a>
+          <a class="nav-item" href="#radar"><span>◉</span>산업 레이더 <b>24</b></a>
+          <a class="nav-item" href="#companies"><span>▣</span>기업 인텔리전스</a>
+          <a class="nav-item" href="#opportunities"><span>✦</span>영업 기회 <b class="orange">8</b></a>
+          <a class="nav-item" href="#steel"><span>◒</span>철강 시장</a>
+          <a class="nav-item" href="#competitors"><span>⚔</span>경쟁사 레이더</a>
+          <a class="nav-item" href="#ask"><span>✧</span>스틸 AI에게 묻기</a>
+          <p class="nav-label">라이브러리</p>
+          <a class="nav-item" href="#reports"><span>▤</span>리포트</a>
+          <a class="nav-item" href="#digests"><span>◫</span>인텔리전스 다이제스트</a>
+          <a class="nav-item" href="#watchlist"><span>☆</span>관심 목록</a>
+          <a class="nav-item" href="#alerts"><span>♧</span>알림 <b class="red">3</b></a>
+          <a class="nav-item" href="#evaluation"><span>✓</span>품질 평가</a>
+          <a class="nav-item" href="#operations"><span>▥</span>운영 모니터링</a>
+          <a class="nav-item" href="#validation"><span>◌</span>E2E 검증</a>
+        </nav>
+        <div class="sidebar-footer"><a class="nav-item" href="#settings"><span>⚙</span>설정</a><div class="profile"><span class="avatar">JK</span><div><strong>Junan Kim</strong><small>전략·마케팅</small></div><span>•••</span></div></div>
+      </aside>
+      <main class="main-content" id="dashboard">
+        <header class="topbar"><div class="breadcrumb"><span>워크스페이스</span><span>/</span><strong>대시보드</strong></div><div class="top-actions"><button class="icon-btn" aria-label="검색">⌕</button><button class="icon-btn has-dot" aria-label="알림">♧</button><span class="date-chip">2026년 10월 05일 <span>⌄</span></span></div></header>
+        <section class="page-heading"><div><p class="eyebrow">실시간 시장 인텔리전스 <span class="live-dot"></span> <span id="sourceApiLabel">OpenDART 연결 확인 중</span></p><h1>Steel Market Intelligence</h1><p class="subheading">백엔드가 생성한 철강 수요와 POSCO 영업 기회를 확인하세요.</p></div><button class="brief-btn" id="briefBtn">↻ <span>데이터 새로고침</span></button></section>
+        <form class="filter-bar" id="filterBar" aria-label="기회 필터"><label>산업<select name="industry"><option value="">전체 산업</option><option value="AUTOMOTIVE">자동차</option><option value="SHIPBUILDING">조선</option><option value="CONSTRUCTION">건설</option><option value="ENERGY">에너지</option><option value="HOME_APPLIANCE">가전</option><option value="MACHINERY">기계</option><option value="SEMICONDUCTOR">반도체</option></select></label><label>기업<input name="company" placeholder="기업 검색" /></label><label>제품군<input name="product_family" placeholder="예: HYPER_NO" /></label><label>상태<select name="status"><option value="">전체 상태</option><option value="NEW">신규</option><option value="REVIEWED">검토됨</option><option value="QUALIFIED">검증됨</option></select></label><label>최소 점수<input name="minimum_score" type="number" min="0" max="100" placeholder="0" /></label><button class="filter-submit" type="submit">필터 적용</button></form>
+
+        <section class="metric-grid" aria-label="오늘의 요약">
+          <article class="metric-card"><div class="metric-top"><span>전체 기회</span><span class="metric-icon blue">◉</span></div><strong id="kpiTotal">—</strong><p>현재 필터 결과</p><div class="sparkline blue-line"></div></article>
+          <article class="metric-card"><div class="metric-top"><span>높은 우선순위</span><span class="metric-icon orange">✦</span></div><strong id="kpiHigh">—</strong><p>점수 80점 이상</p><div class="sparkline orange-line"></div></article>
+          <article class="metric-card"><div class="metric-top"><span>신규 기회</span><span class="metric-icon teal">↗</span></div><strong id="kpiNew">—</strong><p>상태가 NEW인 기회</p><div class="sparkline teal-line"></div></article>
+          <article class="metric-card"><div class="metric-top"><span>관련 기업</span><span class="metric-icon violet">✓</span></div><strong id="kpiCompanies">—</strong><p>현재 결과의 고유 기업</p><div class="sparkline violet-line"></div></article>
+        </section>
+        <section class="panel dart-panel" id="dartPanel"><div class="panel-heading"><div><span class="section-kicker">OPENDART · 제조업</span><h2>최근 제조업 공시 데이터</h2><p class="subheading">자동차·조선·건설·에너지·가전·기계·반도체 관련 공시만 표시합니다.</p></div><button class="brief-btn" id="dartRefresh" type="button">공시 새로고침</button></div><div id="dartConnection" class="status-chip">연결 확인 중</div><div id="dartItems" class="dart-items"><div class="data-state">제조업 공시를 불러오는 중입니다.</div></div></section>
+        <section class="panel dart-analysis-panel" id="dartAnalysis"><div class="panel-heading"><div><span class="section-kicker">DART SIGNAL ANALYSIS</span><h2>공시 기반 제조업 변화 신호</h2><p class="subheading">최근 공시를 산업·기업·공시 유형별로 분석한 결과입니다.</p></div></div><div id="dartAnalysisSummary" class="dart-analysis-summary"><div class="data-state">공시 분석을 수행하는 중입니다.</div></div><div id="dartSignals" class="dart-signals"></div><p class="analysis-note" id="dartAnalysisNote"></p></section>
+
+        <section class="content-grid">
+          <article class="panel opportunity-panel" id="opportunities"><div class="panel-heading"><div><span class="section-kicker">우선순위 신호</span><h2>주요 기회</h2></div><button class="text-btn">전체 보기 <span>→</span></button></div>
+            <div class="opportunity-list" id="opportunityList"><div class="data-state">백엔드 기회 데이터를 불러오는 중입니다.</div></div>
+          </article>
+          <article class="panel signal-panel" id="radar"><div class="panel-heading"><div><span class="section-kicker">INDUSTRY RADAR</span><h2>Market pulse</h2></div><button class="filter-btn">최근 30일 ⌄</button></div><div class="chart-legend"><span><i class="dot automotive"></i> 자동차</span><span><i class="dot energy"></i> 조선</span><span><i class="dot ship"></i> 건설</span><span><i class="dot automotive"></i> 에너지</span><span><i class="dot energy"></i> 가전</span><span><i class="dot ship"></i> 기계</span><span><i class="dot automotive"></i> 반도체</span></div><div class="chart"><div class="chart-y"><span>100</span><span>75</span><span>50</span><span>25</span><span>0</span></div><svg viewBox="0 0 500 220" preserveAspectRatio="none" aria-label="7개 산업별 신호 추이 차트"><defs><linearGradient id="areaBlue" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#4e9cff" stop-opacity=".22"/><stop offset="1" stop-color="#4e9cff" stop-opacity="0"/></linearGradient></defs><path d="M0,156 C36,138 45,148 72,130 S112,151 145,114 S183,125 218,95 S257,112 286,83 S320,106 351,70 S391,84 420,50 S465,65 500,26 L500,220 L0,220Z" fill="url(#areaBlue)"/><path d="M0,156 C36,138 45,148 72,130 S112,151 145,114 S183,125 218,95 S257,112 286,83 S320,106 351,70 S391,84 420,50 S465,65 500,26" fill="none" stroke="#4e9cff" stroke-width="3"/><path d="M0,185 C38,174 49,182 74,168 S115,176 147,159 S185,165 220,149 S256,158 290,137 S323,151 354,124 S391,134 421,117 S464,125 500,109" fill="none" stroke="#f2a84b" stroke-width="2.5"/><path d="M0,198 C43,190 50,196 83,186 S121,192 152,177 S187,188 219,174 S260,180 292,162 S326,172 359,150 S395,163 427,143 S465,153 500,134" fill="none" stroke="#7d6df2" stroke-width="2.5"/></svg><div class="chart-x"><span>SEP 06</span><span>SEP 13</span><span>SEP 20</span><span>SEP 27</span><span>OCT 05</span></div></div><div class="pulse-footer"><span class="pulse-big">+32%</span><span>signal velocity<br><small>7개 산업 통합 추이</small></span><div class="mini-tags"><span>CAPEX <b>↑ 42%</b></span><span>R&amp;D <b>↑ 18%</b></span><span>ESG <b>↑ 26%</b></span></div></div></article>
+        </section>
+        <section class="lower-grid"><article class="panel brief-card" id="summaryCard"><div class="panel-heading"><div><span class="section-kicker">산업 요약</span><h2>현재 결과의 산업 분포</h2></div></div><div id="industrySummary" class="summary-list"><div class="data-state">기회 데이터가 로드되면 산업별 건수를 표시합니다.</div></div></article><article class="panel actions-card" id="actionCard"><div class="panel-heading"><div><span class="section-kicker">선택한 기회</span><h2>추천 액션</h2></div><span class="action-count" id="actionCount">—</span></div><div class="action-list" id="dashboardActions"><div class="data-state">기회를 선택하면 상세 페이지에서 추천 액션을 확인할 수 있습니다.</div></div><button class="ai-btn" id="aiBtn">↗ 선택한 기회 열기</button></article></section>
+        <section class="detail-view" id="detailView" hidden aria-live="polite"></section>
+        <section class="evaluation-view" id="evaluation" hidden aria-live="polite"><div class="panel-heading"><div><span class="section-kicker">QUALITY EVALUATION</span><h2>지능 품질 평가</h2></div><button class="brief-btn" id="evaluationRefresh" type="button">평가 이력 새로고침</button></div><div id="evaluationSummary" class="evaluation-summary"><div class="data-state">평가 실행 이력을 불러오는 중입니다.</div></div><div id="evaluationCases" class="evaluation-cases"></div></section>
+        <section class="ask-view" id="ask" hidden aria-live="polite"><div class="panel-heading"><div><span class="section-kicker">GROUNDED INTELLIGENCE</span><h2>Ask Steel AI</h2></div><span class="status-chip">검색 우선 · 근거 기반</span></div><form id="askForm" class="ask-form"><textarea id="askQuestion" maxlength="4000" placeholder="예: 현대차 최근 투자 중 POSCO 제품 기회가 뭐야?"></textarea><div class="ask-form-footer"><div class="query-chips"><button type="button" data-query="최근 자동차 Opportunity 보여줘">최근 자동차 Opportunity</button><button type="button" data-query="Hyper NO 관련 기회">Hyper NO 관련 기회</button><button type="button" data-query="점수 80 이상 Opportunity">점수 80 이상 Opportunity</button></div><button class="brief-btn" type="submit">질문하기</button></div></form><article class="ask-answer" id="askAnswer"><div class="data-state">질문을 입력하면 저장된 Intelligence와 Evidence를 조회합니다.</div></article></section>
+        <section class="watch-view" id="watchlist" hidden><div class="panel-heading"><div><span class="section-kicker">WATCHLISTS</span><h2>관심 목록</h2></div></div><form id="watchForm" class="watch-form"><input id="watchName" placeholder="관심 목록 이름" required><select id="watchProduct"><option value="">제품군 선택</option><option value="HYPER_NO">HYPER_NO</option><option value="POSMAC_SUPER">POSMAC_SUPER</option><option value="ATOS">ATOS</option></select><input id="watchScore" type="number" min="0" max="100" placeholder="최소 점수"><button class="brief-btn" type="submit">관심 목록 만들기</button></form><div id="watchlistItems" class="watch-items"><div class="data-state">관심 목록을 불러오는 중입니다.</div></div></section>
+        <section class="alert-view" id="alerts" hidden><div class="panel-heading"><div><span class="section-kicker">ALERTS</span><h2>알림</h2></div><span class="status-chip" id="unreadAlertCount">—</span></div><div id="alertItems" class="alert-items"><div class="data-state">알림을 불러오는 중입니다.</div></div></section>
+        <section class="digest-view" id="digests" hidden aria-live="polite"><div class="panel-heading"><div><span class="section-kicker">DAILY / WEEKLY INTELLIGENCE</span><h2>인텔리전스 다이제스트</h2></div><div><button class="filter-btn" id="digestDaily" type="button">데일리 생성</button> <button class="brief-btn" id="digestWeekly" type="button">위클리 생성</button></div></div><div class="digest-layout"><div id="digestItems" class="digest-items"><div class="data-state">다이제스트를 불러오는 중입니다.</div></div><article id="digestDetail" class="panel digest-detail"><div class="data-state">목록에서 다이제스트를 선택하세요.</div></article></div></section>
+        <section class="settings-view" id="settings" hidden><div class="panel-heading"><div><span class="section-kicker">NOTIFICATIONS</span><h2>알림 전송 설정</h2></div></div><form id="channelForm" class="watch-form"><input id="channelName" placeholder="Telegram 채널 이름" required><input id="channelChatId" placeholder="Telegram Chat ID" required><button class="brief-btn" type="submit">채널 저장</button></form><div id="channelItems" class="watch-items"><div class="data-state">전송 채널을 불러오는 중입니다.</div></div></section>
+        <section class="operations-view" id="operations" hidden aria-live="polite"><div class="panel-heading"><div><span class="section-kicker">SYSTEM OPERATIONS</span><h2>운영 모니터링</h2><p class="subheading">수집부터 평가까지 플랫폼 상태를 결정론적으로 확인합니다.</p></div><div><select id="opsPeriod" class="filter-btn"><option value="24h">최근 24시간</option><option value="7d">최근 7일</option><option value="30d">최근 30일</option></select><button class="brief-btn" id="opsRefresh" type="button">새로고침</button></div></div><div id="opsStatus" class="ops-status-panel"><div class="data-state">운영 상태를 불러오는 중입니다.</div></div><div id="opsKpis" class="ops-kpi-grid"></div><div class="ops-grid"><article class="panel"><div class="panel-heading"><div><span class="section-kicker">COLLECTION</span><h3>수집 소스 상태</h3></div></div><div id="opsCollection"></div></article><article class="panel"><div class="panel-heading"><div><span class="section-kicker">PIPELINE</span><h3>지능화 퍼널</h3></div></div><div id="opsPipeline"></div></article><article class="panel"><div class="panel-heading"><div><span class="section-kicker">AI RUNS</span><h3>AI 실행 상태</h3></div></div><div id="opsAi"></div></article><article class="panel"><div class="panel-heading"><div><span class="section-kicker">PRODUCT KNOWLEDGE</span><h3>지식 공백</h3></div></div><div id="opsKnowledge"></div></article><article class="panel"><div class="panel-heading"><div><span class="section-kicker">DELIVERY / DIGEST</span><h3>전송·다이제스트</h3></div></div><div id="opsDelivery"></div></article><article class="panel"><div class="panel-heading"><div><span class="section-kicker">QUALITY / FAILURES</span><h3>품질 및 최근 실패</h3></div></div><div id="opsQuality"></div></article></div></section>
+        <section class="validation-view" id="validation" hidden aria-live="polite"><div class="panel-heading"><div><span class="section-kicker">REAL-WORLD E2E VALIDATION</span><h2>검증 실행 이력</h2></div><button class="brief-btn" id="validationRefresh" type="button">새로고침</button></div><div id="validationItems" class="watch-items"><div class="data-state">검증 이력을 불러오는 중입니다.</div></div><article id="validationDetail" class="panel"><div class="data-state">검증 실행을 선택하세요.</div></article></section>
+        <footer class="status-bar"><span><i class="green-dot"></i> API 연결 상태 <b id="apiStatus">확인 중</b></span><span id="dataStatus">백엔드 데이터를 기다리는 중</span><span>제품 지식은 백엔드에서 라우팅됩니다</span></footer>
+      </main>
+    </div>
+    <div class="toast" id="toast" role="status"></div>
+    <script src="api-config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

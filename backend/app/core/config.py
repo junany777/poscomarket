@@ -1,0 +1,84 @@
+import os
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class Settings:
+    app_env: str = os.getenv("APP_ENV", "development")
+    database_url: str = os.getenv("DATABASE_URL", "sqlite:///./steel_insight.db")
+    openai_api_key: str | None = os.getenv("OPENAI_API_KEY") or None
+    openai_model: str = os.getenv("OPENAI_MODEL", "gpt-5.6")
+    dart_api_key: str | None = os.getenv("DART_API_KEY") or None
+    dart_base_url: str = os.getenv("DART_BASE_URL", "https://opendart.fss.or.kr/api")
+    dart_timeout_seconds: float = float(os.getenv("DART_TIMEOUT_SECONDS", "10"))
+    log_level: str = os.getenv("LOG_LEVEL", "INFO")
+    news_registry_path: str = os.getenv("NEWS_REGISTRY_PATH", "backend/config/news_sources.yaml")
+    news_fetch_timeout_seconds: float = float(os.getenv("NEWS_FETCH_TIMEOUT_SECONDS", "20"))
+    news_fetch_retries: int = int(os.getenv("NEWS_FETCH_RETRIES", "2"))
+    news_max_concurrency: int = int(os.getenv("NEWS_MAX_CONCURRENCY", "5"))
+    news_relevance_threshold: float = float(os.getenv("NEWS_RELEVANCE_THRESHOLD", "2"))
+    auto_run_intelligence: bool = os.getenv("AUTO_RUN_INTELLIGENCE", "false").lower() in {"1", "true", "yes"}
+    max_auto_intelligence_per_run: int = int(os.getenv("MAX_AUTO_INTELLIGENCE_PER_RUN", "10"))
+    news_scheduler_enabled: bool = os.getenv("NEWS_SCHEDULER_ENABLED", "false").lower() in {"1", "true", "yes"}
+    event_cluster_lookback_days: int = int(os.getenv("EVENT_CLUSTER_LOOKBACK_DAYS", "30"))
+    event_cluster_date_tolerance_days: int = int(os.getenv("EVENT_CLUSTER_DATE_TOLERANCE_DAYS", "14"))
+    event_cluster_max_candidates: int = int(os.getenv("EVENT_CLUSTER_MAX_CANDIDATES", "20"))
+    event_cluster_auto_threshold: float = float(os.getenv("EVENT_CLUSTER_AUTO_THRESHOLD", "85"))
+    event_cluster_review_threshold: float = float(os.getenv("EVENT_CLUSTER_REVIEW_THRESHOLD", "70"))
+    event_cluster_backfill_batch_size: int = int(os.getenv("EVENT_CLUSTER_BACKFILL_BATCH_SIZE", "100"))
+    enable_event_cluster_llm_verify: bool = os.getenv("ENABLE_EVENT_CLUSTER_LLM_VERIFY", "false").lower() in {"1", "true", "yes"}
+    evaluation_dataset_path: str = os.getenv("EVALUATION_DATASET_PATH", "backend/evaluation/datasets/mvp-v1.yaml")
+    evaluation_pipeline_version: str = os.getenv("EVALUATION_PIPELINE_VERSION", "mvp-1")
+    evaluation_prompt_version: str = os.getenv("EVALUATION_PROMPT_VERSION", "deterministic-mvp")
+    evaluation_judge_enabled: bool = os.getenv("EVALUATION_JUDGE_ENABLED", "false").lower() in {"1", "true", "yes"}
+    evaluation_max_non_target_regression_pct: float = float(os.getenv("EVAL_MAX_NON_TARGET_REGRESSION_PCT", "2"))
+    evaluation_rule_version: str = os.getenv("EVALUATION_RULE_VERSION", "rules-v1")
+    ask_max_question_chars: int = int(os.getenv("ASK_MAX_QUESTION_CHARS", "4000"))
+    ask_max_opportunities: int = int(os.getenv("ASK_MAX_OPPORTUNITIES", "5"))
+    ask_max_events: int = int(os.getenv("ASK_MAX_EVENTS", "5"))
+    ask_max_evidence: int = int(os.getenv("ASK_MAX_EVIDENCE", "5"))
+    ask_max_product_files: int = int(os.getenv("ASK_MAX_PRODUCT_FILES", "2"))
+    alert_backfill_batch_size: int = int(os.getenv("ALERT_BACKFILL_BATCH_SIZE", "200"))
+    telegram_bot_token: str | None = os.getenv("TELEGRAM_BOT_TOKEN") or None
+    delivery_worker_poll_seconds: int = int(os.getenv("DELIVERY_WORKER_POLL_SECONDS", "10"))
+    delivery_worker_batch_size: int = int(os.getenv("DELIVERY_WORKER_BATCH_SIZE", "20"))
+    delivery_max_attempts: int = int(os.getenv("DELIVERY_MAX_ATTEMPTS", "3"))
+    delivery_stale_seconds: int = int(os.getenv("DELIVERY_STALE_SECONDS", "300"))
+    digest_timezone: str = os.getenv("DIGEST_TIMEZONE", "Asia/Seoul")
+    digest_daily_hour: int = int(os.getenv("DIGEST_DAILY_HOUR", "8"))
+    digest_daily_minute: int = int(os.getenv("DIGEST_DAILY_MINUTE", "0"))
+    digest_weekly_day: str = os.getenv("DIGEST_WEEKLY_DAY", "mon")
+    digest_weekly_hour: int = int(os.getenv("DIGEST_WEEKLY_HOUR", "8"))
+    digest_weekly_minute: int = int(os.getenv("DIGEST_WEEKLY_MINUTE", "0"))
+    digest_daily_max_opportunities: int = int(os.getenv("DIGEST_DAILY_MAX_OPPORTUNITIES", "5"))
+    digest_weekly_max_opportunities: int = int(os.getenv("DIGEST_WEEKLY_MAX_OPPORTUNITIES", "10"))
+    digest_max_events: int = int(os.getenv("DIGEST_MAX_EVENTS", "10"))
+    digest_max_evidence: int = int(os.getenv("DIGEST_MAX_EVIDENCE", "10"))
+    digest_max_alerts: int = int(os.getenv("DIGEST_MAX_ALERTS", "10"))
+    digest_min_events_for_trend: int = int(os.getenv("DIGEST_MIN_EVENTS_FOR_TREND", "3"))
+    digest_scheduler_enabled: bool = os.getenv("DIGEST_SCHEDULER_ENABLED", "false").lower() in {"1", "true", "yes"}
+    ops_collection_stale_minutes: int = int(os.getenv("OPS_COLLECTION_STALE_MINUTES", "180"))
+    ops_pipeline_stale_minutes: int = int(os.getenv("OPS_PIPELINE_STALE_MINUTES", "180"))
+    ops_delivery_failure_threshold: int = int(os.getenv("OPS_DELIVERY_FAILURE_THRESHOLD", "5"))
+    ops_ai_failure_rate_threshold: float = float(os.getenv("OPS_AI_FAILURE_RATE_THRESHOLD", "0.10"))
+    ops_backlog_warning_threshold: int = int(os.getenv("OPS_BACKLOG_WARNING_THRESHOLD", "50"))
+    ops_backlog_critical_threshold: int = int(os.getenv("OPS_BACKLOG_CRITICAL_THRESHOLD", "200"))
+    ops_stale_job_minutes: int = int(os.getenv("OPS_STALE_JOB_MINUTES", "30"))
+    validation_mode: bool = os.getenv("VALIDATION_MODE", "false").lower() in {"1", "true", "yes"}
+    delivery_dry_run: bool = os.getenv("DELIVERY_DRY_RUN", "false").lower() in {"1", "true", "yes"}
+    max_concurrent_ai_calls: int = int(os.getenv("MAX_CONCURRENT_AI_CALLS", "3"))
+    intelligence_batch_size: int = int(os.getenv("INTELLIGENCE_BATCH_SIZE", "20"))
+    perf_max_quality_regression_pct: float = float(os.getenv("PERF_MAX_QUALITY_REGRESSION_PCT", "1"))
+    openai_required: bool = os.getenv("OPENAI_REQUIRED", "false").lower() in {"1", "true", "yes"}
+    app_public_url: str = os.getenv("APP_PUBLIC_URL", "")
+    cors_allowed_origins: str = os.getenv("CORS_ALLOWED_ORIGINS", "http://localhost:3000,http://localhost:8080,http://localhost:8000,null")
+    allowed_hosts: str = os.getenv("ALLOWED_HOSTS", "localhost,127.0.0.1")
+    app_version: str = os.getenv("APP_VERSION", "0.1.0")
+    build_sha: str = os.getenv("BUILD_SHA", "unknown")
+    deployed_at: str = os.getenv("DEPLOYED_AT", "")
+    db_pool_size: int = int(os.getenv("DB_POOL_SIZE", "5"))
+    db_max_overflow: int = int(os.getenv("DB_MAX_OVERFLOW", "5"))
+    db_pool_timeout: int = int(os.getenv("DB_POOL_TIMEOUT", "30"))
+
+
+settings = Settings()
