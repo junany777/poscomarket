@@ -198,3 +198,5 @@ Invoke-RestMethod -Uri http://localhost:8000/api/v1/collectors/run `
   -Method Post -ContentType 'application/json' `
   -Body '{"source_codes":["NAVER_NEWS_STEEL_MANUFACTURING","FERROTIMES","SNM_NEWS","STEELDAILY","STEELWHERE","STEELINFOSYS","KOSA_NEWS"],"dry_run":false}'
 ```
+
+출처를 지정하지 않은 수집 요청은 OpenDART만 실행합니다. 네이버·전문 매체를 함께 수집하려면 `source_codes`에 원하는 코드만 추가합니다. 대시보드의 `수집 출처` 화면에서도 같은 선택을 할 수 있습니다.
