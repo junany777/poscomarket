@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: poscomarket-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_PUBLIC_URL
+        value: https://junany777.github.io/poscomarket
+      - key: CORS_ALLOWED_ORIGINS
+        value: https://junany777.github.io
+      - key: ALLOWED_HOSTS
+        value: poscomarket-api.onrender.com
+      - key: DATABASE_URL
+        value: sqlite:///./steel_insight.db
+      - key: NEWS_REGISTRY_PATH
+        value: config/news_sources.yaml
+      - key: EVALUATION_DATASET_PATH
+        value: evaluation/datasets/mvp-v1.yaml
+      - key: DART_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
