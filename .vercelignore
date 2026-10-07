@@ -1,0 +1,8 @@
+backend/.venv
+backend/tests
+backend/steel_insight.db
+**/__pycache__
+**/*.pyc
+.git
+.codex
+.agents
