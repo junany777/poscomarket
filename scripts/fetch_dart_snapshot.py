@@ -21,13 +21,14 @@ async def main() -> None:
     health = await client.health()
     if not health.get("connected"):
         raise RuntimeError(f"OpenDART connection failed: {health.get('status')}")
-    disclosures = await client.disclosures(page_count=100)
-    analysis = await client.analysis()
+    disclosures = await client.disclosures(page_count=100, include_audit=True)
+    audit = disclosures.pop("relevance_audit", [])
+    analysis = client._build_analysis(disclosures)
     analysis = enrich_signals(analysis, ROOT)
 
     output_dir = ROOT / "data" / "dart"
     output_dir.mkdir(parents=True, exist_ok=True)
-    for name, payload in {"health": health, "disclosures": disclosures, "analysis": analysis}.items():
+    for name, payload in {"health": health, "disclosures": disclosures, "analysis": analysis, "relevance-audit": {"items": audit, "evaluated_count": len(audit)}}.items():
         (output_dir / f"{name}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 

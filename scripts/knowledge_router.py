@@ -17,6 +17,8 @@ class PoscoKnowledgeRouter:
     def __init__(self, root: Path) -> None:
         self.root = root
         self.index_path = root / "knowledge" / "posco" / "index.md"
+        self.applications_path = root / "knowledge" / "taxonomy" / "applications.md"
+        self.applications_text = self.applications_path.read_text(encoding="utf-8") if self.applications_path.exists() else ""
         self.registry = self._load_registry()
 
     def _load_registry(self) -> dict[str, dict[str, str]]:
@@ -26,12 +28,15 @@ class PoscoKnowledgeRouter:
         pattern = re.compile(r"^\|\s*([A-Z0-9_]+)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*`([^`]+)`\s*\|", re.MULTILINE)
         for code, name, category, relative_file in pattern.findall(self.index_path.read_text(encoding="utf-8")):
             path = self.root / "knowledge" / "posco" / relative_file
+            product_text = path.read_text(encoding="utf-8") if path.exists() else ""
+            verified = bool(re.search(rf"^product_family:\s*{re.escape(code)}\s*$", product_text, re.MULTILINE))
             registry[code] = {
                 "product_family": code,
                 "name": name.strip(),
                 "category": category.strip(),
                 "knowledge_file": relative_file,
-                "available": path.exists(),
+                "available": path.exists() and verified,
+                "verified": verified,
             }
         return registry
 
@@ -43,7 +48,7 @@ class PoscoKnowledgeRouter:
 
     @staticmethod
     def _text(signal: dict[str, Any]) -> str:
-        return " ".join(str(signal.get(key) or "") for key in ("corp_name", "report_name", "remarks", "evidence_text")).lower()
+        return " ".join(str(signal.get(key) or "") for key in ("report_name", "remarks", "evidence_text")).lower()
 
     def route(self, signal: dict[str, Any]) -> dict[str, Any]:
         industry = str(signal.get("industry_code") or "")
@@ -150,6 +155,13 @@ class PoscoKnowledgeRouter:
             # family. Keep this as a knowledge gap instead of guessing.
             status = "PRODUCT_FAMILY_UNKNOWN"
 
+        industry_hypotheses = [item["product_family"] for item in candidates]
+        if application == "UNKNOWN":
+            candidates = []
+            demand = "적용처 확인 후 철강 수요 산정"
+        elif application not in self.applications_text:
+            candidates = []
+            status = "PRODUCT_FAMILY_UNKNOWN"
         available = [item for item in candidates if item.get("available")]
         unavailable = [item["product_family"] for item in candidates if not item.get("available")]
         if candidates and not available:
@@ -182,7 +194,8 @@ class PoscoKnowledgeRouter:
             "route_reason": route_reason,
             "signal_label": signal_label,
             "strategy_statement": strategy_statement,
-            "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
+            "industry_hypotheses": industry_hypotheses if status != "KNOWLEDGE_MATCH" else [],
+            "router_sources": ["knowledge/posco/index.md", "knowledge/taxonomy/applications.md"] + [f"knowledge/posco/{item['knowledge_file']}" for item in available],
             "product_fit": max((int(item["confidence"]) for item in available), default=0),
             "role_insights": {
                 "executive": f"{demand} 변화가 실제 투자·수주로 이어지는지 확인하고, {application} 적용처 확정 여부를 점검",
@@ -196,7 +209,12 @@ def enrich_signals(analysis: dict[str, Any], root: Path) -> dict[str, Any]:
     router = PoscoKnowledgeRouter(root)
     signals = analysis.get("signals") or []
     for signal in signals:
-        signal["knowledge_route"] = router.route(signal)
+        route = router.route(signal)
+        signal["knowledge_route"] = route
+        signal["priority_eligible"] = route.get("status") == "KNOWLEDGE_MATCH" and int(route.get("product_fit") or 0) >= 70
+    summary = analysis.setdefault("summary", {})
+    summary["high_signal_score_count"] = summary.get("high_priority_signals", 0)
+    summary["high_priority_signals"] = sum(signal.get("priority_eligible") is True for signal in signals)
     analysis["knowledge_router"] = {
         "source": "knowledge/posco/index.md",
         "taxonomy": "knowledge/taxonomy/applications.md",

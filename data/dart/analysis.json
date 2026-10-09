@@ -4,8 +4,10 @@
   "status": "NETWORK_ERROR",
   "period": null,
   "manufacturing_only": true,
+  "posco_relevance_only": true,
   "summary": {
     "filtered_disclosures": 0,
+    "excluded_disclosures": 0,
     "raw_disclosures": 0,
     "industry_counts": {
       "AUTOMOTIVE": 0,
@@ -24,11 +26,13 @@
       "FINANCING": 0,
       "GOVERNANCE": 0
     },
-    "high_priority_signals": 0
+    "high_priority_signals": 0,
+    "high_signal_score_count": 0
   },
   "signals": [],
   "limitations": [
-    "산업 분류는 기업명·공시명 키워드 기반의 보수적 분류입니다.",
+    "산업 분류는 공시 주체의 기업명 기준이며 POSCO 철강 수요 연결성이 확인된 공시만 표시합니다.",
+    "자금조달·M&A·IR 등 조건부 문서는 공시 본문에서 생산·설비·프로젝트 근거가 확인되기 전까지 제외됩니다.",
     "공시는 투자 판단의 단독 근거가 아니며 원문과 추가 기업 조사가 필요합니다."
   ],
   "knowledge_router": {

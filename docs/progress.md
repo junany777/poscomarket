@@ -1,5 +1,15 @@
 # Progress
 
+## 2026-10-09 — OpenDART POSCO Relevance Gate
+
+- 공시 주체 기업명만으로 산업을 분류해 금융상품명에 포함된 제조기업 이름으로 인한 오분류를 제거했다.
+- 생산·설비·프로젝트·계약·기술·공급망 변화가 확인된 공시만 공개 Data에 남기는 결정론적 POSCO 연관성 필터를 추가했다.
+- 금융상품, 단순 주식보유, 임원 보유, 용도 불명 자금조달, 내용 없는 IR 안내를 제외하고 사유 코드와 재평가 여부를 보존한다.
+- 적용처와 제품 지식 근거가 확인된 신호만 POSCO 주요기회로 승격하도록 제한했다.
+- `backend/tests/test_dart_relevance.py`의 회귀 테스트 12개와 Python/JavaScript 문법 검사를 통과했다.
+- 전체 테스트 실행은 기존 `test_delivery.py`가 존재하지 않는 `priority_for_score`를 import해 수집 단계에서 중단됐다.
+- 조건부 공시의 상세 본문 자동 수집은 아직 없으며, 해당 건은 `body_fetched=false`, `reevaluation_required=true`로 공개 분석에서 제외한다.
+
 ## 2026-10-05 — Operations / Admin Monitoring
 
 - 기존 CollectionRun, SourceDocument, AIRun, Opportunity, AlertDelivery, Digest, EvaluationRun을 활용한 운영 집계 서비스를 추가했다.

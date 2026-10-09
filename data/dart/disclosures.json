@@ -3,9 +3,15 @@
   "configured": true,
   "connected": false,
   "status": "NETWORK_ERROR",
-  "message": "OpenDART 연결 실패: ConnectTimeout",
+  "message": "POSCO 연관 공시가 없습니다.",
   "items": [],
   "total_count": 0,
   "page_no": 1,
-  "page_count": 100
+  "page_count": 100,
+  "evaluated_count": 0,
+  "kept_count": 0,
+  "excluded_count": 0,
+  "non_target_issuer_count": 0,
+  "exclusion_reasons": {},
+  "posco_relevance_only": true
 }
