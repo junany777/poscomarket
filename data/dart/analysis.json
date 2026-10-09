@@ -80,6 +80,7 @@
       "industry_name": "반도체",
       "corp_name": "한울반도체",
       "report_name": "주요사항보고서(유상증자결정)",
+      "remarks": "",
       "receipt_date": "20261008",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000618",
       "knowledge_route": {
@@ -111,6 +112,7 @@
       "industry_name": "건설",
       "corp_name": "동부건설",
       "report_name": "단일판매ㆍ공급계약체결              ",
+      "remarks": "유",
       "receipt_date": "20261008",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800641",
       "knowledge_route": {
@@ -155,6 +157,7 @@
       "industry_name": "건설",
       "corp_name": "태영건설",
       "report_name": "유상증자또는주식관련사채등의발행결과(자율공시)              ",
+      "remarks": "유",
       "receipt_date": "20261008",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800605",
       "knowledge_route": {
@@ -199,6 +202,7 @@
       "industry_name": "조선",
       "corp_name": "한화오션",
       "report_name": "[기재정정]유상증자결정(종속회사의주요경영사항)              ",
+      "remarks": "유",
       "receipt_date": "20261008",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800617",
       "knowledge_route": {
@@ -232,6 +236,7 @@
       "industry_name": "가전",
       "corp_name": "교보자산운용",
       "report_name": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더증권투자신탁[채권혼합])",
+      "remarks": "",
       "receipt_date": "20261008",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000147",
       "knowledge_route": {
@@ -276,6 +281,7 @@
       "industry_name": "가전",
       "corp_name": "교보자산운용",
       "report_name": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더30증권투자신탁[채권혼합])",
+      "remarks": "",
       "receipt_date": "20261008",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000170",
       "knowledge_route": {
@@ -320,6 +326,7 @@
       "industry_name": "기계",
       "corp_name": "유진로봇",
       "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "remarks": "",
       "receipt_date": "20261008",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000459",
       "knowledge_route": {
