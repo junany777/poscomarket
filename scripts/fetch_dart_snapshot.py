@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "backend"))
 
 from app.services.dart.client import DartClient  # noqa: E402
+from knowledge_router import enrich_signals  # noqa: E402
 
 
 async def main() -> None:
@@ -22,6 +23,7 @@ async def main() -> None:
         raise RuntimeError(f"OpenDART connection failed: {health.get('status')}")
     disclosures = await client.disclosures(page_count=100)
     analysis = await client.analysis()
+    analysis = enrich_signals(analysis, ROOT)
 
     output_dir = ROOT / "data" / "dart"
     output_dir.mkdir(parents=True, exist_ok=True)

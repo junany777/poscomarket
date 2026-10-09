@@ -81,7 +81,26 @@
       "corp_name": "한울반도체",
       "report_name": "주요사항보고서(유상증자결정)",
       "receipt_date": "20261008",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000618"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000618",
+      "knowledge_route": {
+        "status": "PRODUCT_FAMILY_UNKNOWN",
+        "application_code": "UNKNOWN",
+        "component": "UNKNOWN",
+        "material_requirements": [
+          "공시 원문에서 적용처·부품·사양 확인"
+        ],
+        "steel_demand": "반도체 팹·장비·클린룸 투자 관련 강재 수요",
+        "product_candidates": [],
+        "unavailable_product_families": [],
+        "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
+        "product_fit": 0,
+        "role_insights": {
+          "executive": "반도체 팹·장비·클린룸 투자 관련 강재 수요 변화가 실제 투자·수주로 이어지는지 확인하고, UNKNOWN 적용처 확정 여부를 점검",
+          "marketing": "고객의 UNKNOWN 투자 일정과 소재 승인·납품 접점을 확인",
+          "engineering": "공시 원문에서 적용처·부품·사양 확인를 공시 원문·사양서로 검증한 뒤 제품 후보를 확정"
+        }
+      }
     },
     {
       "score": 50,
@@ -93,7 +112,39 @@
       "corp_name": "동부건설",
       "report_name": "단일판매ㆍ공급계약체결              ",
       "receipt_date": "20261008",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800641"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800641",
+      "knowledge_route": {
+        "status": "APPLICATION_CONDITION_REQUIRED",
+        "application_code": "UNKNOWN",
+        "component": "UNKNOWN",
+        "material_requirements": [
+          "공시 원문에서 적용처·부품·사양 확인"
+        ],
+        "steel_demand": "건축·토목·플랜트 구조 및 외장용 강재",
+        "product_candidates": [
+          {
+            "product_family": "GALVANIZED_STEEL",
+            "name": "GI / GA / GI(H)",
+            "category": "coated",
+            "knowledge_file": "coated/galvanized.md",
+            "available": true,
+            "priority": "ALTERNATIVE",
+            "confidence": 48,
+            "reason": "건설 외장·내식 적용 가능성 확인 필요"
+          }
+        ],
+        "unavailable_product_families": [
+          "CONSTRUCTION_PLATE"
+        ],
+        "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
+        "product_fit": 48,
+        "role_insights": {
+          "executive": "건축·토목·플랜트 구조 및 외장용 강재 변화가 실제 투자·수주로 이어지는지 확인하고, UNKNOWN 적용처 확정 여부를 점검",
+          "marketing": "고객의 UNKNOWN 투자 일정과 소재 승인·납품 접점을 확인",
+          "engineering": "공시 원문에서 적용처·부품·사양 확인를 공시 원문·사양서로 검증한 뒤 제품 후보를 확정"
+        }
+      }
     },
     {
       "score": 50,
@@ -105,7 +156,39 @@
       "corp_name": "태영건설",
       "report_name": "유상증자또는주식관련사채등의발행결과(자율공시)              ",
       "receipt_date": "20261008",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800605"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800605",
+      "knowledge_route": {
+        "status": "APPLICATION_CONDITION_REQUIRED",
+        "application_code": "UNKNOWN",
+        "component": "UNKNOWN",
+        "material_requirements": [
+          "공시 원문에서 적용처·부품·사양 확인"
+        ],
+        "steel_demand": "건축·토목·플랜트 구조 및 외장용 강재",
+        "product_candidates": [
+          {
+            "product_family": "GALVANIZED_STEEL",
+            "name": "GI / GA / GI(H)",
+            "category": "coated",
+            "knowledge_file": "coated/galvanized.md",
+            "available": true,
+            "priority": "ALTERNATIVE",
+            "confidence": 48,
+            "reason": "건설 외장·내식 적용 가능성 확인 필요"
+          }
+        ],
+        "unavailable_product_families": [
+          "CONSTRUCTION_PLATE"
+        ],
+        "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
+        "product_fit": 48,
+        "role_insights": {
+          "executive": "건축·토목·플랜트 구조 및 외장용 강재 변화가 실제 투자·수주로 이어지는지 확인하고, UNKNOWN 적용처 확정 여부를 점검",
+          "marketing": "고객의 UNKNOWN 투자 일정과 소재 승인·납품 접점을 확인",
+          "engineering": "공시 원문에서 적용처·부품·사양 확인를 공시 원문·사양서로 검증한 뒤 제품 후보를 확정"
+        }
+      }
     },
     {
       "score": 50,
@@ -117,7 +200,28 @@
       "corp_name": "한화오션",
       "report_name": "[기재정정]유상증자결정(종속회사의주요경영사항)              ",
       "receipt_date": "20261008",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800617"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800617",
+      "knowledge_route": {
+        "status": "DETAIL_SOURCE_PENDING",
+        "application_code": "UNKNOWN",
+        "component": "UNKNOWN",
+        "material_requirements": [
+          "공시 원문에서 적용처·부품·사양 확인"
+        ],
+        "steel_demand": "선박·해양 구조용 강재",
+        "product_candidates": [],
+        "unavailable_product_families": [
+          "SHIPBUILDING_PLATE"
+        ],
+        "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
+        "product_fit": 0,
+        "role_insights": {
+          "executive": "선박·해양 구조용 강재 변화가 실제 투자·수주로 이어지는지 확인하고, UNKNOWN 적용처 확정 여부를 점검",
+          "marketing": "고객의 UNKNOWN 투자 일정과 소재 승인·납품 접점을 확인",
+          "engineering": "공시 원문에서 적용처·부품·사양 확인를 공시 원문·사양서로 검증한 뒤 제품 후보를 확정"
+        }
+      }
     },
     {
       "score": 50,
@@ -129,7 +233,39 @@
       "corp_name": "교보자산운용",
       "report_name": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더증권투자신탁[채권혼합])",
       "receipt_date": "20261008",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000147"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000147",
+      "knowledge_route": {
+        "status": "APPLICATION_CONDITION_REQUIRED",
+        "application_code": "UNKNOWN",
+        "component": "UNKNOWN",
+        "material_requirements": [
+          "공시 원문에서 적용처·부품·사양 확인"
+        ],
+        "steel_demand": "가전 외판·내판 및 기능성 강재",
+        "product_candidates": [
+          {
+            "product_family": "ELECTRO_GALVANIZED_STEEL",
+            "name": "EG",
+            "category": "coated",
+            "knowledge_file": "coated/electro-galvanized.md",
+            "available": true,
+            "priority": "ALTERNATIVE",
+            "confidence": 42,
+            "reason": "가전 표면·내식 후보. 제품·부품 확인 필요"
+          }
+        ],
+        "unavailable_product_families": [
+          "COLD_ROLLED_STEEL"
+        ],
+        "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
+        "product_fit": 42,
+        "role_insights": {
+          "executive": "가전 외판·내판 및 기능성 강재 변화가 실제 투자·수주로 이어지는지 확인하고, UNKNOWN 적용처 확정 여부를 점검",
+          "marketing": "고객의 UNKNOWN 투자 일정과 소재 승인·납품 접점을 확인",
+          "engineering": "공시 원문에서 적용처·부품·사양 확인를 공시 원문·사양서로 검증한 뒤 제품 후보를 확정"
+        }
+      }
     },
     {
       "score": 50,
@@ -141,7 +277,39 @@
       "corp_name": "교보자산운용",
       "report_name": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더30증권투자신탁[채권혼합])",
       "receipt_date": "20261008",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000170"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000170",
+      "knowledge_route": {
+        "status": "APPLICATION_CONDITION_REQUIRED",
+        "application_code": "UNKNOWN",
+        "component": "UNKNOWN",
+        "material_requirements": [
+          "공시 원문에서 적용처·부품·사양 확인"
+        ],
+        "steel_demand": "가전 외판·내판 및 기능성 강재",
+        "product_candidates": [
+          {
+            "product_family": "ELECTRO_GALVANIZED_STEEL",
+            "name": "EG",
+            "category": "coated",
+            "knowledge_file": "coated/electro-galvanized.md",
+            "available": true,
+            "priority": "ALTERNATIVE",
+            "confidence": 42,
+            "reason": "가전 표면·내식 후보. 제품·부품 확인 필요"
+          }
+        ],
+        "unavailable_product_families": [
+          "COLD_ROLLED_STEEL"
+        ],
+        "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
+        "product_fit": 42,
+        "role_insights": {
+          "executive": "가전 외판·내판 및 기능성 강재 변화가 실제 투자·수주로 이어지는지 확인하고, UNKNOWN 적용처 확정 여부를 점검",
+          "marketing": "고객의 UNKNOWN 투자 일정과 소재 승인·납품 접점을 확인",
+          "engineering": "공시 원문에서 적용처·부품·사양 확인를 공시 원문·사양서로 검증한 뒤 제품 후보를 확정"
+        }
+      }
     },
     {
       "score": 50,
@@ -153,11 +321,40 @@
       "corp_name": "유진로봇",
       "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
       "receipt_date": "20261008",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000459"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000459",
+      "knowledge_route": {
+        "status": "DETAIL_SOURCE_PENDING",
+        "application_code": "UNKNOWN",
+        "component": "UNKNOWN",
+        "material_requirements": [
+          "공시 원문에서 적용처·부품·사양 확인"
+        ],
+        "steel_demand": "산업기계·중장비·로봇 구조 및 내마모용 강재",
+        "product_candidates": [],
+        "unavailable_product_families": [
+          "POS_TEN",
+          "POS_AR"
+        ],
+        "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
+        "product_fit": 0,
+        "role_insights": {
+          "executive": "산업기계·중장비·로봇 구조 및 내마모용 강재 변화가 실제 투자·수주로 이어지는지 확인하고, UNKNOWN 적용처 확정 여부를 점검",
+          "marketing": "고객의 UNKNOWN 투자 일정과 소재 승인·납품 접점을 확인",
+          "engineering": "공시 원문에서 적용처·부품·사양 확인를 공시 원문·사양서로 검증한 뒤 제품 후보를 확정"
+        }
+      }
     }
   ],
   "limitations": [
     "산업 분류는 기업명·공시명 키워드 기반의 보수적 분류입니다.",
     "공시는 투자 판단의 단독 근거가 아니며 원문과 추가 기업 조사가 필요합니다."
-  ]
+  ],
+  "knowledge_router": {
+    "source": "knowledge/posco/index.md",
+    "taxonomy": "knowledge/taxonomy/applications.md",
+    "max_product_files": 3,
+    "available_product_families": 8,
+    "registered_product_families": 26
+  }
 }
