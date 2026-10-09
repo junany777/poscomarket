@@ -94,6 +94,8 @@
         "product_candidates": [],
         "unavailable_product_families": [],
         "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "signal_label": "자금조달",
+        "strategy_statement": "자금조달 목적이 성장 투자·재무 보완 중 어디에 해당하는지 구분",
         "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
         "product_fit": 0,
         "role_insights": {
@@ -139,6 +141,8 @@
           "CONSTRUCTION_PLATE"
         ],
         "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "signal_label": "계약·수주",
+        "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
         "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
         "product_fit": 48,
         "role_insights": {
@@ -184,6 +188,8 @@
           "CONSTRUCTION_PLATE"
         ],
         "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "signal_label": "자금조달",
+        "strategy_statement": "자금조달 목적이 성장 투자·재무 보완 중 어디에 해당하는지 구분",
         "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
         "product_fit": 48,
         "role_insights": {
@@ -218,6 +224,8 @@
           "SHIPBUILDING_PLATE"
         ],
         "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "signal_label": "자금조달",
+        "strategy_statement": "자금조달 목적이 성장 투자·재무 보완 중 어디에 해당하는지 구분",
         "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
         "product_fit": 0,
         "role_insights": {
@@ -263,6 +271,8 @@
           "COLD_ROLLED_STEEL"
         ],
         "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "signal_label": "투자·증설",
+        "strategy_statement": "투자·증설이 실제 생산능력 확대와 소재 수요로 전환되는지 확인",
         "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
         "product_fit": 42,
         "role_insights": {
@@ -308,6 +318,8 @@
           "COLD_ROLLED_STEEL"
         ],
         "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "signal_label": "투자·증설",
+        "strategy_statement": "투자·증설이 실제 생산능력 확대와 소재 수요로 전환되는지 확인",
         "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
         "product_fit": 42,
         "role_insights": {
@@ -343,6 +355,8 @@
           "POS_AR"
         ],
         "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
+        "signal_label": "지배구조",
+        "strategy_statement": "지배구조 변화가 의사결정과 사업 방향에 미치는 영향을 확인",
         "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
         "product_fit": 0,
         "role_insights": {

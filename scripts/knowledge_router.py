@@ -48,6 +48,7 @@ class PoscoKnowledgeRouter:
     def route(self, signal: dict[str, Any]) -> dict[str, Any]:
         industry = str(signal.get("industry_code") or "")
         text = self._text(signal)
+        signal_types = signal.get("signal_types") or []
         candidates: list[dict[str, Any]] = []
         application = "UNKNOWN"
         component = "UNKNOWN"
@@ -154,6 +155,22 @@ class PoscoKnowledgeRouter:
         if candidates and not available:
             status = "DETAIL_SOURCE_PENDING"
         route_reason = f"{application} / {component} / {', '.join(requirements)}"
+        signal_names = {
+            "CAPEX": "투자·증설",
+            "CONTRACT": "계약·수주",
+            "CORPORATE_ACTION": "기업행위",
+            "FINANCING": "자금조달",
+            "GOVERNANCE": "지배구조",
+        }
+        signal_label = "·".join(signal_names.get(code, code) for code in signal_types) or "변화 신호 확인 필요"
+        strategy_views = {
+            "CAPEX": "투자·증설이 실제 생산능력 확대와 소재 수요로 전환되는지 확인",
+            "CONTRACT": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
+            "CORPORATE_ACTION": "기업행위가 사업 포트폴리오와 고객 전략 변화로 이어지는지 확인",
+            "FINANCING": "자금조달 목적이 성장 투자·재무 보완 중 어디에 해당하는지 구분",
+            "GOVERNANCE": "지배구조 변화가 의사결정과 사업 방향에 미치는 영향을 확인",
+        }
+        strategy_statement = " / ".join(strategy_views.get(code, "공시 원문에서 전략적 의미를 추가 확인") for code in signal_types)
         return {
             "status": status,
             "application_code": application,
@@ -163,6 +180,8 @@ class PoscoKnowledgeRouter:
             "product_candidates": available[:3],
             "unavailable_product_families": unavailable,
             "route_reason": route_reason,
+            "signal_label": signal_label,
+            "strategy_statement": strategy_statement,
             "router_source": "knowledge/posco/index.md + knowledge/taxonomy/applications.md",
             "product_fit": max((int(item["confidence"]) for item in available), default=0),
             "role_insights": {
