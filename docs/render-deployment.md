@@ -65,7 +65,7 @@ APP_ENV=production
 DART_API_KEY=<OpenDART 인증키>
 ```
 
-저장 후 반드시 새 배포를 실행합니다. 이 저장소의 루트 `index.py`가 기존 `backend/app/main.py`의 FastAPI 앱을 Vercel 진입점으로 연결하고, 루트 `requirements.txt`가 백엔드 의존성을 설치합니다.
+저장 후 반드시 새 배포를 실행합니다. 이 저장소의 `api/index.py`만 Vercel 함수로 배포되며, GitHub Pages의 정적 프론트엔드는 `/api/*` 경로로 이 함수를 호출합니다. 루트 `requirements.txt`가 함수 의존성을 설치합니다.
 
 Vercel 함수는 장기 실행 작업과 로컬 SQLite 영속 저장소에 적합하지 않습니다. OpenDART 조회 API 확인용으로 사용하고, 수집 스케줄러·영구 데이터 저장이 필요하면 Render Web Service와 PostgreSQL 구성을 사용합니다.
 
