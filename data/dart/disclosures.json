@@ -1,8 +1,244 @@
 {
   "provider": "OpenDART",
-  "connected": false,
-  "status": "NOT_CONFIGURED",
-  "items": [],
-  "total_count": 0,
-  "manufacturing_only": true
+  "configured": true,
+  "connected": true,
+  "status": "CONNECTED",
+  "message": "OpenDART 공시를 조회했습니다.",
+  "items": [
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "report_name": "주식등의대량보유상황보고서(일반)",
+      "receipt_no": "20261008000706",
+      "receipt_date": "20261008",
+      "filer_name": "삼성물산",
+      "remarks": "",
+      "industry_code": "HOME_APPLIANCE",
+      "industry_name": "가전",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000706"
+    },
+    {
+      "corp_code": "00105466",
+      "corp_name": "KCC건설",
+      "stock_code": "021320",
+      "report_name": "중대재해발생              ",
+      "receipt_no": "20261008900871",
+      "receipt_date": "20261008",
+      "filer_name": "KCC건설",
+      "remarks": "코",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008900871"
+    },
+    {
+      "corp_code": "01359815",
+      "corp_name": "한울반도체",
+      "stock_code": "320000",
+      "report_name": "소액공모공시서류(지분증권)",
+      "receipt_no": "20261008000680",
+      "receipt_date": "20261008",
+      "filer_name": "한울반도체",
+      "remarks": "",
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000680"
+    },
+    {
+      "corp_code": "01359815",
+      "corp_name": "한울반도체",
+      "stock_code": "320000",
+      "report_name": "주요사항보고서(유상증자결정)",
+      "receipt_no": "20261008000618",
+      "receipt_date": "20261008",
+      "filer_name": "한울반도체",
+      "remarks": "",
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000618"
+    },
+    {
+      "corp_code": "00198509",
+      "corp_name": "동진건설",
+      "stock_code": "",
+      "report_name": "소액공모공시서류(지분증권)",
+      "receipt_no": "20261008000595",
+      "receipt_date": "20261008",
+      "filer_name": "동진건설",
+      "remarks": "",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000595"
+    },
+    {
+      "corp_code": "00115612",
+      "corp_name": "동부건설",
+      "stock_code": "005960",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261008800641",
+      "receipt_date": "20261008",
+      "filer_name": "동부건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800641"
+    },
+    {
+      "corp_code": "00153861",
+      "corp_name": "태영건설",
+      "stock_code": "009410",
+      "report_name": "유상증자또는주식관련사채등의발행결과(자율공시)              ",
+      "receipt_no": "20261008800605",
+      "receipt_date": "20261008",
+      "filer_name": "태영건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800605"
+    },
+    {
+      "corp_code": "00111704",
+      "corp_name": "한화오션",
+      "stock_code": "042660",
+      "report_name": "[기재정정]타법인주식및출자증권취득결정(자율공시)(종속회사의주요경영사항)              ",
+      "receipt_no": "20261008800626",
+      "receipt_date": "20261008",
+      "filer_name": "한화오션",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800626"
+    },
+    {
+      "corp_code": "00111704",
+      "corp_name": "한화오션",
+      "stock_code": "042660",
+      "report_name": "[기재정정]유상증자결정(종속회사의주요경영사항)              ",
+      "receipt_no": "20261008800617",
+      "receipt_date": "20261008",
+      "filer_name": "한화오션",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800617"
+    },
+    {
+      "corp_code": "00542074",
+      "corp_name": "LSK아이로봇",
+      "stock_code": "091970",
+      "report_name": "주식등의대량보유상황보고서(일반)",
+      "receipt_no": "20261008000499",
+      "receipt_date": "20261008",
+      "filer_name": "엘에스케이디비",
+      "remarks": "",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000499"
+    },
+    {
+      "corp_code": "00241412",
+      "corp_name": "교보자산운용",
+      "stock_code": "",
+      "report_name": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더증권투자신탁[채권혼합])",
+      "receipt_no": "20261008000147",
+      "receipt_date": "20261008",
+      "filer_name": "교보자산운용",
+      "remarks": "",
+      "industry_code": "HOME_APPLIANCE",
+      "industry_name": "가전",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000147"
+    },
+    {
+      "corp_code": "00241412",
+      "corp_name": "교보자산운용",
+      "stock_code": "",
+      "report_name": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더30증권투자신탁[채권혼합])",
+      "receipt_no": "20261008000170",
+      "receipt_date": "20261008",
+      "filer_name": "교보자산운용",
+      "remarks": "",
+      "industry_code": "HOME_APPLIANCE",
+      "industry_name": "가전",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000170"
+    },
+    {
+      "corp_code": "00234227",
+      "corp_name": "유진로봇",
+      "stock_code": "056080",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261008000459",
+      "receipt_date": "20261008",
+      "filer_name": "시만",
+      "remarks": "",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000459"
+    },
+    {
+      "corp_code": "00164788",
+      "corp_name": "현대모비스",
+      "stock_code": "012330",
+      "report_name": "기업설명회(IR)개최(안내공시)              ",
+      "receipt_no": "20261008800513",
+      "receipt_date": "20261008",
+      "filer_name": "현대모비스",
+      "remarks": "유",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800513"
+    }
+  ],
+  "total_count": 14,
+  "raw_total_count": 3034,
+  "page_no": 1,
+  "page_count": 100,
+  "manufacturing_only": true,
+  "industries": [
+    {
+      "code": "AUTOMOTIVE",
+      "name_ko": "자동차"
+    },
+    {
+      "code": "SHIPBUILDING",
+      "name_ko": "조선"
+    },
+    {
+      "code": "CONSTRUCTION",
+      "name_ko": "건설"
+    },
+    {
+      "code": "ENERGY",
+      "name_ko": "에너지"
+    },
+    {
+      "code": "HOME_APPLIANCE",
+      "name_ko": "가전"
+    },
+    {
+      "code": "MACHINERY",
+      "name_ko": "기계"
+    },
+    {
+      "code": "SEMICONDUCTOR",
+      "name_ko": "반도체"
+    }
+  ],
+  "period": {
+    "bgn_de": "20261002",
+    "end_de": "20261009"
+  }
 }

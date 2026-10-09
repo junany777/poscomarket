@@ -1,7 +1,8 @@
 {
   "provider": "OpenDART",
-  "configured": false,
-  "connected": false,
-  "status": "NOT_CONFIGURED",
-  "message": "GitHub Actions에서 첫 OpenDART 스냅샷을 생성하는 중입니다."
+  "configured": true,
+  "connected": true,
+  "status": "CONNECTED",
+  "message": "OpenDART 응답을 확인했습니다.",
+  "checked_at": "2026-10-09T07:02:41.384886+00:00"
 }

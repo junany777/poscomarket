@@ -1,8 +1,163 @@
 {
   "provider": "OpenDART",
-  "connected": false,
-  "status": "NOT_CONFIGURED",
-  "summary": {},
-  "signals": [],
-  "limitations": ["GitHub Actions에서 첫 OpenDART 스냅샷을 생성하는 중입니다."]
+  "connected": true,
+  "status": "CONNECTED",
+  "period": {
+    "bgn_de": "20261002",
+    "end_de": "20261009"
+  },
+  "manufacturing_only": true,
+  "summary": {
+    "filtered_disclosures": 14,
+    "raw_disclosures": 3034,
+    "industry_counts": {
+      "AUTOMOTIVE": 1,
+      "SHIPBUILDING": 2,
+      "CONSTRUCTION": 4,
+      "ENERGY": 0,
+      "HOME_APPLIANCE": 3,
+      "MACHINERY": 2,
+      "SEMICONDUCTOR": 2
+    },
+    "top_companies": [
+      {
+        "corp_name": "한울반도체",
+        "count": 2
+      },
+      {
+        "corp_name": "한화오션",
+        "count": 2
+      },
+      {
+        "corp_name": "교보자산운용",
+        "count": 2
+      },
+      {
+        "corp_name": "삼성전자",
+        "count": 1
+      },
+      {
+        "corp_name": "KCC건설",
+        "count": 1
+      },
+      {
+        "corp_name": "동진건설",
+        "count": 1
+      },
+      {
+        "corp_name": "동부건설",
+        "count": 1
+      },
+      {
+        "corp_name": "태영건설",
+        "count": 1
+      },
+      {
+        "corp_name": "LSK아이로봇",
+        "count": 1
+      },
+      {
+        "corp_name": "유진로봇",
+        "count": 1
+      }
+    ],
+    "signal_counts": {
+      "CAPEX": 2,
+      "CONTRACT": 1,
+      "CORPORATE_ACTION": 0,
+      "FINANCING": 3,
+      "GOVERNANCE": 1
+    },
+    "high_priority_signals": 1
+  },
+  "signals": [
+    {
+      "score": 65,
+      "signal_types": [
+        "FINANCING"
+      ],
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "corp_name": "한울반도체",
+      "report_name": "주요사항보고서(유상증자결정)",
+      "receipt_date": "20261008",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000618"
+    },
+    {
+      "score": 50,
+      "signal_types": [
+        "CONTRACT"
+      ],
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "corp_name": "동부건설",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_date": "20261008",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800641"
+    },
+    {
+      "score": 50,
+      "signal_types": [
+        "FINANCING"
+      ],
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "corp_name": "태영건설",
+      "report_name": "유상증자또는주식관련사채등의발행결과(자율공시)              ",
+      "receipt_date": "20261008",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800605"
+    },
+    {
+      "score": 50,
+      "signal_types": [
+        "FINANCING"
+      ],
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "corp_name": "한화오션",
+      "report_name": "[기재정정]유상증자결정(종속회사의주요경영사항)              ",
+      "receipt_date": "20261008",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800617"
+    },
+    {
+      "score": 50,
+      "signal_types": [
+        "CAPEX"
+      ],
+      "industry_code": "HOME_APPLIANCE",
+      "industry_name": "가전",
+      "corp_name": "교보자산운용",
+      "report_name": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더증권투자신탁[채권혼합])",
+      "receipt_date": "20261008",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000147"
+    },
+    {
+      "score": 50,
+      "signal_types": [
+        "CAPEX"
+      ],
+      "industry_code": "HOME_APPLIANCE",
+      "industry_name": "가전",
+      "corp_name": "교보자산운용",
+      "report_name": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더30증권투자신탁[채권혼합])",
+      "receipt_date": "20261008",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000170"
+    },
+    {
+      "score": 50,
+      "signal_types": [
+        "GOVERNANCE"
+      ],
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "corp_name": "유진로봇",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_date": "20261008",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000459"
+    }
+  ],
+  "limitations": [
+    "산업 분류는 기업명·공시명 키워드 기반의 보수적 분류입니다.",
+    "공시는 투자 판단의 단독 근거가 아니며 원문과 추가 기업 조사가 필요합니다."
+  ]
 }
