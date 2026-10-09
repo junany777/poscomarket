@@ -1,0 +1,8 @@
+{
+  "provider": "OpenDART",
+  "connected": false,
+  "status": "NOT_CONFIGURED",
+  "summary": {},
+  "signals": [],
+  "limitations": ["GitHub Actions에서 첫 OpenDART 스냅샷을 생성하는 중입니다."]
+}

@@ -1,0 +1,8 @@
+{
+  "provider": "OpenDART",
+  "connected": false,
+  "status": "NOT_CONFIGURED",
+  "items": [],
+  "total_count": 0,
+  "manufacturing_only": true
+}

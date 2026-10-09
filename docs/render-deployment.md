@@ -53,35 +53,6 @@ window.POSCO_API_BASE_URL = "https://실제-render-서비스-주소.onrender.com
 
 현재 Blueprint는 MVP 실행을 위해 SQLite를 사용합니다. Render의 기본 파일 시스템은 영속 저장소가 아니므로, 운영 데이터 보존이 필요하면 Render PostgreSQL을 만들고 `DATABASE_URL`을 PostgreSQL 연결 문자열로 교체해야 합니다.
 
-## Vercel을 사용하는 경우
+## GitHub Pages 정적 수집 방식
 
-Vercel 프로젝트의 `Settings → Environment Variables`에 다음 항목도 등록해야 합니다.
-
-```text
-APP_PUBLIC_URL=https://poscomarket.vercel.app
-ALLOWED_HOSTS=poscomarket.vercel.app,*.vercel.app
-CORS_ALLOWED_ORIGINS=https://junany777.github.io
-APP_ENV=production
-DART_API_KEY=<OpenDART 인증키>
-```
-
-저장 후 반드시 새 배포를 실행합니다. 이 저장소의 `api/index.py`만 Vercel 함수로 배포되며, GitHub Pages의 정적 프론트엔드는 `/api/*` 경로로 이 함수를 호출합니다. 루트 `requirements.txt`가 함수 의존성을 설치합니다.
-
-Vercel 함수는 장기 실행 작업과 로컬 SQLite 영속 저장소에 적합하지 않습니다. OpenDART 조회 API 확인용으로 사용하고, 수집 스케줄러·영구 데이터 저장이 필요하면 Render Web Service와 PostgreSQL 구성을 사용합니다.
-
-## OpenDART 전용 Vercel 함수
-
-정적 GitHub Pages 화면에서 OpenDART 공시만 조회하려면 저장소의 `api/index.py`가 사용됩니다. Vercel 환경변수에는 최소한 다음을 등록합니다.
-
-```text
-DART_API_KEY=<OpenDART 인증키>
-CORS_ALLOWED_ORIGINS=https://junany777.github.io
-```
-
-화면은 다음 API를 호출합니다.
-
-```text
-https://poscomarket.vercel.app/api/v1/dart/health
-https://poscomarket.vercel.app/api/v1/dart/disclosures
-https://poscomarket.vercel.app/api/v1/dart/analysis
-```
+Vercel을 사용하지 않는 경우 `.github/workflows/dart-snapshot.yml`이 30분마다 OpenDART를 호출하고 `data/dart/`의 공개 스냅샷을 갱신합니다. GitHub 저장소의 `Settings → Secrets and variables → Actions`에서 `DART_API_KEY`라는 Repository secret을 추가해야 합니다. 프론트엔드는 GitHub Pages에서 이 JSON 파일을 읽습니다.
