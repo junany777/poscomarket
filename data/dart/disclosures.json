@@ -1,17 +1,90 @@
 {
   "provider": "OpenDART",
   "configured": true,
-  "connected": false,
-  "status": "NETWORK_ERROR",
-  "message": "POSCO 연관 공시가 없습니다.",
-  "items": [],
-  "total_count": 0,
+  "connected": true,
+  "status": "CONNECTED",
+  "message": "POSCO 연관 공시를 조회했습니다.",
+  "items": [
+    {
+      "corp_code": "00115612",
+      "corp_name": "동부건설",
+      "stock_code": "005960",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261008800641",
+      "receipt_date": "20261008",
+      "filer_name": "동부건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800641",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    }
+  ],
+  "total_count": 1,
+  "raw_total_count": 3034,
   "page_no": 1,
   "page_count": 100,
-  "evaluated_count": 0,
-  "kept_count": 0,
-  "excluded_count": 0,
-  "non_target_issuer_count": 0,
-  "exclusion_reasons": {},
+  "manufacturing_only": true,
+  "industries": [
+    {
+      "code": "AUTOMOTIVE",
+      "name_ko": "자동차"
+    },
+    {
+      "code": "SHIPBUILDING",
+      "name_ko": "조선"
+    },
+    {
+      "code": "CONSTRUCTION",
+      "name_ko": "건설"
+    },
+    {
+      "code": "ENERGY",
+      "name_ko": "에너지"
+    },
+    {
+      "code": "HOME_APPLIANCE",
+      "name_ko": "가전"
+    },
+    {
+      "code": "MACHINERY",
+      "name_ko": "기계"
+    },
+    {
+      "code": "SEMICONDUCTOR",
+      "name_ko": "반도체"
+    }
+  ],
+  "period": {
+    "bgn_de": "20261002",
+    "end_de": "20261009"
+  },
+  "evaluated_count": 14,
+  "kept_count": 1,
+  "excluded_count": 13,
+  "non_target_issuer_count": 2,
+  "exclusion_reasons": {
+    "OWNERSHIP_ONLY": 3,
+    "PHYSICAL_IMPACT_UNKNOWN": 1,
+    "SECURITIES_OFFERING_ONLY": 3,
+    "FINANCING_PURPOSE_UNKNOWN": 2,
+    "ACQUISITION_PURPOSE_UNKNOWN": 1,
+    "NON_TARGET_ISSUER": 2,
+    "IR_CONTENT_MISSING": 1
+  },
   "posco_relevance_only": true
 }
