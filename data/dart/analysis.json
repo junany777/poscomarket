@@ -1,35 +1,27 @@
 {
   "provider": "OpenDART",
-  "connected": true,
-  "status": "CONNECTED",
-  "period": {
-    "bgn_de": "20261003",
-    "end_de": "20261010"
-  },
+  "connected": false,
+  "status": "NETWORK_ERROR",
+  "period": null,
   "manufacturing_only": true,
   "posco_relevance_only": true,
   "summary": {
-    "filtered_disclosures": 1,
-    "excluded_disclosures": 13,
-    "raw_disclosures": 2249,
+    "filtered_disclosures": 0,
+    "excluded_disclosures": 0,
+    "raw_disclosures": 0,
     "industry_counts": {
       "AUTOMOTIVE": 0,
       "SHIPBUILDING": 0,
-      "CONSTRUCTION": 1,
+      "CONSTRUCTION": 0,
       "ENERGY": 0,
       "HOME_APPLIANCE": 0,
       "MACHINERY": 0,
       "SEMICONDUCTOR": 0
     },
-    "top_companies": [
-      {
-        "corp_name": "동부건설",
-        "count": 1
-      }
-    ],
+    "top_companies": [],
     "signal_counts": {
       "CAPEX": 0,
-      "CONTRACT": 1,
+      "CONTRACT": 0,
       "CORPORATE_ACTION": 0,
       "FINANCING": 0,
       "GOVERNANCE": 0
@@ -37,58 +29,7 @@
     "high_priority_signals": 0,
     "high_signal_score_count": 0
   },
-  "signals": [
-    {
-      "score": 50,
-      "signal_types": [
-        "CONTRACT"
-      ],
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "corp_name": "동부건설",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "remarks": "유",
-      "receipt_no": "20261008800641",
-      "receipt_date": "20261008",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800641",
-      "relevance_decision": "KEEP_DATA",
-      "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-      "matched_evidence": [
-        "단일판매ㆍ공급계약체결",
-        "공급계약"
-      ],
-      "reevaluation_required": false,
-      "knowledge_route": {
-        "status": "APPLICATION_CONDITION_REQUIRED",
-        "application_code": "UNKNOWN",
-        "component": "UNKNOWN",
-        "material_requirements": [
-          "공시 원문에서 적용처·부품·사양 확인"
-        ],
-        "steel_demand": "적용처 확인 후 철강 수요 산정",
-        "product_candidates": [],
-        "unavailable_product_families": [],
-        "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
-        "signal_label": "계약·수주",
-        "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
-        "industry_hypotheses": [
-          "CONSTRUCTION_PLATE",
-          "GALVANIZED_STEEL"
-        ],
-        "router_sources": [
-          "knowledge/posco/index.md",
-          "knowledge/taxonomy/applications.md"
-        ],
-        "product_fit": 0,
-        "role_insights": {
-          "executive": "적용처 확인 후 철강 수요 산정 변화가 실제 투자·수주로 이어지는지 확인하고, UNKNOWN 적용처 확정 여부를 점검",
-          "marketing": "고객의 UNKNOWN 투자 일정과 소재 승인·납품 접점을 확인",
-          "engineering": "공시 원문에서 적용처·부품·사양 확인를 공시 원문·사양서로 검증한 뒤 제품 후보를 확정"
-        }
-      },
-      "priority_eligible": false
-    }
-  ],
+  "signals": [],
   "limitations": [
     "산업 분류는 공시 주체의 기업명 기준이며 POSCO 철강 수요 연결성이 확인된 공시만 표시합니다.",
     "자금조달·M&A·IR 등 조건부 문서는 공시 본문에서 생산·설비·프로젝트 근거가 확인되기 전까지 제외됩니다.",
