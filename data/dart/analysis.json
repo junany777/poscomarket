@@ -3,15 +3,15 @@
   "connected": true,
   "status": "CONNECTED",
   "period": {
-    "bgn_de": "20261002",
-    "end_de": "20261009"
+    "bgn_de": "20261003",
+    "end_de": "20261010"
   },
   "manufacturing_only": true,
   "posco_relevance_only": true,
   "summary": {
     "filtered_disclosures": 1,
     "excluded_disclosures": 13,
-    "raw_disclosures": 3034,
+    "raw_disclosures": 2249,
     "industry_counts": {
       "AUTOMOTIVE": 0,
       "SHIPBUILDING": 0,

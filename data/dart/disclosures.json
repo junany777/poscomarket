@@ -48,7 +48,7 @@
     "NON_TARGET_ISSUER": 2,
     "IR_CONTENT_MISSING": 1
   },
-  "raw_total_count": 3034,
+  "raw_total_count": 2249,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -84,7 +84,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261002",
-    "end_de": "20261009"
+    "bgn_de": "20261003",
+    "end_de": "20261010"
   }
 }
