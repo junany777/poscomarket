@@ -5,6 +5,64 @@
       "corp_name": "한화오션",
       "stock_code": "042660",
       "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261012000260",
+      "receipt_date": "20261012",
+      "filer_name": "김훈민",
+      "remarks": "",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000260",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00111704",
+      "corp_name": "한화오션",
+      "stock_code": "042660",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261012000242",
+      "receipt_date": "20261012",
+      "filer_name": "조짐모",
+      "remarks": "",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000242",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00111704",
+      "corp_name": "한화오션",
+      "stock_code": "042660",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
       "receipt_no": "20261012000231",
       "receipt_date": "20261012",
       "filer_name": "노대규",
@@ -517,42 +575,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "01359815",
-      "corp_name": "한울반도체",
-      "stock_code": "320000",
-      "report_name": "주요사항보고서(유상증자결정)",
-      "receipt_no": "20261008000618",
-      "receipt_date": "20261008",
-      "filer_name": "한울반도체",
-      "remarks": "",
-      "industry_code": "SEMICONDUCTOR",
-      "industry_name": "반도체",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000618",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "FINANCING_PURPOSE_UNKNOWN",
-        "matched_evidence": [
-          "유상증자"
-        ],
-        "missing_evidence": [
-          "시설자금",
-          "공장",
-          "증설",
-          "생산라인",
-          "신사업",
-          "인수",
-          "설비"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "주요사항보고서(유상증자결정)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 19
+  "evaluated_count": 20
 }
