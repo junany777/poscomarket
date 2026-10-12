@@ -68,14 +68,12 @@
   "excluded_count": 18,
   "non_target_issuer_count": 2,
   "exclusion_reasons": {
-    "OWNERSHIP_ONLY": 9,
-    "PHYSICAL_CHANGE_NOT_FOUND": 2,
+    "OWNERSHIP_ONLY": 10,
+    "PHYSICAL_CHANGE_NOT_FOUND": 3,
     "GOVERNANCE_ONLY": 3,
-    "NON_TARGET_ISSUER": 2,
-    "PHYSICAL_IMPACT_UNKNOWN": 1,
-    "SECURITIES_OFFERING_ONLY": 1
+    "NON_TARGET_ISSUER": 2
   },
-  "raw_total_count": 2614,
+  "raw_total_count": 2672,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
