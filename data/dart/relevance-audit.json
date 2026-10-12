@@ -4,6 +4,35 @@
       "corp_code": "00126380",
       "corp_name": "삼성전자",
       "stock_code": "005930",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261012000021",
+      "receipt_date": "20261012",
+      "filer_name": "김은용",
+      "remarks": "",
+      "industry_code": "HOME_APPLIANCE",
+      "industry_name": "가전",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000021",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
       "report_name": "주식등의대량보유상황보고서(일반)",
       "receipt_no": "20261008000706",
       "receipt_date": "20261008",
@@ -394,5 +423,5 @@
       }
     }
   ],
-  "evaluated_count": 13
+  "evaluated_count": 14
 }
