@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "corp_code": "01876367",
+      "corp_name": "한강주택건설",
+      "stock_code": "",
+      "report_name": "감사보고서 (2026.06)",
+      "receipt_no": "20261012000189",
+      "receipt_date": "20261012",
+      "filer_name": "양지회계법인",
+      "remarks": "",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000189",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "GOVERNANCE_ONLY",
+        "matched_evidence": [
+          "감사보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "감사보고서 (2026.06)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00111704",
       "corp_name": "한화오션",
       "stock_code": "042660",
@@ -466,64 +495,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00115612",
-      "corp_name": "동부건설",
-      "stock_code": "005960",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261008800641",
-      "receipt_date": "20261008",
-      "filer_name": "동부건설",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800641",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00153861",
-      "corp_name": "태영건설",
-      "stock_code": "009410",
-      "report_name": "유상증자또는주식관련사채등의발행결과(자율공시)              ",
-      "receipt_no": "20261008800605",
-      "receipt_date": "20261008",
-      "filer_name": "태영건설",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800605",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "SECURITIES_OFFERING_ONLY",
-        "matched_evidence": [
-          "주식관련사채등의발행결과"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "유상증자또는주식관련사채등의발행결과(자율공시)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 18
+  "evaluated_count": 17
 }
