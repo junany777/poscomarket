@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "corp_code": "01526806",
+      "corp_name": "삼기에너지솔루션즈",
+      "stock_code": "419050",
+      "report_name": "전환청구권행사              ",
+      "receipt_no": "20261012900732",
+      "receipt_date": "20261012",
+      "filer_name": "삼기에너지솔루션즈",
+      "remarks": "코",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900732",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "전환청구권행사              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00105466",
+      "corp_name": "KCC건설",
+      "stock_code": "021320",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결(자율공시)              ",
+      "receipt_no": "20261012900697",
+      "receipt_date": "20261012",
+      "filer_name": "KCC건설",
+      "remarks": "코",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900697",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결(자율공시)               코",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00106641",
+      "corp_name": "기아",
+      "stock_code": "000270",
+      "report_name": "특수관계인으로부터기타유가증권매수",
+      "receipt_no": "20261012000440",
+      "receipt_date": "20261012",
+      "filer_name": "기아",
+      "remarks": "공",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000440",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "특수관계인으로부터기타유가증권매수",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
       "stock_code": "005930",
@@ -543,61 +627,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00120191",
-      "corp_name": "키움투자자산운용",
-      "stock_code": "",
-      "report_name": "증권발행실적보고서(집합투자증권)(키움KIWOOMK-반도체북미공급망증권상장지수투자신탁[주식])",
-      "receipt_no": "20261012000026",
-      "receipt_date": "20261012",
-      "filer_name": "키움투자자산운용",
-      "remarks": "",
-      "industry_code": null,
-      "industry_name": null,
-      "manufacturing_relevant": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000026",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "NON_TARGET_ISSUER",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "대상 산업 공시 주체"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "증권발행실적보고서(집합투자증권)(키움KIWOOMK-반도체북미공급망증권상장지수투자신탁[주식])",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00120191",
-      "corp_name": "키움투자자산운용",
-      "stock_code": "",
-      "report_name": "증권발행실적보고서(집합투자증권)(키움KIWOOM차이나내수소비TOPCSI증권상장지수투자신탁[주식-파생형])",
-      "receipt_no": "20261012000028",
-      "receipt_date": "20261012",
-      "filer_name": "키움투자자산운용",
-      "remarks": "",
-      "industry_code": null,
-      "industry_name": null,
-      "manufacturing_relevant": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000028",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "NON_TARGET_ISSUER",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "대상 산업 공시 주체"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "증권발행실적보고서(집합투자증권)(키움KIWOOM차이나내수소비TOPCSI증권상장지수투자신탁[주식-파생형])",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 21
+  "evaluated_count": 22
 }

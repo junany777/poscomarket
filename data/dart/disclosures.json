@@ -6,6 +6,34 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00105466",
+      "corp_name": "KCC건설",
+      "stock_code": "021320",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결(자율공시)              ",
+      "receipt_no": "20261012900697",
+      "receipt_date": "20261012",
+      "filer_name": "KCC건설",
+      "remarks": "코",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900697",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결(자율공시)               코",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00648721",
       "corp_name": "SNT에너지",
       "stock_code": "100840",
@@ -62,18 +90,17 @@
       }
     }
   ],
-  "total_count": 2,
-  "evaluated_count": 21,
-  "kept_count": 2,
+  "total_count": 3,
+  "evaluated_count": 22,
+  "kept_count": 3,
   "excluded_count": 19,
-  "non_target_issuer_count": 2,
+  "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 5,
+    "PHYSICAL_CHANGE_NOT_FOUND": 7,
     "OWNERSHIP_ONLY": 10,
-    "GOVERNANCE_ONLY": 2,
-    "NON_TARGET_ISSUER": 2
+    "GOVERNANCE_ONLY": 2
   },
-  "raw_total_count": 2795,
+  "raw_total_count": 2841,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
