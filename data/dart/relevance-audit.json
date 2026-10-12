@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "corp_code": "00633835",
+      "corp_name": "HJ중공업",
+      "stock_code": "097230",
+      "report_name": "[기재정정]소송등의제기ㆍ신청(일정금액이상의청구)              ",
+      "receipt_no": "20261012800581",
+      "receipt_date": "20261012",
+      "filer_name": "HJ중공업",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800581",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]소송등의제기ㆍ신청(일정금액이상의청구)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01784914",
+      "corp_name": "클로봇",
+      "stock_code": "466100",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261012000349",
+      "receipt_date": "20261012",
+      "filer_name": "구성희",
+      "remarks": "",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000349",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00111704",
       "corp_name": "한화오션",
       "stock_code": "042660",
@@ -572,5 +629,5 @@
       }
     }
   ],
-  "evaluated_count": 20
+  "evaluated_count": 22
 }
