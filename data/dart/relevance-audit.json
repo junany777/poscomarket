@@ -1,6 +1,89 @@
 {
   "items": [
     {
+      "corp_code": "00111704",
+      "corp_name": "한화오션",
+      "stock_code": "042660",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261012000060",
+      "receipt_date": "20261012",
+      "filer_name": "도규환",
+      "remarks": "",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000060",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00120191",
+      "corp_name": "키움투자자산운용",
+      "stock_code": "",
+      "report_name": "증권발행실적보고서(집합투자증권)(키움KIWOOMK-반도체북미공급망증권상장지수투자신탁[주식])",
+      "receipt_no": "20261012000026",
+      "receipt_date": "20261012",
+      "filer_name": "키움투자자산운용",
+      "remarks": "",
+      "industry_code": null,
+      "industry_name": null,
+      "manufacturing_relevant": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000026",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "NON_TARGET_ISSUER",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "대상 산업 공시 주체"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "증권발행실적보고서(집합투자증권)(키움KIWOOMK-반도체북미공급망증권상장지수투자신탁[주식])",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00120191",
+      "corp_name": "키움투자자산운용",
+      "stock_code": "",
+      "report_name": "증권발행실적보고서(집합투자증권)(키움KIWOOM차이나내수소비TOPCSI증권상장지수투자신탁[주식-파생형])",
+      "receipt_no": "20261012000028",
+      "receipt_date": "20261012",
+      "filer_name": "키움투자자산운용",
+      "remarks": "",
+      "industry_code": null,
+      "industry_name": null,
+      "manufacturing_relevant": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000028",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "NON_TARGET_ISSUER",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "대상 산업 공시 주체"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "증권발행실적보고서(집합투자증권)(키움KIWOOM차이나내수소비TOPCSI증권상장지수투자신탁[주식-파생형])",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "01828005",
       "corp_name": "한다종합건설",
       "stock_code": "",
@@ -367,61 +450,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00241412",
-      "corp_name": "교보자산운용",
-      "stock_code": "",
-      "report_name": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더증권투자신탁[채권혼합])",
-      "receipt_no": "20261008000147",
-      "receipt_date": "20261008",
-      "filer_name": "교보자산운용",
-      "remarks": "",
-      "industry_code": null,
-      "industry_name": null,
-      "manufacturing_relevant": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000147",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "NON_TARGET_ISSUER",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "대상 산업 공시 주체"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더증권투자신탁[채권혼합])",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00241412",
-      "corp_name": "교보자산운용",
-      "stock_code": "",
-      "report_name": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더30증권투자신탁[채권혼합])",
-      "receipt_no": "20261008000170",
-      "receipt_date": "20261008",
-      "filer_name": "교보자산운용",
-      "remarks": "",
-      "industry_code": null,
-      "industry_name": null,
-      "manufacturing_relevant": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000170",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "NON_TARGET_ISSUER",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "대상 산업 공시 주체"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]투자설명서(집합투자증권)(교보삼성전자투게더30증권투자신탁[채권혼합])",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 14
+  "evaluated_count": 15
 }
