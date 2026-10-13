@@ -4,6 +4,34 @@
       "corp_code": "00126380",
       "corp_name": "삼성전자",
       "stock_code": "005930",
+      "report_name": "최대주주등소유주식변동신고서              ",
+      "receipt_no": "20261013800651",
+      "receipt_date": "20261013",
+      "filer_name": "삼성전자",
+      "remarks": "유",
+      "industry_code": "HOME_APPLIANCE",
+      "industry_name": "가전",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800651",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "최대주주등소유주식변동신고서              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
       "report_name": "임원ㆍ주요주주특정증권등거래계획보고서",
       "receipt_no": "20261013000379",
       "receipt_date": "20261013",
@@ -887,63 +915,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "01526806",
-      "corp_name": "삼기에너지솔루션즈",
-      "stock_code": "419050",
-      "report_name": "전환청구권행사              ",
-      "receipt_no": "20261012900732",
-      "receipt_date": "20261012",
-      "filer_name": "삼기에너지솔루션즈",
-      "remarks": "코",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900732",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "전환청구권행사              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00105466",
-      "corp_name": "KCC건설",
-      "stock_code": "021320",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결(자율공시)              ",
-      "receipt_no": "20261012900697",
-      "receipt_date": "20261012",
-      "filer_name": "KCC건설",
-      "remarks": "코",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900697",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결(자율공시)               코",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 32
+  "evaluated_count": 31
 }
