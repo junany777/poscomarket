@@ -1,6 +1,60 @@
 {
   "items": [
     {
+      "corp_code": "00331478",
+      "corp_name": "우리자산운용",
+      "stock_code": "",
+      "report_name": "[기재정정]일괄신고서(집합투자증권-신탁형)(우리WON반도체밸류체인액티브증권상장지수투자신탁(주식))",
+      "receipt_no": "20261007000368",
+      "receipt_date": "20261007",
+      "filer_name": "우리자산운용",
+      "remarks": "",
+      "industry_code": null,
+      "industry_name": null,
+      "manufacturing_relevant": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000368",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "NON_TARGET_ISSUER",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "대상 산업 공시 주체"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]일괄신고서(집합투자증권-신탁형)(우리WON반도체밸류체인액티브증권상장지수투자신탁(주식))",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01709065",
+      "corp_name": "마키나락스",
+      "stock_code": "477850",
+      "report_name": "투자판단관련주요경영사항              ([국책과제 선정] AI기반 자동차부품 열간단조 금형 설계 자동 보정 및 단조품 자율 생산 시스템 개발)",
+      "receipt_no": "20261013900241",
+      "receipt_date": "20261013",
+      "filer_name": "마키나락스",
+      "remarks": "코",
+      "industry_code": null,
+      "industry_name": null,
+      "manufacturing_relevant": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013900241",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "NON_TARGET_ISSUER",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "대상 산업 공시 주체"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "투자판단관련주요경영사항              ([국책과제 선정] AI기반 자동차부품 열간단조 금형 설계 자동 보정 및 단조품 자율 생산 시스템 개발)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00164830",
       "corp_name": "HD한국조선해양",
       "stock_code": "009540",
@@ -666,94 +720,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00111704",
-      "corp_name": "한화오션",
-      "stock_code": "042660",
-      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "receipt_no": "20261012000260",
-      "receipt_date": "20261012",
-      "filer_name": "김훈민",
-      "remarks": "",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000260",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "OWNERSHIP_ONLY",
-        "matched_evidence": [
-          "임원ㆍ주요주주특정증권등소유상황보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00111704",
-      "corp_name": "한화오션",
-      "stock_code": "042660",
-      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "receipt_no": "20261012000242",
-      "receipt_date": "20261012",
-      "filer_name": "조짐모",
-      "remarks": "",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000242",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "OWNERSHIP_ONLY",
-        "matched_evidence": [
-          "임원ㆍ주요주주특정증권등소유상황보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00111704",
-      "corp_name": "한화오션",
-      "stock_code": "042660",
-      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "receipt_no": "20261012000231",
-      "receipt_date": "20261012",
-      "filer_name": "노대규",
-      "remarks": "",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000231",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "OWNERSHIP_ONLY",
-        "matched_evidence": [
-          "임원ㆍ주요주주특정증권등소유상황보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 26
+  "evaluated_count": 25
 }
