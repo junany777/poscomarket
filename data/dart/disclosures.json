@@ -96,11 +96,11 @@
   "excluded_count": 20,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 8,
-    "OWNERSHIP_ONLY": 10,
+    "PHYSICAL_CHANGE_NOT_FOUND": 9,
+    "OWNERSHIP_ONLY": 9,
     "GOVERNANCE_ONLY": 2
   },
-  "raw_total_count": 2864,
+  "raw_total_count": 2891,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -136,7 +136,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261005",
-    "end_de": "20261012"
+    "bgn_de": "20261006",
+    "end_de": "20261013"
   }
 }
