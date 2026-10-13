@@ -11,23 +11,23 @@
   "summary": {
     "filtered_disclosures": 2,
     "excluded_disclosures": 18,
-    "raw_disclosures": 2950,
+    "raw_disclosures": 2962,
     "industry_counts": {
       "AUTOMOTIVE": 0,
       "SHIPBUILDING": 0,
-      "CONSTRUCTION": 1,
-      "ENERGY": 1,
+      "CONSTRUCTION": 2,
+      "ENERGY": 0,
       "HOME_APPLIANCE": 0,
       "MACHINERY": 0,
       "SEMICONDUCTOR": 0
     },
     "top_companies": [
       {
-        "corp_name": "KCC건설",
+        "corp_name": "대우건설",
         "count": 1
       },
       {
-        "corp_name": "SNT에너지",
+        "corp_name": "KCC건설",
         "count": 1
       }
     ],
@@ -39,22 +39,22 @@
       "GOVERNANCE": 0
     },
     "high_priority_signals": 0,
-    "high_signal_score_count": 1
+    "high_signal_score_count": 0
   },
   "signals": [
     {
-      "score": 65,
+      "score": 50,
       "signal_types": [
         "CONTRACT"
       ],
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "corp_name": "SNT에너지",
-      "report_name": "단일판매ㆍ공급계약체결(자율공시)              ",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "corp_name": "대우건설",
+      "report_name": "단일판매ㆍ공급계약체결              ",
       "remarks": "유",
-      "receipt_no": "20261012800266",
-      "receipt_date": "20261012",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800266",
+      "receipt_no": "20261013800134",
+      "receipt_date": "20261013",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800134",
       "relevance_decision": "KEEP_DATA",
       "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
       "matched_evidence": [
@@ -76,8 +76,8 @@
         "signal_label": "계약·수주",
         "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
         "industry_hypotheses": [
-          "API_STEEL",
-          "OFFSHORE_PLATE"
+          "CONSTRUCTION_PLATE",
+          "GALVANIZED_STEEL"
         ],
         "router_sources": [
           "knowledge/posco/index.md",

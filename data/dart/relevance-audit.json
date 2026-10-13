@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "corp_code": "00301246",
+      "corp_name": "SFA반도체",
+      "stock_code": "036540",
+      "report_name": "[기재정정]반기보고서 (2026.06)",
+      "receipt_no": "20261013000104",
+      "receipt_date": "20261013",
+      "filer_name": "SFA반도체",
+      "remarks": "",
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000104",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]반기보고서 (2026.06)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00124540",
+      "corp_name": "대우건설",
+      "stock_code": "047040",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261013800134",
+      "receipt_date": "20261013",
+      "filer_name": "대우건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800134",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00137997",
       "corp_name": "현대차증권",
       "stock_code": "001500",
@@ -508,63 +564,6 @@
         "reevaluation_required": false,
         "evidence_source": "OpenDART list.json",
         "evidence_text": "감사보고서 (2026.06)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00111704",
-      "corp_name": "한화오션",
-      "stock_code": "042660",
-      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "receipt_no": "20261012000156",
-      "receipt_date": "20261012",
-      "filer_name": "박호정",
-      "remarks": "",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000156",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "OWNERSHIP_ONLY",
-        "matched_evidence": [
-          "임원ㆍ주요주주특정증권등소유상황보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00648721",
-      "corp_name": "SNT에너지",
-      "stock_code": "100840",
-      "report_name": "단일판매ㆍ공급계약체결(자율공시)              ",
-      "receipt_no": "20261012800266",
-      "receipt_date": "20261012",
-      "filer_name": "SNT에너지",
-      "remarks": "유",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800266",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결(자율공시)               유",
         "body_fetched": false,
         "reevaluated_at": null
       }
