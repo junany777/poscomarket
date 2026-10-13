@@ -6,6 +6,34 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00153861",
+      "corp_name": "태영건설",
+      "stock_code": "009410",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261013800338",
+      "receipt_date": "20261013",
+      "filer_name": "태영건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800338",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00164830",
       "corp_name": "HD한국조선해양",
       "stock_code": "009540",
@@ -118,19 +146,20 @@
       }
     }
   ],
-  "total_count": 4,
-  "evaluated_count": 26,
-  "kept_count": 4,
-  "excluded_count": 22,
-  "non_target_issuer_count": 2,
+  "total_count": 5,
+  "evaluated_count": 33,
+  "kept_count": 5,
+  "excluded_count": 28,
+  "non_target_issuer_count": 3,
   "exclusion_reasons": {
-    "OWNERSHIP_ONLY": 6,
-    "NON_TARGET_ISSUER": 2,
+    "FINANCING_PURPOSE_UNKNOWN": 4,
+    "PHYSICAL_CHANGE_NOT_FOUND": 13,
+    "NON_TARGET_ISSUER": 3,
+    "OWNERSHIP_ONLY": 4,
     "GOVERNANCE_ONLY": 2,
-    "IR_CONTENT_MISSING": 2,
-    "PHYSICAL_CHANGE_NOT_FOUND": 10
+    "IR_CONTENT_MISSING": 2
   },
-  "raw_total_count": 3110,
+  "raw_total_count": 3164,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
