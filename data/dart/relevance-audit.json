@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "corp_code": "00257732",
+      "corp_name": "한국정밀기계",
+      "stock_code": "101680",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261013000199",
+      "receipt_date": "20261013",
+      "filer_name": "하종식",
+      "remarks": "",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000199",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00331478",
       "corp_name": "우리자산운용",
       "stock_code": "",
@@ -722,5 +751,5 @@
       }
     }
   ],
-  "evaluated_count": 25
+  "evaluated_count": 26
 }
