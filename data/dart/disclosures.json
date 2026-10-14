@@ -6,6 +6,34 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00633835",
+      "corp_name": "HJ중공업",
+      "stock_code": "097230",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261014800411",
+      "receipt_date": "20261014",
+      "filer_name": "HJ중공업",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800411",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "01676642",
       "corp_name": "사피엔반도체",
       "stock_code": "452430",
@@ -62,20 +90,20 @@
       }
     }
   ],
-  "total_count": 2,
-  "evaluated_count": 21,
-  "kept_count": 2,
-  "excluded_count": 19,
+  "total_count": 3,
+  "evaluated_count": 23,
+  "kept_count": 3,
+  "excluded_count": 20,
   "non_target_issuer_count": 2,
   "exclusion_reasons": {
+    "OWNERSHIP_ONLY": 2,
+    "GOVERNANCE_ONLY": 6,
+    "PHYSICAL_CHANGE_NOT_FOUND": 7,
     "IR_CONTENT_MISSING": 2,
-    "GOVERNANCE_ONLY": 5,
     "FINANCING_PURPOSE_UNKNOWN": 1,
-    "PHYSICAL_CHANGE_NOT_FOUND": 8,
-    "OWNERSHIP_ONLY": 1,
     "NON_TARGET_ISSUER": 2
   },
-  "raw_total_count": 3157,
+  "raw_total_count": 3244,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
