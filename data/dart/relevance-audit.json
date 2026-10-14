@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "corp_code": "01019096",
+      "corp_name": "홍성건설",
+      "stock_code": "",
+      "report_name": "감사보고서 (2026.06)",
+      "receipt_no": "20261014000425",
+      "receipt_date": "20261014",
+      "filer_name": "선진회계법인",
+      "remarks": "",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000425",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "GOVERNANCE_ONLY",
+        "matched_evidence": [
+          "감사보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "감사보고서 (2026.06)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00299844",
       "corp_name": "미래반도체",
       "stock_code": "254490",
@@ -674,5 +703,5 @@
       }
     }
   ],
-  "evaluated_count": 23
+  "evaluated_count": 24
 }
