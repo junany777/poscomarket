@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "corp_code": "01735307",
+      "corp_name": "천광건설",
+      "stock_code": "",
+      "report_name": "감사보고서 (2026.06)",
+      "receipt_no": "20261014000161",
+      "receipt_date": "20261014",
+      "filer_name": "순광공인회계사감사반(제191호)",
+      "remarks": "",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000161",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "GOVERNANCE_ONLY",
+        "matched_evidence": [
+          "감사보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "감사보고서 (2026.06)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01919088",
+      "corp_name": "한백건설",
+      "stock_code": "",
+      "report_name": "감사보고서 (2026.06)",
+      "receipt_no": "20261014000155",
+      "receipt_date": "20261014",
+      "filer_name": "호산공인회계사감사반(제147호)",
+      "remarks": "",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000155",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "GOVERNANCE_ONLY",
+        "matched_evidence": [
+          "감사보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "감사보고서 (2026.06)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00331478",
+      "corp_name": "우리자산운용",
+      "stock_code": "",
+      "report_name": "[기재정정]투자설명서(집합투자증권)(우리WON반도체밸류체인액티브증권상장지수투자신탁(주식))",
+      "receipt_no": "20261014000064",
+      "receipt_date": "20261014",
+      "filer_name": "우리자산운용",
+      "remarks": "",
+      "industry_code": null,
+      "industry_name": null,
+      "manufacturing_relevant": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000064",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "NON_TARGET_ISSUER",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "대상 산업 공시 주체"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]투자설명서(집합투자증권)(우리WON반도체밸류체인액티브증권상장지수투자신탁(주식))",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00104500",
+      "corp_name": "KB자산운용",
+      "stock_code": "",
+      "report_name": "투자설명서(집합투자증권)(KBRISE반도체소부장액티브증권상장지수투자신탁(주식))",
+      "receipt_no": "20261014000003",
+      "receipt_date": "20261014",
+      "filer_name": "KB자산운용",
+      "remarks": "",
+      "industry_code": null,
+      "industry_name": null,
+      "manufacturing_relevant": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000003",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "NON_TARGET_ISSUER",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "대상 산업 공시 주체"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "투자설명서(집합투자증권)(KBRISE반도체소부장액티브증권상장지수투자신탁(주식))",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00164478",
       "corp_name": "현대건설",
       "stock_code": "000720",
@@ -533,146 +645,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00331478",
-      "corp_name": "우리자산운용",
-      "stock_code": "",
-      "report_name": "[기재정정]일괄신고서(집합투자증권-신탁형)(우리WON반도체밸류체인액티브증권상장지수투자신탁(주식))",
-      "receipt_no": "20261007000368",
-      "receipt_date": "20261007",
-      "filer_name": "우리자산운용",
-      "remarks": "",
-      "industry_code": null,
-      "industry_name": null,
-      "manufacturing_relevant": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000368",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "NON_TARGET_ISSUER",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "대상 산업 공시 주체"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]일괄신고서(집합투자증권-신탁형)(우리WON반도체밸류체인액티브증권상장지수투자신탁(주식))",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01709065",
-      "corp_name": "마키나락스",
-      "stock_code": "477850",
-      "report_name": "투자판단관련주요경영사항              ([국책과제 선정] AI기반 자동차부품 열간단조 금형 설계 자동 보정 및 단조품 자율 생산 시스템 개발)",
-      "receipt_no": "20261013900241",
-      "receipt_date": "20261013",
-      "filer_name": "마키나락스",
-      "remarks": "코",
-      "industry_code": null,
-      "industry_name": null,
-      "manufacturing_relevant": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013900241",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "NON_TARGET_ISSUER",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "대상 산업 공시 주체"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "투자판단관련주요경영사항              ([국책과제 선정] AI기반 자동차부품 열간단조 금형 설계 자동 보정 및 단조품 자율 생산 시스템 개발)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00164830",
-      "corp_name": "HD한국조선해양",
-      "stock_code": "009540",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
-      "receipt_no": "20261013800237",
-      "receipt_date": "20261013",
-      "filer_name": "HD한국조선해양",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800237",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01793277",
-      "corp_name": "육일종합건설",
-      "stock_code": "",
-      "report_name": "감사보고서 (2026.06)",
-      "receipt_no": "20261013000159",
-      "receipt_date": "20261013",
-      "filer_name": "세원합동공인회계사감사반(제269호)",
-      "remarks": "",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000159",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "GOVERNANCE_ONLY",
-        "matched_evidence": [
-          "감사보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "감사보고서 (2026.06)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01390344",
-      "corp_name": "HD현대중공업",
-      "stock_code": "329180",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261013800234",
-      "receipt_date": "20261013",
-      "filer_name": "HD현대중공업",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 23
+  "evaluated_count": 22
 }
