@@ -10,8 +10,8 @@
   "posco_relevance_only": true,
   "summary": {
     "filtered_disclosures": 2,
-    "excluded_disclosures": 15,
-    "raw_disclosures": 3071,
+    "excluded_disclosures": 19,
+    "raw_disclosures": 3157,
     "industry_counts": {
       "AUTOMOTIVE": 0,
       "SHIPBUILDING": 0,
