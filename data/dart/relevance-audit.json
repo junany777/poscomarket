@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "corp_code": "00234227",
+      "corp_name": "유진로봇",
+      "stock_code": "056080",
+      "report_name": "주식등의대량보유상황보고서(약식)",
+      "receipt_no": "20261015000100",
+      "receipt_date": "20261015",
+      "filer_name": "J.P.MORGANSECURITIESPLC",
+      "remarks": "",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000100",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "주식등의대량보유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "주식등의대량보유상황보고서(약식)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "01093007",
       "corp_name": "LS에코에너지",
       "stock_code": "229640",
@@ -713,5 +742,5 @@
       }
     }
   ],
-  "evaluated_count": 24
+  "evaluated_count": 25
 }
