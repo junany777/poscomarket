@@ -1,6 +1,121 @@
 {
   "items": [
     {
+      "corp_code": "00326272",
+      "corp_name": "하나자산운용",
+      "stock_code": "",
+      "report_name": "[기재정정]일괄신고서(집합투자증권-신탁형)(하나1Q현대차기아채권혼합50증권상장지수투자신탁[채권혼합])",
+      "receipt_no": "20261008000407",
+      "receipt_date": "20261008",
+      "filer_name": "하나자산운용",
+      "remarks": "",
+      "industry_code": null,
+      "industry_name": null,
+      "manufacturing_relevant": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000407",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "NON_TARGET_ISSUER",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "대상 산업 공시 주체"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]일괄신고서(집합투자증권-신탁형)(하나1Q현대차기아채권혼합50증권상장지수투자신탁[채권혼합])",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00326272",
+      "corp_name": "하나자산운용",
+      "stock_code": "",
+      "report_name": "[기재정정]일괄신고서(집합투자증권-신탁형)(하나1QK반도체TOP2채권혼합50증권상장지수투자신탁[채권혼합])",
+      "receipt_no": "20261008000474",
+      "receipt_date": "20261008",
+      "filer_name": "하나자산운용",
+      "remarks": "",
+      "industry_code": null,
+      "industry_name": null,
+      "manufacturing_relevant": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000474",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "NON_TARGET_ISSUER",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "대상 산업 공시 주체"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]일괄신고서(집합투자증권-신탁형)(하나1QK반도체TOP2채권혼합50증권상장지수투자신탁[채권혼합])",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00105466",
+      "corp_name": "KCC건설",
+      "stock_code": "021320",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261015900174",
+      "receipt_date": "20261015",
+      "filer_name": "KCC건설",
+      "remarks": "코",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015900174",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               코",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00113997",
+      "corp_name": "롯데에너지머티리얼즈",
+      "stock_code": "020150",
+      "report_name": "중대재해발생(종속회사의주요경영사항)              ",
+      "receipt_no": "20261015800179",
+      "receipt_date": "20261015",
+      "filer_name": "롯데에너지머티리얼즈",
+      "remarks": "유",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800179",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_IMPACT_UNKNOWN",
+        "matched_evidence": [
+          "중대재해"
+        ],
+        "missing_evidence": [
+          "가동",
+          "공사중단",
+          "프로젝트",
+          "설비",
+          "공장"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "중대재해발생(종속회사의주요경영사항)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00164478",
       "corp_name": "현대건설",
       "stock_code": "000720",
@@ -590,36 +705,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "01735307",
-      "corp_name": "천광건설",
-      "stock_code": "",
-      "report_name": "감사보고서 (2026.06)",
-      "receipt_no": "20261014000161",
-      "receipt_date": "20261014",
-      "filer_name": "순광공인회계사감사반(제191호)",
-      "remarks": "",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000161",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "GOVERNANCE_ONLY",
-        "matched_evidence": [
-          "감사보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "감사보고서 (2026.06)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 21
+  "evaluated_count": 24
 }
