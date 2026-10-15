@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "corp_code": "01093007",
+      "corp_name": "LS에코에너지",
+      "stock_code": "229640",
+      "report_name": "[기재정정]타법인주식및출자증권취득결정              ",
+      "receipt_no": "20261015800187",
+      "receipt_date": "20261015",
+      "filer_name": "LS에코에너지",
+      "remarks": "유",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800187",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "ACQUISITION_PURPOSE_UNKNOWN",
+        "matched_evidence": [
+          "타법인주식및출자증권취득"
+        ],
+        "missing_evidence": [
+          "경영권",
+          "생산능력",
+          "기술",
+          "공급망",
+          "합작사업",
+          "인수"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]타법인주식및출자증권취득결정              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00326272",
       "corp_name": "하나자산운용",
       "stock_code": "",
@@ -674,34 +708,6 @@
         "reevaluation_required": true,
         "evidence_source": "OpenDART list.json",
         "evidence_text": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01676642",
-      "corp_name": "사피엔반도체",
-      "stock_code": "452430",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261014900205",
-      "receipt_date": "20261014",
-      "filer_name": "사피엔반도체",
-      "remarks": "코",
-      "industry_code": "SEMICONDUCTOR",
-      "industry_name": "반도체",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900205",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               코",
         "body_fetched": false,
         "reevaluated_at": null
       }
