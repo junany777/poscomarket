@@ -88,50 +88,22 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00164478",
-      "corp_name": "현대건설",
-      "stock_code": "000720",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결(자율공시)              ",
-      "receipt_no": "20261014800177",
-      "receipt_date": "20261014",
-      "filer_name": "현대건설",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800177",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결(자율공시)               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 4,
-  "evaluated_count": 25,
-  "kept_count": 4,
-  "excluded_count": 21,
-  "non_target_issuer_count": 2,
+  "total_count": 3,
+  "evaluated_count": 23,
+  "kept_count": 3,
+  "excluded_count": 20,
+  "non_target_issuer_count": 1,
   "exclusion_reasons": {
     "OWNERSHIP_ONLY": 3,
     "PHYSICAL_CHANGE_NOT_FOUND": 6,
     "GOVERNANCE_ONLY": 7,
     "IR_CONTENT_MISSING": 2,
     "FINANCING_PURPOSE_UNKNOWN": 1,
-    "NON_TARGET_ISSUER": 2
+    "NON_TARGET_ISSUER": 1
   },
-  "raw_total_count": 2639,
+  "raw_total_count": 2674,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
