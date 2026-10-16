@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "corp_code": "00591441",
+      "corp_name": "어보브반도체",
+      "stock_code": "102120",
+      "report_name": "주주명부폐쇄기간또는기준일설정              ",
+      "receipt_no": "20261016900884",
+      "receipt_date": "20261016",
+      "filer_name": "어보브반도체",
+      "remarks": "코",
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016900884",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "주주명부폐쇄기간또는기준일설정              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00591441",
+      "corp_name": "어보브반도체",
+      "stock_code": "102120",
+      "report_name": "주주총회소집결의              (임시주주총회)",
+      "receipt_no": "20261016900804",
+      "receipt_date": "20261016",
+      "filer_name": "어보브반도체",
+      "remarks": "코",
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016900804",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "GOVERNANCE_ONLY",
+        "matched_evidence": [
+          "주주총회소집"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "주주총회소집결의              (임시주주총회)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00126380",
       "corp_name": "삼성전자",
       "stock_code": "005930",
@@ -589,61 +646,6 @@
         "reevaluation_required": true,
         "evidence_source": "OpenDART list.json",
         "evidence_text": "특수관계인에대한자금대여",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00124540",
-      "corp_name": "대우건설",
-      "stock_code": "047040",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261016800313",
-      "receipt_date": "20261016",
-      "filer_name": "대우건설",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016800313",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00324548",
-      "corp_name": "한국투자신탁운용",
-      "stock_code": "",
-      "report_name": "투자설명서(집합투자증권)(한국투자ACE글로벌메모리반도체TOP3채권혼합액티브증권상장지수투자신탁(채권혼합))",
-      "receipt_no": "20261016000006",
-      "receipt_date": "20261016",
-      "filer_name": "한국투자신탁운용",
-      "remarks": "",
-      "industry_code": null,
-      "industry_name": null,
-      "manufacturing_relevant": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000006",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "NON_TARGET_ISSUER",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "대상 산업 공시 주체"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "투자설명서(집합투자증권)(한국투자ACE글로벌메모리반도체TOP3채권혼합액티브증권상장지수투자신탁(채권혼합))",
         "body_fetched": false,
         "reevaluated_at": null
       }
