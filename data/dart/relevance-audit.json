@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "corp_code": "00257732",
+      "corp_name": "한국정밀기계",
+      "stock_code": "101680",
+      "report_name": "주주총회소집공고",
+      "receipt_no": "20261016000024",
+      "receipt_date": "20261016",
+      "filer_name": "한국정밀기계",
+      "remarks": "",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000024",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "GOVERNANCE_ONLY",
+        "matched_evidence": [
+          "주주총회소집"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "주주총회소집공고",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00106313",
       "corp_name": "금호건설",
       "stock_code": "002990",
@@ -268,5 +297,5 @@
       }
     }
   ],
-  "evaluated_count": 9
+  "evaluated_count": 10
 }
