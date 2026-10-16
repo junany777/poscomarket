@@ -11,17 +11,21 @@
   "summary": {
     "filtered_disclosures": 4,
     "excluded_disclosures": 5,
-    "raw_disclosures": 2329,
+    "raw_disclosures": 2344,
     "industry_counts": {
       "AUTOMOTIVE": 0,
-      "SHIPBUILDING": 1,
-      "CONSTRUCTION": 2,
+      "SHIPBUILDING": 0,
+      "CONSTRUCTION": 3,
       "ENERGY": 1,
       "HOME_APPLIANCE": 0,
       "MACHINERY": 0,
       "SEMICONDUCTOR": 0
     },
     "top_companies": [
+      {
+        "corp_name": "대우건설",
+        "count": 1
+      },
       {
         "corp_name": "금호건설",
         "count": 1
@@ -33,21 +37,17 @@
       {
         "corp_name": "강원에너지",
         "count": 1
-      },
-      {
-        "corp_name": "HD한국조선해양",
-        "count": 1
       }
     ],
     "signal_counts": {
       "CAPEX": 0,
       "CONTRACT": 4,
-      "CORPORATE_ACTION": 1,
+      "CORPORATE_ACTION": 0,
       "FINANCING": 0,
       "GOVERNANCE": 0
     },
     "high_priority_signals": 0,
-    "high_signal_score_count": 2
+    "high_signal_score_count": 1
   },
   "signals": [
     {
@@ -101,19 +101,18 @@
       "priority_eligible": false
     },
     {
-      "score": 65,
+      "score": 50,
       "signal_types": [
-        "CONTRACT",
-        "CORPORATE_ACTION"
+        "CONTRACT"
       ],
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "corp_name": "HD한국조선해양",
-      "report_name": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "corp_name": "대우건설",
+      "report_name": "단일판매ㆍ공급계약체결              ",
       "remarks": "유",
-      "receipt_no": "20261015800358",
-      "receipt_date": "20261015",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800358",
+      "receipt_no": "20261016800313",
+      "receipt_date": "20261016",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016800313",
       "relevance_decision": "KEEP_DATA",
       "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
       "matched_evidence": [
@@ -132,10 +131,11 @@
         "product_candidates": [],
         "unavailable_product_families": [],
         "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
-        "signal_label": "계약·수주·기업행위",
-        "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인 / 기업행위가 사업 포트폴리오와 고객 전략 변화로 이어지는지 확인",
+        "signal_label": "계약·수주",
+        "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
         "industry_hypotheses": [
-          "SHIPBUILDING_PLATE"
+          "CONSTRUCTION_PLATE",
+          "GALVANIZED_STEEL"
         ],
         "router_sources": [
           "knowledge/posco/index.md",
