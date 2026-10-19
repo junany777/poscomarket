@@ -652,34 +652,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00326272",
-      "corp_name": "하나자산운용",
-      "stock_code": "",
-      "report_name": "[기재정정]투자설명서(집합투자증권)(하나1QK반도체TOP2채권혼합50증권상장지수투자신탁[채권혼합])",
-      "receipt_no": "20261016000146",
-      "receipt_date": "20261016",
-      "filer_name": "하나자산운용",
-      "remarks": "",
-      "industry_code": null,
-      "industry_name": null,
-      "manufacturing_relevant": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000146",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "NON_TARGET_ISSUER",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "대상 산업 공시 주체"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]투자설명서(집합투자증권)(하나1QK반도체TOP2채권혼합50증권상장지수투자신탁[채권혼합])",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 24
+  "evaluated_count": 23
 }
