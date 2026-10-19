@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "corp_code": "00100601",
+      "corp_name": "강원에너지",
+      "stock_code": "114190",
+      "report_name": "의결권대리행사권유참고서류",
+      "receipt_no": "20261019000166",
+      "receipt_date": "20261019",
+      "filer_name": "강원에너지",
+      "remarks": "",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000166",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "의결권대리행사권유참고서류",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00100601",
+      "corp_name": "강원에너지",
+      "stock_code": "114190",
+      "report_name": "주주총회소집공고",
+      "receipt_no": "20261019000165",
+      "receipt_date": "20261019",
+      "filer_name": "강원에너지",
+      "remarks": "",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000165",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "GOVERNANCE_ONLY",
+        "matched_evidence": [
+          "주주총회소집"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "주주총회소집공고",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00106313",
       "corp_name": "금호건설",
       "stock_code": "002990",
@@ -604,5 +661,5 @@
       }
     }
   ],
-  "evaluated_count": 21
+  "evaluated_count": 23
 }
