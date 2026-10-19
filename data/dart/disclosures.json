@@ -3,20 +3,49 @@
   "configured": true,
   "connected": true,
   "status": "CONNECTED",
-  "message": "POSCO 연관 공시가 없습니다.",
-  "items": [],
-  "total_count": 0,
-  "evaluated_count": 22,
-  "kept_count": 0,
-  "excluded_count": 22,
+  "message": "POSCO 연관 공시를 조회했습니다.",
+  "items": [
+    {
+      "corp_code": "00146232",
+      "corp_name": "일성건설",
+      "stock_code": "013360",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261019800131",
+      "receipt_date": "20261019",
+      "filer_name": "일성건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800131",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    }
+  ],
+  "total_count": 1,
+  "evaluated_count": 25,
+  "kept_count": 1,
+  "excluded_count": 24,
   "non_target_issuer_count": 2,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 12,
-    "GOVERNANCE_ONLY": 3,
+    "PHYSICAL_CHANGE_NOT_FOUND": 13,
+    "GOVERNANCE_ONLY": 4,
     "OWNERSHIP_ONLY": 5,
     "NON_TARGET_ISSUER": 2
   },
-  "raw_total_count": 2879,
+  "raw_total_count": 2910,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
