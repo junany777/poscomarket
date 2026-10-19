@@ -1,6 +1,69 @@
 {
   "items": [
     {
+      "corp_code": "00106313",
+      "corp_name": "금호건설",
+      "stock_code": "002990",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261019800267",
+      "receipt_date": "20261019",
+      "filer_name": "금호건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800267",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01359815",
+      "corp_name": "한울반도체",
+      "stock_code": "320000",
+      "report_name": "유상증자또는주식관련사채등의청약결과(자율공시)              ",
+      "receipt_no": "20261019900249",
+      "receipt_date": "20261019",
+      "filer_name": "한울반도체",
+      "remarks": "코",
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019900249",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "FINANCING_PURPOSE_UNKNOWN",
+        "matched_evidence": [
+          "유상증자"
+        ],
+        "missing_evidence": [
+          "시설자금",
+          "공장",
+          "증설",
+          "생산라인",
+          "신사업",
+          "인수",
+          "설비"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "유상증자또는주식관련사채등의청약결과(자율공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "01758812",
       "corp_name": "팍스코건설",
       "stock_code": "",
@@ -597,36 +660,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00442631",
-      "corp_name": "태양기계",
-      "stock_code": "116100",
-      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "receipt_no": "20261016000259",
-      "receipt_date": "20261016",
-      "filer_name": "박경희",
-      "remarks": "",
-      "industry_code": "MACHINERY",
-      "industry_name": "기계",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000259",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "OWNERSHIP_ONLY",
-        "matched_evidence": [
-          "임원ㆍ주요주주특정증권등소유상황보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 22
+  "evaluated_count": 23
 }
