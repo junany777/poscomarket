@@ -88,50 +88,22 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00116408",
-      "corp_name": "동신건설",
-      "stock_code": "025950",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261019900531",
-      "receipt_date": "20261019",
-      "filer_name": "동신건설",
-      "remarks": "코",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019900531",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               코",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 4,
-  "evaluated_count": 20,
-  "kept_count": 4,
-  "excluded_count": 16,
-  "non_target_issuer_count": 2,
+  "total_count": 3,
+  "evaluated_count": 21,
+  "kept_count": 3,
+  "excluded_count": 18,
+  "non_target_issuer_count": 1,
   "exclusion_reasons": {
-    "NON_TARGET_ISSUER": 2,
-    "IR_CONTENT_MISSING": 4,
-    "PHYSICAL_CHANGE_NOT_FOUND": 6,
+    "PHYSICAL_CHANGE_NOT_FOUND": 10,
+    "NON_TARGET_ISSUER": 1,
+    "IR_CONTENT_MISSING": 3,
     "FINANCING_PURPOSE_UNKNOWN": 1,
     "GOVERNANCE_ONLY": 1,
     "OWNERSHIP_ONLY": 2
   },
-  "raw_total_count": 3125,
+  "raw_total_count": 3199,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
