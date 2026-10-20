@@ -1,6 +1,69 @@
 {
   "items": [
     {
+      "corp_code": "01590980",
+      "corp_name": "심플랫폼",
+      "stock_code": "444530",
+      "report_name": "투자판단관련주요경영사항              (국책과제 선정  충북청주 첨단 반도체패키징분야 AX 실증산단 구축사업)",
+      "receipt_no": "20261020900414",
+      "receipt_date": "20261020",
+      "filer_name": "심플랫폼",
+      "remarks": "코",
+      "industry_code": null,
+      "industry_name": null,
+      "manufacturing_relevant": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020900414",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "NON_TARGET_ISSUER",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "대상 산업 공시 주체"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "투자판단관련주요경영사항              (국책과제 선정  충북청주 첨단 반도체패키징분야 AX 실증산단 구축사업)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00442631",
+      "corp_name": "태양기계",
+      "stock_code": "116100",
+      "report_name": "기업설명회(IR)개최              ",
+      "receipt_no": "20261020600397",
+      "receipt_date": "20261020",
+      "filer_name": "태양기계",
+      "remarks": "넥",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020600397",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "IR_CONTENT_MISSING",
+        "matched_evidence": [
+          "기업설명회"
+        ],
+        "missing_evidence": [
+          "시설투자",
+          "설비투자",
+          "공장",
+          "증설",
+          "생산",
+          "수주",
+          "신사업",
+          "공급망"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "기업설명회(IR)개최              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00137997",
       "corp_name": "현대차증권",
       "stock_code": "001500",
@@ -536,191 +599,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "01032486",
-      "corp_name": "두산밥캣",
-      "stock_code": "241560",
-      "report_name": "기업설명회(IR)개최(안내공시)              ",
-      "receipt_no": "20261019800465",
-      "receipt_date": "20261019",
-      "filer_name": "두산밥캣",
-      "remarks": "유",
-      "industry_code": "MACHINERY",
-      "industry_name": "기계",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800465",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "IR_CONTENT_MISSING",
-        "matched_evidence": [
-          "기업설명회"
-        ],
-        "missing_evidence": [
-          "시설투자",
-          "설비투자",
-          "공장",
-          "증설",
-          "생산",
-          "수주",
-          "신사업",
-          "공급망"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "기업설명회(IR)개최(안내공시)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01205842",
-      "corp_name": "HD건설기계",
-      "stock_code": "267270",
-      "report_name": "기업설명회(IR)개최(안내공시)              ",
-      "receipt_no": "20261019800445",
-      "receipt_date": "20261019",
-      "filer_name": "HD건설기계",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800445",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "IR_CONTENT_MISSING",
-        "matched_evidence": [
-          "기업설명회"
-        ],
-        "missing_evidence": [
-          "시설투자",
-          "설비투자",
-          "공장",
-          "증설",
-          "생산",
-          "수주",
-          "신사업",
-          "공급망"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "기업설명회(IR)개최(안내공시)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01032486",
-      "corp_name": "두산밥캣",
-      "stock_code": "241560",
-      "report_name": "결산실적공시예고(안내공시)              ",
-      "receipt_no": "20261019800459",
-      "receipt_date": "20261019",
-      "filer_name": "두산밥캣",
-      "remarks": "유",
-      "industry_code": "MACHINERY",
-      "industry_name": "기계",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800459",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "결산실적공시예고(안내공시)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00164830",
-      "corp_name": "HD한국조선해양",
-      "stock_code": "009540",
-      "report_name": "영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
-      "receipt_no": "20261019800441",
-      "receipt_date": "20261019",
-      "filer_name": "HD한국조선해양",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800441",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00164830",
-      "corp_name": "HD한국조선해양",
-      "stock_code": "009540",
-      "report_name": "영업(잠정)실적(공정공시)              ",
-      "receipt_no": "20261019800444",
-      "receipt_date": "20261019",
-      "filer_name": "HD한국조선해양",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800444",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "영업(잠정)실적(공정공시)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01390344",
-      "corp_name": "HD현대중공업",
-      "stock_code": "329180",
-      "report_name": "영업(잠정)실적(공정공시)              ",
-      "receipt_no": "20261019800435",
-      "receipt_date": "20261019",
-      "filer_name": "HD현대중공업",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800435",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "영업(잠정)실적(공정공시)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 24
+  "evaluated_count": 20
 }
