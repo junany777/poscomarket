@@ -1033,36 +1033,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00100601",
-      "corp_name": "강원에너지",
-      "stock_code": "114190",
-      "report_name": "주주총회소집공고",
-      "receipt_no": "20261019000165",
-      "receipt_date": "20261019",
-      "filer_name": "강원에너지",
-      "remarks": "",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000165",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "GOVERNANCE_ONLY",
-        "matched_evidence": [
-          "주주총회소집"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "주주총회소집공고",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 36
+  "evaluated_count": 35
 }
