@@ -6,6 +6,34 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00585538",
+      "corp_name": "에스에너지",
+      "stock_code": "095910",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261021900440",
+      "receipt_date": "20261021",
+      "filer_name": "에스에너지",
+      "remarks": "코",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021900440",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               코",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00164830",
       "corp_name": "HD한국조선해양",
       "stock_code": "009540",
@@ -124,7 +152,7 @@
       "receipt_no": "20261020900758",
       "receipt_date": "20261020",
       "filer_name": "에스에너지",
-      "remarks": "코",
+      "remarks": "코정",
       "industry_code": "ENERGY",
       "industry_name": "에너지",
       "manufacturing_relevant": true,
@@ -139,25 +167,25 @@
         "missing_evidence": [],
         "reevaluation_required": false,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               코",
+        "evidence_text": "단일판매ㆍ공급계약체결               코정",
         "body_fetched": false,
         "reevaluated_at": null
       }
     }
   ],
-  "total_count": 5,
-  "evaluated_count": 24,
-  "kept_count": 5,
-  "excluded_count": 19,
+  "total_count": 6,
+  "evaluated_count": 22,
+  "kept_count": 6,
+  "excluded_count": 16,
   "non_target_issuer_count": 5,
   "exclusion_reasons": {
+    "PHYSICAL_CHANGE_NOT_FOUND": 6,
     "IR_CONTENT_MISSING": 3,
-    "PHYSICAL_CHANGE_NOT_FOUND": 9,
     "ACQUISITION_PURPOSE_UNKNOWN": 1,
     "FINANCING_PURPOSE_UNKNOWN": 1,
     "NON_TARGET_ISSUER": 5
   },
-  "raw_total_count": 3217,
+  "raw_total_count": 3304,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
