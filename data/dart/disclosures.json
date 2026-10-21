@@ -119,18 +119,17 @@
     }
   ],
   "total_count": 4,
-  "evaluated_count": 33,
+  "evaluated_count": 27,
   "kept_count": 4,
-  "excluded_count": 29,
+  "excluded_count": 23,
   "non_target_issuer_count": 6,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 18,
-    "NON_TARGET_ISSUER": 6,
-    "IR_CONTENT_MISSING": 3,
     "FINANCING_PURPOSE_UNKNOWN": 1,
-    "GOVERNANCE_ONLY": 1
+    "PHYSICAL_CHANGE_NOT_FOUND": 15,
+    "NON_TARGET_ISSUER": 6,
+    "IR_CONTENT_MISSING": 1
   },
-  "raw_total_count": 3404,
+  "raw_total_count": 2905,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -166,7 +165,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261013",
-    "end_de": "20261020"
+    "bgn_de": "20261014",
+    "end_de": "20261021"
   }
 }
