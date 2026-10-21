@@ -143,49 +143,20 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00585538",
-      "corp_name": "에스에너지",
-      "stock_code": "095910",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261020900758",
-      "receipt_date": "20261020",
-      "filer_name": "에스에너지",
-      "remarks": "코정",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020900758",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               코정",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 6,
-  "evaluated_count": 22,
-  "kept_count": 6,
-  "excluded_count": 16,
-  "non_target_issuer_count": 5,
+  "total_count": 5,
+  "evaluated_count": 16,
+  "kept_count": 5,
+  "excluded_count": 11,
+  "non_target_issuer_count": 0,
   "exclusion_reasons": {
     "PHYSICAL_CHANGE_NOT_FOUND": 6,
     "IR_CONTENT_MISSING": 3,
     "ACQUISITION_PURPOSE_UNKNOWN": 1,
-    "FINANCING_PURPOSE_UNKNOWN": 1,
-    "NON_TARGET_ISSUER": 5
+    "FINANCING_PURPOSE_UNKNOWN": 1
   },
-  "raw_total_count": 3304,
+  "raw_total_count": 3389,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
