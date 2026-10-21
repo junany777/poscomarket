@@ -95,12 +95,13 @@
   "excluded_count": 24,
   "non_target_issuer_count": 5,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 17,
+    "IR_CONTENT_MISSING": 1,
+    "PHYSICAL_CHANGE_NOT_FOUND": 16,
     "ACQUISITION_PURPOSE_UNKNOWN": 1,
     "FINANCING_PURPOSE_UNKNOWN": 1,
     "NON_TARGET_ISSUER": 5
   },
-  "raw_total_count": 3097,
+  "raw_total_count": 3110,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
