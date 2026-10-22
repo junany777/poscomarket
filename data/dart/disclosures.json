@@ -88,74 +88,19 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "01488320",
-      "corp_name": "필에너지",
-      "stock_code": "378340",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261021900088",
-      "receipt_date": "20261021",
-      "filer_name": "필에너지",
-      "remarks": "코",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021900088",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               코",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01488320",
-      "corp_name": "필에너지",
-      "stock_code": "378340",
-      "report_name": "주권매매거래정지              (단일판매공급계약)",
-      "receipt_no": "20261021900091",
-      "receipt_date": "20261021",
-      "filer_name": "코스닥시장본부",
-      "remarks": "코",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021900091",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "주권매매거래정지              (단일판매공급계약) 코",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 5,
-  "evaluated_count": 15,
-  "kept_count": 5,
-  "excluded_count": 10,
+  "total_count": 3,
+  "evaluated_count": 12,
+  "kept_count": 3,
+  "excluded_count": 9,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 6,
+    "PHYSICAL_CHANGE_NOT_FOUND": 5,
     "IR_CONTENT_MISSING": 3,
     "ACQUISITION_PURPOSE_UNKNOWN": 1
   },
-  "raw_total_count": 3408,
+  "raw_total_count": 2833,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -191,7 +136,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261014",
-    "end_de": "20261021"
+    "bgn_de": "20261015",
+    "end_de": "20261022"
   }
 }
