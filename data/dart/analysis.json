@@ -9,14 +9,14 @@
   "manufacturing_only": true,
   "posco_relevance_only": true,
   "summary": {
-    "filtered_disclosures": 4,
-    "excluded_disclosures": 9,
-    "raw_disclosures": 3066,
+    "filtered_disclosures": 2,
+    "excluded_disclosures": 14,
+    "raw_disclosures": 3161,
     "industry_counts": {
       "AUTOMOTIVE": 0,
-      "SHIPBUILDING": 1,
+      "SHIPBUILDING": 0,
       "CONSTRUCTION": 2,
-      "ENERGY": 1,
+      "ENERGY": 0,
       "HOME_APPLIANCE": 0,
       "MACHINERY": 0,
       "SEMICONDUCTOR": 0
@@ -29,127 +29,19 @@
       {
         "corp_name": "계룡건설산업",
         "count": 1
-      },
-      {
-        "corp_name": "에스에너지",
-        "count": 1
-      },
-      {
-        "corp_name": "HD한국조선해양",
-        "count": 1
       }
     ],
     "signal_counts": {
       "CAPEX": 0,
-      "CONTRACT": 4,
-      "CORPORATE_ACTION": 1,
+      "CONTRACT": 2,
+      "CORPORATE_ACTION": 0,
       "FINANCING": 0,
       "GOVERNANCE": 0
     },
     "high_priority_signals": 0,
-    "high_signal_score_count": 2
+    "high_signal_score_count": 0
   },
   "signals": [
-    {
-      "score": 65,
-      "signal_types": [
-        "CONTRACT"
-      ],
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "corp_name": "에스에너지",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "remarks": "코",
-      "receipt_no": "20261021900440",
-      "receipt_date": "20261021",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021900440",
-      "relevance_decision": "KEEP_DATA",
-      "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-      "matched_evidence": [
-        "단일판매ㆍ공급계약체결",
-        "공급계약"
-      ],
-      "reevaluation_required": false,
-      "knowledge_route": {
-        "status": "APPLICATION_CONDITION_REQUIRED",
-        "application_code": "UNKNOWN",
-        "component": "UNKNOWN",
-        "material_requirements": [
-          "공시 원문에서 적용처·부품·사양 확인"
-        ],
-        "steel_demand": "적용처 확인 후 철강 수요 산정",
-        "product_candidates": [],
-        "unavailable_product_families": [],
-        "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
-        "signal_label": "계약·수주",
-        "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
-        "industry_hypotheses": [
-          "API_STEEL",
-          "OFFSHORE_PLATE"
-        ],
-        "router_sources": [
-          "knowledge/posco/index.md",
-          "knowledge/taxonomy/applications.md"
-        ],
-        "product_fit": 0,
-        "role_insights": {
-          "executive": "적용처 확인 후 철강 수요 산정 변화가 실제 투자·수주로 이어지는지 확인하고, UNKNOWN 적용처 확정 여부를 점검",
-          "marketing": "고객의 UNKNOWN 투자 일정과 소재 승인·납품 접점을 확인",
-          "engineering": "공시 원문에서 적용처·부품·사양 확인를 공시 원문·사양서로 검증한 뒤 제품 후보를 확정"
-        }
-      },
-      "priority_eligible": false
-    },
-    {
-      "score": 65,
-      "signal_types": [
-        "CONTRACT",
-        "CORPORATE_ACTION"
-      ],
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "corp_name": "HD한국조선해양",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
-      "remarks": "유",
-      "receipt_no": "20261021800379",
-      "receipt_date": "20261021",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800379",
-      "relevance_decision": "KEEP_DATA",
-      "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-      "matched_evidence": [
-        "단일판매ㆍ공급계약체결",
-        "공급계약"
-      ],
-      "reevaluation_required": false,
-      "knowledge_route": {
-        "status": "APPLICATION_CONDITION_REQUIRED",
-        "application_code": "UNKNOWN",
-        "component": "UNKNOWN",
-        "material_requirements": [
-          "공시 원문에서 적용처·부품·사양 확인"
-        ],
-        "steel_demand": "적용처 확인 후 철강 수요 산정",
-        "product_candidates": [],
-        "unavailable_product_families": [],
-        "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
-        "signal_label": "계약·수주·기업행위",
-        "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인 / 기업행위가 사업 포트폴리오와 고객 전략 변화로 이어지는지 확인",
-        "industry_hypotheses": [
-          "SHIPBUILDING_PLATE"
-        ],
-        "router_sources": [
-          "knowledge/posco/index.md",
-          "knowledge/taxonomy/applications.md"
-        ],
-        "product_fit": 0,
-        "role_insights": {
-          "executive": "적용처 확인 후 철강 수요 산정 변화가 실제 투자·수주로 이어지는지 확인하고, UNKNOWN 적용처 확정 여부를 점검",
-          "marketing": "고객의 UNKNOWN 투자 일정과 소재 승인·납품 접점을 확인",
-          "engineering": "공시 원문에서 적용처·부품·사양 확인를 공시 원문·사양서로 검증한 뒤 제품 후보를 확정"
-        }
-      },
-      "priority_eligible": false
-    },
     {
       "score": 50,
       "signal_types": [
