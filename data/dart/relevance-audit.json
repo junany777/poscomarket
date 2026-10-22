@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "corp_code": "00113997",
+      "corp_name": "롯데에너지머티리얼즈",
+      "stock_code": "020150",
+      "report_name": "기업설명회(IR)개최(안내공시)              ",
+      "receipt_no": "20261022800135",
+      "receipt_date": "20261022",
+      "filer_name": "롯데에너지머티리얼즈",
+      "remarks": "유",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800135",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "IR_CONTENT_MISSING",
+        "matched_evidence": [
+          "기업설명회"
+        ],
+        "missing_evidence": [
+          "시설투자",
+          "설비투자",
+          "공장",
+          "증설",
+          "생산",
+          "수주",
+          "신사업",
+          "공급망"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "기업설명회(IR)개최(안내공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00257732",
       "corp_name": "한국정밀기계",
       "stock_code": "101680",
@@ -460,5 +496,5 @@
       }
     }
   ],
-  "evaluated_count": 15
+  "evaluated_count": 16
 }
