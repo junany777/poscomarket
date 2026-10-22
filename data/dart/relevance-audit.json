@@ -1,6 +1,117 @@
 {
   "items": [
     {
+      "corp_code": "00106313",
+      "corp_name": "금호건설",
+      "stock_code": "002990",
+      "report_name": "[기재정정]주요사항보고서(자본으로인정되는채무증권발행결정)",
+      "receipt_no": "20261022000508",
+      "receipt_date": "20261022",
+      "filer_name": "금호건설",
+      "remarks": "",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000508",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]주요사항보고서(자본으로인정되는채무증권발행결정)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00106313",
+      "corp_name": "금호건설",
+      "stock_code": "002990",
+      "report_name": "[기재정정]주요사항보고서(전환사채권발행결정)",
+      "receipt_no": "20261022000506",
+      "receipt_date": "20261022",
+      "filer_name": "금호건설",
+      "remarks": "",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000506",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]주요사항보고서(전환사채권발행결정)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00104573",
+      "corp_name": "에스엠국일",
+      "stock_code": "078130",
+      "report_name": "투자판단관련주요경영사항              (주식회사 대진기계 인수 관련 우선협상대상자 선정)",
+      "receipt_no": "20261022900624",
+      "receipt_date": "20261022",
+      "filer_name": "에스엠국일",
+      "remarks": "코",
+      "industry_code": null,
+      "industry_name": null,
+      "manufacturing_relevant": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022900624",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "NON_TARGET_ISSUER",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "대상 산업 공시 주체"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "투자판단관련주요경영사항              (주식회사 대진기계 인수 관련 우선협상대상자 선정)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00137997",
+      "corp_name": "현대차증권",
+      "stock_code": "001500",
+      "report_name": "주주명부폐쇄기간또는기준일설정              ",
+      "receipt_no": "20261022800648",
+      "receipt_date": "20261022",
+      "filer_name": "현대차증권",
+      "remarks": "유",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800648",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "주주명부폐쇄기간또는기준일설정              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00626464",
       "corp_name": "지엔씨에너지",
       "stock_code": "119850",
@@ -555,100 +666,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00257732",
-      "corp_name": "한국정밀기계",
-      "stock_code": "101680",
-      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "receipt_no": "20261022000023",
-      "receipt_date": "20261022",
-      "filer_name": "하종식",
-      "remarks": "",
-      "industry_code": "MACHINERY",
-      "industry_name": "기계",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000023",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "OWNERSHIP_ONLY",
-        "matched_evidence": [
-          "임원ㆍ주요주주특정증권등소유상황보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00937324",
-      "corp_name": "한국타이어앤테크놀로지",
-      "stock_code": "161390",
-      "report_name": "기업설명회(IR)개최(안내공시)              ",
-      "receipt_no": "20261022800111",
-      "receipt_date": "20261022",
-      "filer_name": "한국타이어앤테크놀로지",
-      "remarks": "유",
-      "industry_code": "AUTOMOTIVE",
-      "industry_name": "자동차",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800111",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "IR_CONTENT_MISSING",
-        "matched_evidence": [
-          "기업설명회"
-        ],
-        "missing_evidence": [
-          "시설투자",
-          "설비투자",
-          "공장",
-          "증설",
-          "생산",
-          "수주",
-          "신사업",
-          "공급망"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "기업설명회(IR)개최(안내공시)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00137997",
-      "corp_name": "현대차증권",
-      "stock_code": "001500",
-      "report_name": "증권발행실적보고서",
-      "receipt_no": "20261022000017",
-      "receipt_date": "20261022",
-      "filer_name": "현대차증권",
-      "remarks": "",
-      "industry_code": "AUTOMOTIVE",
-      "industry_name": "자동차",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000017",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "증권발행실적보고서",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 22
+  "evaluated_count": 23
 }
