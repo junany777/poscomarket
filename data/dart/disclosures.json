@@ -6,6 +6,34 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00102432",
+      "corp_name": "계룡건설산업",
+      "stock_code": "013580",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261022800203",
+      "receipt_date": "20261022",
+      "filer_name": "계룡건설산업",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800203",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00585538",
       "corp_name": "에스에너지",
       "stock_code": "095910",
@@ -90,9 +118,9 @@
       }
     }
   ],
-  "total_count": 3,
-  "evaluated_count": 13,
-  "kept_count": 3,
+  "total_count": 4,
+  "evaluated_count": 14,
+  "kept_count": 4,
   "excluded_count": 10,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
@@ -100,7 +128,7 @@
     "OWNERSHIP_ONLY": 1,
     "PHYSICAL_CHANGE_NOT_FOUND": 4
   },
-  "raw_total_count": 2932,
+  "raw_total_count": 2943,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
