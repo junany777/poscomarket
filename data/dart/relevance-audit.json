@@ -432,69 +432,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00102432",
-      "corp_name": "계룡건설산업",
-      "stock_code": "013580",
-      "report_name": "타법인주식및출자증권취득결정              ",
-      "receipt_no": "20261021800191",
-      "receipt_date": "20261021",
-      "filer_name": "계룡건설산업",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800191",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "ACQUISITION_PURPOSE_UNKNOWN",
-        "matched_evidence": [
-          "타법인주식및출자증권취득"
-        ],
-        "missing_evidence": [
-          "경영권",
-          "생산능력",
-          "기술",
-          "공급망",
-          "합작사업",
-          "인수"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "타법인주식및출자증권취득결정              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00137997",
-      "corp_name": "현대차증권",
-      "stock_code": "001500",
-      "report_name": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-      "receipt_no": "20261021000126",
-      "receipt_date": "20261021",
-      "filer_name": "현대차증권",
-      "remarks": "",
-      "industry_code": "AUTOMOTIVE",
-      "industry_name": "자동차",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000126",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 16
+  "evaluated_count": 14
 }
