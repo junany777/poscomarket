@@ -60,50 +60,22 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00102432",
-      "corp_name": "계룡건설산업",
-      "stock_code": "013580",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261022800203",
-      "receipt_date": "20261022",
-      "filer_name": "계룡건설산업",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800203",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 3,
-  "evaluated_count": 23,
-  "kept_count": 3,
-  "excluded_count": 20,
+  "total_count": 2,
+  "evaluated_count": 28,
+  "kept_count": 2,
+  "excluded_count": 26,
   "non_target_issuer_count": 2,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 14,
+    "IR_CONTENT_MISSING": 5,
+    "PHYSICAL_CHANGE_NOT_FOUND": 16,
     "NON_TARGET_ISSUER": 2,
     "GOVERNANCE_ONLY": 1,
     "OWNERSHIP_ONLY": 1,
-    "IR_CONTENT_MISSING": 1,
     "FINANCING_PURPOSE_UNKNOWN": 1
   },
-  "raw_total_count": 2828,
+  "raw_total_count": 2845,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
