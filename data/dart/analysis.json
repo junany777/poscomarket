@@ -10,8 +10,8 @@
   "posco_relevance_only": true,
   "summary": {
     "filtered_disclosures": 2,
-    "excluded_disclosures": 26,
-    "raw_disclosures": 2845,
+    "excluded_disclosures": 29,
+    "raw_disclosures": 2880,
     "industry_counts": {
       "AUTOMOTIVE": 0,
       "SHIPBUILDING": 0,
@@ -23,11 +23,11 @@
     },
     "top_companies": [
       {
-        "corp_name": "지엔씨에너지",
+        "corp_name": "특수건설",
         "count": 1
       },
       {
-        "corp_name": "현대건설",
+        "corp_name": "지엔씨에너지",
         "count": 1
       }
     ],
@@ -99,12 +99,12 @@
       ],
       "industry_code": "CONSTRUCTION",
       "industry_name": "건설",
-      "corp_name": "현대건설",
+      "corp_name": "특수건설",
       "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "remarks": "유",
-      "receipt_no": "20261022800219",
-      "receipt_date": "20261022",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800219",
+      "remarks": "코",
+      "receipt_no": "20261023900295",
+      "receipt_date": "20261023",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023900295",
       "relevance_decision": "KEEP_DATA",
       "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
       "matched_evidence": [
