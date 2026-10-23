@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "corp_code": "00414115",
+      "corp_name": "라인건설",
+      "stock_code": "",
+      "report_name": "특수관계인으로부터주식의취득",
+      "receipt_no": "20261023000417",
+      "receipt_date": "20261023",
+      "filer_name": "라인건설",
+      "remarks": "공",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000417",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "특수관계인으로부터주식의취득",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00633835",
       "corp_name": "HJ중공업",
       "stock_code": "097230",
@@ -497,90 +525,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00106313",
-      "corp_name": "금호건설",
-      "stock_code": "002990",
-      "report_name": "[기재정정]주요사항보고서(자본으로인정되는채무증권발행결정)",
-      "receipt_no": "20261022000508",
-      "receipt_date": "20261022",
-      "filer_name": "금호건설",
-      "remarks": "",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000508",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]주요사항보고서(자본으로인정되는채무증권발행결정)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00106313",
-      "corp_name": "금호건설",
-      "stock_code": "002990",
-      "report_name": "[기재정정]주요사항보고서(전환사채권발행결정)",
-      "receipt_no": "20261022000506",
-      "receipt_date": "20261022",
-      "filer_name": "금호건설",
-      "remarks": "",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000506",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]주요사항보고서(전환사채권발행결정)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00104573",
-      "corp_name": "에스엠국일",
-      "stock_code": "078130",
-      "report_name": "투자판단관련주요경영사항              (주식회사 대진기계 인수 관련 우선협상대상자 선정)",
-      "receipt_no": "20261022900624",
-      "receipt_date": "20261022",
-      "filer_name": "에스엠국일",
-      "remarks": "코",
-      "industry_code": null,
-      "industry_name": null,
-      "manufacturing_relevant": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022900624",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "NON_TARGET_ISSUER",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "대상 산업 공시 주체"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "투자판단관련주요경영사항              (주식회사 대진기계 인수 관련 우선협상대상자 선정)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 19
+  "evaluated_count": 17
 }
