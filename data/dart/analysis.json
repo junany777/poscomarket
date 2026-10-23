@@ -10,24 +10,24 @@
   "posco_relevance_only": true,
   "summary": {
     "filtered_disclosures": 2,
-    "excluded_disclosures": 21,
-    "raw_disclosures": 3097,
+    "excluded_disclosures": 17,
+    "raw_disclosures": 3209,
     "industry_counts": {
       "AUTOMOTIVE": 0,
-      "SHIPBUILDING": 0,
+      "SHIPBUILDING": 1,
       "CONSTRUCTION": 1,
-      "ENERGY": 1,
+      "ENERGY": 0,
       "HOME_APPLIANCE": 0,
       "MACHINERY": 0,
       "SEMICONDUCTOR": 0
     },
     "top_companies": [
       {
-        "corp_name": "특수건설",
+        "corp_name": "HJ중공업",
         "count": 1
       },
       {
-        "corp_name": "지엔씨에너지",
+        "corp_name": "특수건설",
         "count": 1
       }
     ],
@@ -39,22 +39,22 @@
       "GOVERNANCE": 0
     },
     "high_priority_signals": 0,
-    "high_signal_score_count": 1
+    "high_signal_score_count": 0
   },
   "signals": [
     {
-      "score": 65,
+      "score": 50,
       "signal_types": [
         "CONTRACT"
       ],
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "corp_name": "지엔씨에너지",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "corp_name": "HJ중공업",
       "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "remarks": "코",
-      "receipt_no": "20261022900615",
-      "receipt_date": "20261022",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022900615",
+      "remarks": "유",
+      "receipt_no": "20261023800728",
+      "receipt_date": "20261023",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800728",
       "relevance_decision": "KEEP_DATA",
       "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
       "matched_evidence": [
@@ -76,8 +76,7 @@
         "signal_label": "계약·수주",
         "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
         "industry_hypotheses": [
-          "API_STEEL",
-          "OFFSHORE_PLATE"
+          "SHIPBUILDING_PLATE"
         ],
         "router_sources": [
           "knowledge/posco/index.md",
