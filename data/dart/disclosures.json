@@ -45,7 +45,7 @@
     "FINANCING_PURPOSE_UNKNOWN": 1,
     "GOVERNANCE_ONLY": 2
   },
-  "raw_total_count": 3370,
+  "raw_total_count": 2704,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -81,7 +81,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261016",
-    "end_de": "20261023"
+    "bgn_de": "20261017",
+    "end_de": "20261024"
   }
 }
