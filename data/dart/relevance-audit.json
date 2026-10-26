@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "corp_code": "00146232",
+      "corp_name": "일성건설",
+      "stock_code": "013360",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261026800176",
+      "receipt_date": "20261026",
+      "filer_name": "일성건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800176",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00137997",
       "corp_name": "현대차증권",
       "stock_code": "001500",
@@ -468,35 +496,6 @@
         "reevaluation_required": false,
         "evidence_source": "OpenDART list.json",
         "evidence_text": "감사보고서 (2026.06)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00137997",
-      "corp_name": "현대차증권",
-      "stock_code": "001500",
-      "report_name": "[기재정정]주주총회소집결의              ",
-      "receipt_no": "20261023800443",
-      "receipt_date": "20261023",
-      "filer_name": "현대차증권",
-      "remarks": "유",
-      "industry_code": "AUTOMOTIVE",
-      "industry_name": "자동차",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800443",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "GOVERNANCE_ONLY",
-        "matched_evidence": [
-          "주주총회소집"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]주주총회소집결의              ",
         "body_fetched": false,
         "reevaluated_at": null
       }
