@@ -470,36 +470,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "01084090",
-      "corp_name": "우람종합건설",
-      "stock_code": "",
-      "report_name": "감사보고서 (2026.06)",
-      "receipt_no": "20261023000217",
-      "receipt_date": "20261023",
-      "filer_name": "세연회계법인",
-      "remarks": "",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000217",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "GOVERNANCE_ONLY",
-        "matched_evidence": [
-          "감사보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "감사보고서 (2026.06)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 17
+  "evaluated_count": 16
 }
