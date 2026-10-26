@@ -88,51 +88,23 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "01093007",
-      "corp_name": "LS에코에너지",
-      "stock_code": "229640",
-      "report_name": "신규시설투자등(자회사의 주요경영사항)              ",
-      "receipt_no": "20261026800112",
-      "receipt_date": "20261026",
-      "filer_name": "LS에코에너지",
-      "remarks": "유",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800112",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "신규시설투자",
-          "시설투자"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "신규시설투자등(자회사의 주요경영사항)               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 4,
-  "evaluated_count": 32,
-  "kept_count": 4,
-  "excluded_count": 28,
+  "total_count": 3,
+  "evaluated_count": 30,
+  "kept_count": 3,
+  "excluded_count": 27,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
     "PHYSICAL_IMPACT_UNKNOWN": 1,
     "IR_CONTENT_MISSING": 1,
     "PHYSICAL_CHANGE_NOT_FOUND": 19,
-    "OWNERSHIP_ONLY": 4,
+    "OWNERSHIP_ONLY": 3,
     "SECURITIES_OFFERING_ONLY": 1,
     "ACQUISITION_PURPOSE_UNKNOWN": 1,
     "FINANCING_PURPOSE_UNKNOWN": 1
   },
-  "raw_total_count": 3213,
+  "raw_total_count": 3228,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
