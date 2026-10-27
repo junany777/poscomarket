@@ -6,6 +6,62 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00153861",
+      "corp_name": "태영건설",
+      "stock_code": "009410",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261027800554",
+      "receipt_date": "20261027",
+      "filer_name": "태영건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800554",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01316245",
+      "corp_name": "효성중공업",
+      "stock_code": "298040",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261027800518",
+      "receipt_date": "20261027",
+      "filer_name": "효성중공업",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800518",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00633835",
       "corp_name": "HJ중공업",
       "stock_code": "097230",
@@ -34,18 +90,17 @@
       }
     }
   ],
-  "total_count": 1,
-  "evaluated_count": 14,
-  "kept_count": 1,
+  "total_count": 3,
+  "evaluated_count": 16,
+  "kept_count": 3,
   "excluded_count": 13,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 6,
-    "OWNERSHIP_ONLY": 4,
-    "FINANCING_PURPOSE_UNKNOWN": 2,
-    "PHYSICAL_IMPACT_UNKNOWN": 1
+    "PHYSICAL_CHANGE_NOT_FOUND": 8,
+    "OWNERSHIP_ONLY": 3,
+    "FINANCING_PURPOSE_UNKNOWN": 2
   },
-  "raw_total_count": 3207,
+  "raw_total_count": 3312,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
