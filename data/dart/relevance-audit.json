@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "corp_code": "00136457",
+      "corp_name": "SH에너지화학",
+      "stock_code": "002360",
+      "report_name": "조회공시요구(현저한시황변동)에대한답변(미확정)              ",
+      "receipt_no": "20261027800445",
+      "receipt_date": "20261027",
+      "filer_name": "SH에너지화학",
+      "remarks": "유",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800445",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "조회공시요구(현저한시황변동)에대한답변(미확정)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00542074",
+      "corp_name": "LSK아이로봇",
+      "stock_code": "091970",
+      "report_name": "주식등의대량보유상황보고서(일반)",
+      "receipt_no": "20261027000260",
+      "receipt_date": "20261027",
+      "filer_name": "엘에스케이디비",
+      "remarks": "",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000260",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "주식등의대량보유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "주식등의대량보유상황보고서(일반)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "01584183",
       "corp_name": "퀄리타스반도체",
       "stock_code": "432720",
@@ -354,70 +411,6 @@
         "reevaluation_required": true,
         "evidence_source": "OpenDART list.json",
         "evidence_text": "중대재해발생              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00481454",
-      "corp_name": "금호타이어",
-      "stock_code": "073240",
-      "report_name": "기업설명회(IR)개최(안내공시)              ",
-      "receipt_no": "20261026800667",
-      "receipt_date": "20261026",
-      "filer_name": "금호타이어",
-      "remarks": "유",
-      "industry_code": "AUTOMOTIVE",
-      "industry_name": "자동차",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800667",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "IR_CONTENT_MISSING",
-        "matched_evidence": [
-          "기업설명회"
-        ],
-        "missing_evidence": [
-          "시설투자",
-          "설비투자",
-          "공장",
-          "증설",
-          "생산",
-          "수주",
-          "신사업",
-          "공급망"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "기업설명회(IR)개최(안내공시)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00481454",
-      "corp_name": "금호타이어",
-      "stock_code": "073240",
-      "report_name": "결산실적공시예고(안내공시)              ",
-      "receipt_no": "20261026800661",
-      "receipt_date": "20261026",
-      "filer_name": "금호타이어",
-      "remarks": "유",
-      "industry_code": "AUTOMOTIVE",
-      "industry_name": "자동차",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800661",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "결산실적공시예고(안내공시)              ",
         "body_fetched": false,
         "reevaluated_at": null
       }
