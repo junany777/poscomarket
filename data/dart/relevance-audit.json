@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "corp_code": "01584183",
+      "corp_name": "퀄리타스반도체",
+      "stock_code": "432720",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261027000089",
+      "receipt_date": "20261027",
+      "filer_name": "박용현",
+      "remarks": "",
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000089",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00124540",
       "corp_name": "대우건설",
       "stock_code": "047040",
@@ -547,120 +576,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00137997",
-      "corp_name": "현대차증권",
-      "stock_code": "001500",
-      "report_name": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-      "receipt_no": "20261026000197",
-      "receipt_date": "20261026",
-      "filer_name": "현대차증권",
-      "remarks": "",
-      "industry_code": "AUTOMOTIVE",
-      "industry_name": "자동차",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000197",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00111704",
-      "corp_name": "한화오션",
-      "stock_code": "042660",
-      "report_name": "자기주식취득결과보고서",
-      "receipt_no": "20261026000196",
-      "receipt_date": "20261026",
-      "filer_name": "한화오션",
-      "remarks": "",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000196",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "자기주식취득결과보고서",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00113997",
-      "corp_name": "롯데에너지머티리얼즈",
-      "stock_code": "020150",
-      "report_name": "최대주주등소유주식변동신고서              ",
-      "receipt_no": "20261026800404",
-      "receipt_date": "20261026",
-      "filer_name": "롯데에너지머티리얼즈",
-      "remarks": "유",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800404",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "최대주주등소유주식변동신고서              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00442631",
-      "corp_name": "태양기계",
-      "stock_code": "116100",
-      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "receipt_no": "20261026000191",
-      "receipt_date": "20261026",
-      "filer_name": "박경희",
-      "remarks": "",
-      "industry_code": "MACHINERY",
-      "industry_name": "기계",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000191",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "OWNERSHIP_ONLY",
-        "matched_evidence": [
-          "임원ㆍ주요주주특정증권등소유상황보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 23
+  "evaluated_count": 20
 }
