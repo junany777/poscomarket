@@ -60,49 +60,21 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00146232",
-      "corp_name": "일성건설",
-      "stock_code": "013360",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261026800176",
-      "receipt_date": "20261026",
-      "filer_name": "일성건설",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800176",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 3,
-  "evaluated_count": 26,
-  "kept_count": 3,
-  "excluded_count": 23,
+  "total_count": 2,
+  "evaluated_count": 27,
+  "kept_count": 2,
+  "excluded_count": 25,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
+    "PHYSICAL_CHANGE_NOT_FOUND": 18,
+    "OWNERSHIP_ONLY": 4,
     "PHYSICAL_IMPACT_UNKNOWN": 1,
     "IR_CONTENT_MISSING": 1,
-    "PHYSICAL_CHANGE_NOT_FOUND": 17,
-    "OWNERSHIP_ONLY": 3,
     "SECURITIES_OFFERING_ONLY": 1
   },
-  "raw_total_count": 3246,
+  "raw_total_count": 2832,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -138,7 +110,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261019",
-    "end_de": "20261026"
+    "bgn_de": "20261020",
+    "end_de": "20261027"
   }
 }
