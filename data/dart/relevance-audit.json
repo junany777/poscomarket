@@ -548,35 +548,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "01199550",
-      "corp_name": "HD현대에너지솔루션",
-      "stock_code": "322000",
-      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-      "receipt_no": "20261026800392",
-      "receipt_date": "20261026",
-      "filer_name": "HD현대에너지솔루션",
-      "remarks": "유",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800392",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 20
+  "evaluated_count": 19
 }
