@@ -35,17 +35,17 @@
     }
   ],
   "total_count": 1,
-  "evaluated_count": 14,
+  "evaluated_count": 13,
   "kept_count": 1,
-  "excluded_count": 13,
-  "non_target_issuer_count": 1,
+  "excluded_count": 12,
+  "non_target_issuer_count": 2,
   "exclusion_reasons": {
-    "NON_TARGET_ISSUER": 1,
-    "PHYSICAL_CHANGE_NOT_FOUND": 8,
+    "NON_TARGET_ISSUER": 2,
+    "PHYSICAL_CHANGE_NOT_FOUND": 6,
     "OWNERSHIP_ONLY": 2,
     "IR_CONTENT_MISSING": 2
   },
-  "raw_total_count": 3591,
+  "raw_total_count": 3623,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
