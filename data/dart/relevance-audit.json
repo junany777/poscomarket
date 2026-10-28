@@ -1,6 +1,358 @@
 {
   "items": [
     {
+      "corp_code": "00401731",
+      "corp_name": "LG전자",
+      "stock_code": "066570",
+      "report_name": "[기재정정]연결재무제표기준영업(잠정)실적(공정공시)              ",
+      "receipt_no": "20261028800266",
+      "receipt_date": "20261028",
+      "filer_name": "LG전자",
+      "remarks": "유",
+      "industry_code": "HOME_APPLIANCE",
+      "industry_name": "가전",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800266",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00137997",
+      "corp_name": "현대차증권",
+      "stock_code": "001500",
+      "report_name": "투자설명서(일괄신고)",
+      "receipt_no": "20261028000200",
+      "receipt_date": "20261028",
+      "filer_name": "현대차증권",
+      "remarks": "",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000200",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "투자설명서(일괄신고)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01042775",
+      "corp_name": "HL만도",
+      "stock_code": "204320",
+      "report_name": "기업설명회(IR)개최(안내공시)              ",
+      "receipt_no": "20261028800255",
+      "receipt_date": "20261028",
+      "filer_name": "HL만도",
+      "remarks": "유",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800255",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "IR_CONTENT_MISSING",
+        "matched_evidence": [
+          "기업설명회"
+        ],
+        "missing_evidence": [
+          "시설투자",
+          "설비투자",
+          "공장",
+          "증설",
+          "생산",
+          "수주",
+          "신사업",
+          "공급망"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "기업설명회(IR)개최(안내공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01042775",
+      "corp_name": "HL만도",
+      "stock_code": "204320",
+      "report_name": "기업설명회(IR)개최(안내공시)              ",
+      "receipt_no": "20261028800249",
+      "receipt_date": "20261028",
+      "filer_name": "HL만도",
+      "remarks": "유",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800249",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "IR_CONTENT_MISSING",
+        "matched_evidence": [
+          "기업설명회"
+        ],
+        "missing_evidence": [
+          "시설투자",
+          "설비투자",
+          "공장",
+          "증설",
+          "생산",
+          "수주",
+          "신사업",
+          "공급망"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "기업설명회(IR)개최(안내공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00137997",
+      "corp_name": "현대차증권",
+      "stock_code": "001500",
+      "report_name": "투자설명서(일괄신고)",
+      "receipt_no": "20261028000198",
+      "receipt_date": "20261028",
+      "filer_name": "현대차증권",
+      "remarks": "",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000198",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "투자설명서(일괄신고)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00137997",
+      "corp_name": "현대차증권",
+      "stock_code": "001500",
+      "report_name": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+      "receipt_no": "20261028000189",
+      "receipt_date": "20261028",
+      "filer_name": "현대차증권",
+      "remarks": "",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000189",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00137997",
+      "corp_name": "현대차증권",
+      "stock_code": "001500",
+      "report_name": "일괄신고추가서류(기타파생결합사채)",
+      "receipt_no": "20261028000185",
+      "receipt_date": "20261028",
+      "filer_name": "현대차증권",
+      "remarks": "",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000185",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "일괄신고추가서류(기타파생결합사채)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01390344",
+      "corp_name": "HD현대중공업",
+      "stock_code": "329180",
+      "report_name": "영업(잠정)실적(공정공시)              ",
+      "receipt_no": "20261028800211",
+      "receipt_date": "20261028",
+      "filer_name": "HD현대중공업",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800211",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "영업(잠정)실적(공정공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00164830",
+      "corp_name": "HD한국조선해양",
+      "stock_code": "009540",
+      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+      "receipt_no": "20261028800208",
+      "receipt_date": "20261028",
+      "filer_name": "HD한국조선해양",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800208",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00164830",
+      "corp_name": "HD한국조선해양",
+      "stock_code": "009540",
+      "report_name": "영업(잠정)실적(공정공시)              ",
+      "receipt_no": "20261028800206",
+      "receipt_date": "20261028",
+      "filer_name": "HD한국조선해양",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800206",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "영업(잠정)실적(공정공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00164830",
+      "corp_name": "HD한국조선해양",
+      "stock_code": "009540",
+      "report_name": "영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
+      "receipt_no": "20261028800202",
+      "receipt_date": "20261028",
+      "filer_name": "HD한국조선해양",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800202",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01390344",
+      "corp_name": "HD현대중공업",
+      "stock_code": "329180",
+      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+      "receipt_no": "20261028800199",
+      "receipt_date": "20261028",
+      "filer_name": "HD현대중공업",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800199",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00164788",
       "corp_name": "현대모비스",
       "stock_code": "012330",
@@ -371,148 +723,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00447487",
-      "corp_name": "제주반도체",
-      "stock_code": "080220",
-      "report_name": "주요사항보고서(자기주식처분결정)",
-      "receipt_no": "20261027000242",
-      "receipt_date": "20261027",
-      "filer_name": "제주반도체",
-      "remarks": "",
-      "industry_code": "SEMICONDUCTOR",
-      "industry_name": "반도체",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000242",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "주요사항보고서(자기주식처분결정)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00585538",
-      "corp_name": "에스에너지",
-      "stock_code": "095910",
-      "report_name": "주권매매거래정지해제              (액면병합 주권 변경상장)",
-      "receipt_no": "20261027900470",
-      "receipt_date": "20261027",
-      "filer_name": "코스닥시장본부",
-      "remarks": "코",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027900470",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "주권매매거래정지해제              (액면병합 주권 변경상장)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01316245",
-      "corp_name": "효성중공업",
-      "stock_code": "298040",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261027800518",
-      "receipt_date": "20261027",
-      "filer_name": "효성중공업",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800518",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00136457",
-      "corp_name": "SH에너지화학",
-      "stock_code": "002360",
-      "report_name": "조회공시요구(현저한시황변동)에대한답변(미확정)              ",
-      "receipt_no": "20261027800445",
-      "receipt_date": "20261027",
-      "filer_name": "SH에너지화학",
-      "remarks": "유",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800445",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "조회공시요구(현저한시황변동)에대한답변(미확정)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00542074",
-      "corp_name": "LSK아이로봇",
-      "stock_code": "091970",
-      "report_name": "주식등의대량보유상황보고서(일반)",
-      "receipt_no": "20261027000260",
-      "receipt_date": "20261027",
-      "filer_name": "엘에스케이디비",
-      "remarks": "",
-      "industry_code": "MACHINERY",
-      "industry_name": "기계",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000260",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "OWNERSHIP_ONLY",
-        "matched_evidence": [
-          "주식등의대량보유상황보고서"
-        ],
-        "missing_evidence": [
-          "생산·설비·프로젝트 변화"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "주식등의대량보유상황보고서(일반)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 18
+  "evaluated_count": 25
 }
