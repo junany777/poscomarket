@@ -32,47 +32,20 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00164788",
-      "corp_name": "현대모비스",
-      "stock_code": "012330",
-      "report_name": "[기재정정]주요사항보고서(회사분할결정)",
-      "receipt_no": "20261028000138",
-      "receipt_date": "20261028",
-      "filer_name": "현대모비스",
-      "remarks": "",
-      "industry_code": "AUTOMOTIVE",
-      "industry_name": "자동차",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000138",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "분할"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]주요사항보고서(회사분할결정)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 2,
-  "evaluated_count": 21,
-  "kept_count": 2,
-  "excluded_count": 19,
-  "non_target_issuer_count": 0,
+  "total_count": 1,
+  "evaluated_count": 14,
+  "kept_count": 1,
+  "excluded_count": 13,
+  "non_target_issuer_count": 1,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 14,
+    "NON_TARGET_ISSUER": 1,
+    "PHYSICAL_CHANGE_NOT_FOUND": 8,
     "OWNERSHIP_ONLY": 2,
-    "IR_CONTENT_MISSING": 2,
-    "GOVERNANCE_ONLY": 1
+    "IR_CONTENT_MISSING": 2
   },
-  "raw_total_count": 3491,
+  "raw_total_count": 3591,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
