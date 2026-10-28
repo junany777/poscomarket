@@ -34,16 +34,17 @@
     }
   ],
   "total_count": 1,
-  "evaluated_count": 22,
+  "evaluated_count": 21,
   "kept_count": 1,
-  "excluded_count": 21,
+  "excluded_count": 20,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 17,
+    "OWNERSHIP_ONLY": 2,
+    "PHYSICAL_CHANGE_NOT_FOUND": 14,
     "IR_CONTENT_MISSING": 3,
     "GOVERNANCE_ONLY": 1
   },
-  "raw_total_count": 3249,
+  "raw_total_count": 3388,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
