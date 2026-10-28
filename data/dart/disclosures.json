@@ -6,6 +6,33 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00164788",
+      "corp_name": "현대모비스",
+      "stock_code": "012330",
+      "report_name": "[기재정정]주요사항보고서(회사분할결정)",
+      "receipt_no": "20261028000138",
+      "receipt_date": "20261028",
+      "filer_name": "현대모비스",
+      "remarks": "",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000138",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "분할"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]주요사항보고서(회사분할결정)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00153861",
       "corp_name": "태영건설",
       "stock_code": "009410",
@@ -62,18 +89,17 @@
       }
     }
   ],
-  "total_count": 2,
-  "evaluated_count": 19,
-  "kept_count": 2,
-  "excluded_count": 17,
+  "total_count": 3,
+  "evaluated_count": 17,
+  "kept_count": 3,
+  "excluded_count": 14,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 12,
+    "PHYSICAL_CHANGE_NOT_FOUND": 11,
     "IR_CONTENT_MISSING": 1,
-    "OWNERSHIP_ONLY": 2,
-    "FINANCING_PURPOSE_UNKNOWN": 2
+    "OWNERSHIP_ONLY": 2
   },
-  "raw_total_count": 2990,
+  "raw_total_count": 3023,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
