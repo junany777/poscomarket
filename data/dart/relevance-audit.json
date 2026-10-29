@@ -1,6 +1,76 @@
 {
   "items": [
     {
+      "corp_code": "01077984",
+      "corp_name": "이지건설",
+      "stock_code": "",
+      "report_name": "특수관계인으로부터자금차입",
+      "receipt_no": "20261029000210",
+      "receipt_date": "20261029",
+      "filer_name": "이지건설",
+      "remarks": "공",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000210",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "FINANCING_PURPOSE_UNKNOWN",
+        "matched_evidence": [
+          "차입"
+        ],
+        "missing_evidence": [
+          "시설자금",
+          "공장",
+          "증설",
+          "생산라인",
+          "신사업",
+          "인수",
+          "설비"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "특수관계인으로부터자금차입",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00232007",
+      "corp_name": "상지건설",
+      "stock_code": "042940",
+      "report_name": "유상증자최종발행가액확정              ",
+      "receipt_no": "20261029900219",
+      "receipt_date": "20261029",
+      "filer_name": "상지건설",
+      "remarks": "코",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900219",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "FINANCING_PURPOSE_UNKNOWN",
+        "matched_evidence": [
+          "유상증자"
+        ],
+        "missing_evidence": [
+          "시설자금",
+          "공장",
+          "증설",
+          "생산라인",
+          "신사업",
+          "인수",
+          "설비"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "유상증자최종발행가액확정              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00257732",
       "corp_name": "한국정밀기계",
       "stock_code": "101680",
@@ -364,5 +434,5 @@
       }
     }
   ],
-  "evaluated_count": 13
+  "evaluated_count": 15
 }
