@@ -6,6 +6,34 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00164478",
+      "corp_name": "현대건설",
+      "stock_code": "000720",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261029800011",
+      "receipt_date": "20261029",
+      "filer_name": "현대건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800011",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00633835",
       "corp_name": "HJ중공업",
       "stock_code": "097230",
@@ -34,18 +62,17 @@
       }
     }
   ],
-  "total_count": 1,
-  "evaluated_count": 13,
-  "kept_count": 1,
-  "excluded_count": 12,
+  "total_count": 2,
+  "evaluated_count": 9,
+  "kept_count": 2,
+  "excluded_count": 7,
   "non_target_issuer_count": 2,
   "exclusion_reasons": {
     "NON_TARGET_ISSUER": 2,
-    "PHYSICAL_CHANGE_NOT_FOUND": 6,
-    "OWNERSHIP_ONLY": 2,
-    "IR_CONTENT_MISSING": 2
+    "PHYSICAL_CHANGE_NOT_FOUND": 3,
+    "OWNERSHIP_ONLY": 2
   },
-  "raw_total_count": 3624,
+  "raw_total_count": 3176,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -81,7 +108,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261021",
-    "end_de": "20261028"
+    "bgn_de": "20261022",
+    "end_de": "20261029"
   }
 }
