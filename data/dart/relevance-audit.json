@@ -1,6 +1,198 @@
 {
   "items": [
     {
+      "corp_code": "00182696",
+      "corp_name": "대한조선",
+      "stock_code": "439260",
+      "report_name": "기업설명회(IR)개최(안내공시)              ",
+      "receipt_no": "20261029800329",
+      "receipt_date": "20261029",
+      "filer_name": "대한조선",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800329",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "IR_CONTENT_MISSING",
+        "matched_evidence": [
+          "기업설명회"
+        ],
+        "missing_evidence": [
+          "시설투자",
+          "설비투자",
+          "공장",
+          "증설",
+          "생산",
+          "수주",
+          "신사업",
+          "공급망"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "기업설명회(IR)개최(안내공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00102432",
+      "corp_name": "계룡건설산업",
+      "stock_code": "013580",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261029800304",
+      "receipt_date": "20261029",
+      "filer_name": "계룡건설산업",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800304",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00182696",
+      "corp_name": "대한조선",
+      "stock_code": "439260",
+      "report_name": "기업설명회(IR)개최(안내공시)              ",
+      "receipt_no": "20261029800326",
+      "receipt_date": "20261029",
+      "filer_name": "대한조선",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800326",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "IR_CONTENT_MISSING",
+        "matched_evidence": [
+          "기업설명회"
+        ],
+        "missing_evidence": [
+          "시설투자",
+          "설비투자",
+          "공장",
+          "증설",
+          "생산",
+          "수주",
+          "신사업",
+          "공급망"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "기업설명회(IR)개최(안내공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01584183",
+      "corp_name": "퀄리타스반도체",
+      "stock_code": "432720",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261029000308",
+      "receipt_date": "20261029",
+      "filer_name": "경일현",
+      "remarks": "",
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000308",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00164830",
+      "corp_name": "HD한국조선해양",
+      "stock_code": "009540",
+      "report_name": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+      "receipt_no": "20261029000297",
+      "receipt_date": "20261029",
+      "filer_name": "HD한국조선해양",
+      "remarks": "공",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000297",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00232007",
+      "corp_name": "상지건설",
+      "stock_code": "042940",
+      "report_name": "[기재정정]주요사항보고서(유상증자결정)",
+      "receipt_no": "20261029000254",
+      "receipt_date": "20261029",
+      "filer_name": "상지건설",
+      "remarks": "",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000254",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "FINANCING_PURPOSE_UNKNOWN",
+        "matched_evidence": [
+          "유상증자"
+        ],
+        "missing_evidence": [
+          "시설자금",
+          "공장",
+          "증설",
+          "생산라인",
+          "신사업",
+          "인수",
+          "설비"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]주요사항보고서(유상증자결정)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00105466",
       "corp_name": "KCC건설",
       "stock_code": "021320",
@@ -607,62 +799,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00516468",
-      "corp_name": "아이비케이자산운용",
-      "stock_code": "",
-      "report_name": "투자설명서(집합투자증권)(IBKIBK현대차로보틱스채권혼합50증권상장지수투자신탁[채권혼합])",
-      "receipt_no": "20261028000083",
-      "receipt_date": "20261028",
-      "filer_name": "아이비케이자산운용",
-      "remarks": "",
-      "industry_code": null,
-      "industry_name": null,
-      "manufacturing_relevant": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000083",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "NON_TARGET_ISSUER",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "대상 산업 공시 주체"
-        ],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "투자설명서(집합투자증권)(IBKIBK현대차로보틱스채권혼합50증권상장지수투자신탁[채권혼합])",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00633835",
-      "corp_name": "HJ중공업",
-      "stock_code": "097230",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261028800670",
-      "receipt_date": "20261028",
-      "filer_name": "HJ중공업",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800670",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 23
+  "evaluated_count": 27
 }
