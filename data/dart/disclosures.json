@@ -3,21 +3,78 @@
   "configured": true,
   "connected": true,
   "status": "CONNECTED",
-  "message": "POSCO 연관 공시가 없습니다.",
-  "items": [],
-  "total_count": 0,
-  "evaluated_count": 34,
-  "kept_count": 0,
-  "excluded_count": 34,
+  "message": "POSCO 연관 공시를 조회했습니다.",
+  "items": [
+    {
+      "corp_code": "00100601",
+      "corp_name": "강원에너지",
+      "stock_code": "114190",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261030901294",
+      "receipt_date": "20261030",
+      "filer_name": "강원에너지",
+      "remarks": "코",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901294",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               코",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00100601",
+      "corp_name": "강원에너지",
+      "stock_code": "114190",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261030901279",
+      "receipt_date": "20261030",
+      "filer_name": "강원에너지",
+      "remarks": "코",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901279",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               코",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    }
+  ],
+  "total_count": 2,
+  "evaluated_count": 41,
+  "kept_count": 2,
+  "excluded_count": 39,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 24,
+    "OWNERSHIP_ONLY": 5,
+    "PHYSICAL_CHANGE_NOT_FOUND": 27,
     "IR_CONTENT_MISSING": 2,
     "GOVERNANCE_ONLY": 4,
-    "OWNERSHIP_ONLY": 3,
     "FINANCING_PURPOSE_UNKNOWN": 1
   },
-  "raw_total_count": 4266,
+  "raw_total_count": 4359,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
