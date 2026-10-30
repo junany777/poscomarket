@@ -1,6 +1,124 @@
 {
   "items": [
     {
+      "corp_code": "00164478",
+      "corp_name": "현대건설",
+      "stock_code": "000720",
+      "report_name": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+      "receipt_no": "20261030000159",
+      "receipt_date": "20261030",
+      "filer_name": "현대건설",
+      "remarks": "공",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000159",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01093007",
+      "corp_name": "LS에코에너지",
+      "stock_code": "229640",
+      "report_name": "[기재정정]타법인주식및출자증권취득결정              ",
+      "receipt_no": "20261030800462",
+      "receipt_date": "20261030",
+      "filer_name": "LS에코에너지",
+      "remarks": "유",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800462",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "ACQUISITION_PURPOSE_UNKNOWN",
+        "matched_evidence": [
+          "타법인주식및출자증권취득"
+        ],
+        "missing_evidence": [
+          "경영권",
+          "생산능력",
+          "기술",
+          "공급망",
+          "합작사업",
+          "인수"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]타법인주식및출자증권취득결정              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01980110",
+      "corp_name": "로제비앙건설",
+      "stock_code": "",
+      "report_name": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+      "receipt_no": "20261030000157",
+      "receipt_date": "20261030",
+      "filer_name": "로제비앙건설",
+      "remarks": "공",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000157",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00164478",
+      "corp_name": "현대건설",
+      "stock_code": "000720",
+      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+      "receipt_no": "20261030800458",
+      "receipt_date": "20261030",
+      "filer_name": "현대건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800458",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "01797635",
       "corp_name": "에이엘로봇",
       "stock_code": "",
@@ -791,35 +909,7 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00126380",
-      "corp_name": "삼성전자",
-      "stock_code": "005930",
-      "report_name": "특수관계인과의보험거래",
-      "receipt_no": "20261029000525",
-      "receipt_date": "20261029",
-      "filer_name": "삼성전자",
-      "remarks": "공",
-      "industry_code": "HOME_APPLIANCE",
-      "industry_name": "가전",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000525",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "특수관계인과의보험거래",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "evaluated_count": 29
+  "evaluated_count": 32
 }
