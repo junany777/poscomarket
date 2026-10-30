@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "corp_code": "00319166",
-      "corp_name": "대방건설",
-      "stock_code": "",
-      "report_name": "특수관계인에대한자금대여",
-      "receipt_no": "20261030000243",
+      "corp_code": "00372129",
+      "corp_name": "전진건설로봇",
+      "stock_code": "079900",
+      "report_name": "임원ㆍ주요주주특정증권등거래계획보고서",
+      "receipt_no": "20261030000595",
       "receipt_date": "20261030",
-      "filer_name": "대방건설",
-      "remarks": "공",
+      "filer_name": "모트렉스",
+      "remarks": "",
       "industry_code": "CONSTRUCTION",
       "industry_name": "건설",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000243",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000595",
       "posco_relevance": {
         "decision": "EXCLUDE",
         "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
@@ -23,35 +23,36 @@
         ],
         "reevaluation_required": true,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "특수관계인에대한자금대여",
+        "evidence_text": "임원ㆍ주요주주특정증권등거래계획보고서",
         "body_fetched": false,
         "reevaluated_at": null
       }
     },
     {
-      "corp_code": "00319166",
-      "corp_name": "대방건설",
+      "corp_code": "01628016",
+      "corp_name": "한울건설",
       "stock_code": "",
-      "report_name": "특수관계인에대한자금대여",
-      "receipt_no": "20261030000242",
+      "report_name": "[기재정정]감사보고서 (2025.12)",
+      "receipt_no": "20261030000590",
       "receipt_date": "20261030",
-      "filer_name": "대방건설",
-      "remarks": "공",
+      "filer_name": "오성회계법인",
+      "remarks": "",
       "industry_code": "CONSTRUCTION",
       "industry_name": "건설",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000242",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000590",
       "posco_relevance": {
         "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
+        "reason_code": "GOVERNANCE_ONLY",
+        "matched_evidence": [
+          "감사보고서"
         ],
-        "reevaluation_required": true,
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "특수관계인에대한자금대여",
+        "evidence_text": "[기재정정]감사보고서 (2025.12)",
         "body_fetched": false,
         "reevaluated_at": null
       }
@@ -60,15 +61,15 @@
       "corp_code": "00106641",
       "corp_name": "기아",
       "stock_code": "000270",
-      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-      "receipt_no": "20261030800558",
+      "report_name": "공정거래자율준수프로그램운영현황(안내공시)              ",
+      "receipt_no": "20261030801116",
       "receipt_date": "20261030",
       "filer_name": "기아",
       "remarks": "유",
       "industry_code": "AUTOMOTIVE",
       "industry_name": "자동차",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800558",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801116",
       "posco_relevance": {
         "decision": "EXCLUDE",
         "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
@@ -79,52 +80,52 @@
         ],
         "reevaluation_required": true,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "evidence_text": "공정거래자율준수프로그램운영현황(안내공시)              ",
         "body_fetched": false,
         "reevaluated_at": null
       }
     },
     {
-      "corp_code": "00116408",
-      "corp_name": "동신건설",
-      "stock_code": "025950",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261030900479",
+      "corp_code": "00126380",
+      "corp_name": "삼성전자",
+      "stock_code": "005930",
+      "report_name": "특수관계인으로부터주식의취득",
+      "receipt_no": "20261030000586",
       "receipt_date": "20261030",
-      "filer_name": "동신건설",
-      "remarks": "코",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030900479",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               코",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00164478",
-      "corp_name": "현대건설",
-      "stock_code": "000720",
-      "report_name": "약관에의한금융거래시계열금융회사의거래상대방의공시",
-      "receipt_no": "20261030000159",
-      "receipt_date": "20261030",
-      "filer_name": "현대건설",
+      "filer_name": "삼성전자",
       "remarks": "공",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
+      "industry_code": "HOME_APPLIANCE",
+      "industry_name": "가전",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000159",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000586",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "특수관계인으로부터주식의취득",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00106641",
+      "corp_name": "기아",
+      "stock_code": "000270",
+      "report_name": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+      "receipt_no": "20261030000584",
+      "receipt_date": "20261030",
+      "filer_name": "기아",
+      "remarks": "공",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000584",
       "posco_relevance": {
         "decision": "EXCLUDE",
         "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
@@ -141,52 +142,18 @@
       }
     },
     {
-      "corp_code": "01093007",
-      "corp_name": "LS에코에너지",
-      "stock_code": "229640",
-      "report_name": "[기재정정]타법인주식및출자증권취득결정              ",
-      "receipt_no": "20261030800462",
+      "corp_code": "00164788",
+      "corp_name": "현대모비스",
+      "stock_code": "012330",
+      "report_name": "주요사항보고서(자기주식처분결정)",
+      "receipt_no": "20261030000571",
       "receipt_date": "20261030",
-      "filer_name": "LS에코에너지",
-      "remarks": "유",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
+      "filer_name": "현대모비스",
+      "remarks": "",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800462",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "ACQUISITION_PURPOSE_UNKNOWN",
-        "matched_evidence": [
-          "타법인주식및출자증권취득"
-        ],
-        "missing_evidence": [
-          "경영권",
-          "생산능력",
-          "기술",
-          "공급망",
-          "합작사업",
-          "인수"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]타법인주식및출자증권취득결정              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01980110",
-      "corp_name": "로제비앙건설",
-      "stock_code": "",
-      "report_name": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
-      "receipt_no": "20261030000157",
-      "receipt_date": "20261030",
-      "filer_name": "로제비앙건설",
-      "remarks": "공",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000157",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000571",
       "posco_relevance": {
         "decision": "EXCLUDE",
         "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
@@ -197,24 +164,362 @@
         ],
         "reevaluation_required": true,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+        "evidence_text": "주요사항보고서(자기주식처분결정)",
         "body_fetched": false,
         "reevaluated_at": null
       }
     },
     {
-      "corp_code": "00164478",
-      "corp_name": "현대건설",
-      "stock_code": "000720",
-      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-      "receipt_no": "20261030800458",
+      "corp_code": "00106641",
+      "corp_name": "기아",
+      "stock_code": "000270",
+      "report_name": "특수관계인에대한증여",
+      "receipt_no": "20261030000582",
       "receipt_date": "20261030",
-      "filer_name": "현대건설",
-      "remarks": "유",
+      "filer_name": "기아",
+      "remarks": "공",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000582",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "특수관계인에대한증여",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00106641",
+      "corp_name": "기아",
+      "stock_code": "000270",
+      "report_name": "특수관계인에대한출자",
+      "receipt_no": "20261030000577",
+      "receipt_date": "20261030",
+      "filer_name": "기아",
+      "remarks": "공",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000577",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "특수관계인에대한출자",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00106641",
+      "corp_name": "기아",
+      "stock_code": "000270",
+      "report_name": "주요사항보고서(자기주식처분결정)",
+      "receipt_no": "20261030000550",
+      "receipt_date": "20261030",
+      "filer_name": "기아",
+      "remarks": "",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000550",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "주요사항보고서(자기주식처분결정)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01316245",
+      "corp_name": "효성중공업",
+      "stock_code": "298040",
+      "report_name": "특수관계인에대한자금대여",
+      "receipt_no": "20261030000563",
+      "receipt_date": "20261030",
+      "filer_name": "효성중공업",
+      "remarks": "공",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000563",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "특수관계인에대한자금대여",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00480367",
+      "corp_name": "SK오션플랜트",
+      "stock_code": "100090",
+      "report_name": "주식등의대량보유상황보고서(일반)",
+      "receipt_no": "20261030000561",
+      "receipt_date": "20261030",
+      "filer_name": "송무석",
+      "remarks": "",
       "industry_code": "CONSTRUCTION",
       "industry_name": "건설",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800458",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000561",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "주식등의대량보유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "주식등의대량보유상황보고서(일반)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01316245",
+      "corp_name": "효성중공업",
+      "stock_code": "298040",
+      "report_name": "특수관계인과의내부거래",
+      "receipt_no": "20261030000558",
+      "receipt_date": "20261030",
+      "filer_name": "효성중공업",
+      "remarks": "공",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000558",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "특수관계인과의내부거래",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01316245",
+      "corp_name": "효성중공업",
+      "stock_code": "298040",
+      "report_name": "동일인등출자계열회사와의상품ㆍ용역거래",
+      "receipt_no": "20261030000554",
+      "receipt_date": "20261030",
+      "filer_name": "효성중공업",
+      "remarks": "공",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000554",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "동일인등출자계열회사와의상품ㆍ용역거래",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01628016",
+      "corp_name": "한울건설",
+      "stock_code": "",
+      "report_name": "[기재정정]감사보고서 (2025.12)",
+      "receipt_no": "20261030000549",
+      "receipt_date": "20261030",
+      "filer_name": "오성회계법인",
+      "remarks": "정",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000549",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "GOVERNANCE_ONLY",
+        "matched_evidence": [
+          "감사보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]감사보고서 (2025.12)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01316245",
+      "corp_name": "효성중공업",
+      "stock_code": "298040",
+      "report_name": "동일인등출자계열회사와의상품ㆍ용역거래",
+      "receipt_no": "20261030000536",
+      "receipt_date": "20261030",
+      "filer_name": "효성중공업",
+      "remarks": "공",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000536",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "동일인등출자계열회사와의상품ㆍ용역거래",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01316245",
+      "corp_name": "효성중공업",
+      "stock_code": "298040",
+      "report_name": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+      "receipt_no": "20261030000529",
+      "receipt_date": "20261030",
+      "filer_name": "효성중공업",
+      "remarks": "공",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000529",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01032486",
+      "corp_name": "두산밥캣",
+      "stock_code": "241560",
+      "report_name": "지주회사의자회사탈퇴              ",
+      "receipt_no": "20261030800976",
+      "receipt_date": "20261030",
+      "filer_name": "두산밥캣",
+      "remarks": "유",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800976",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "지주회사의자회사탈퇴              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01316245",
+      "corp_name": "효성중공업",
+      "stock_code": "298040",
+      "report_name": "금전대여결정              ",
+      "receipt_no": "20261030800918",
+      "receipt_date": "20261030",
+      "filer_name": "효성중공업",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800918",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "금전대여결정              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01316245",
+      "corp_name": "효성중공업",
+      "stock_code": "298040",
+      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+      "receipt_no": "20261030800916",
+      "receipt_date": "20261030",
+      "filer_name": "효성중공업",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800916",
       "posco_relevance": {
         "decision": "EXCLUDE",
         "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
@@ -231,130 +536,18 @@
       }
     },
     {
-      "corp_code": "01797635",
-      "corp_name": "에이엘로봇",
-      "stock_code": "",
-      "report_name": "[기재정정]증권신고서(지분증권)",
-      "receipt_no": "20261030000140",
-      "receipt_date": "20261030",
-      "filer_name": "에이엘로봇",
-      "remarks": "",
-      "industry_code": "MACHINERY",
-      "industry_name": "기계",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000140",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]증권신고서(지분증권)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00159193",
-      "corp_name": "한국전력공사",
-      "stock_code": "015760",
-      "report_name": "주주명부폐쇄기간또는기준일설정              ",
-      "receipt_no": "20261030800389",
-      "receipt_date": "20261030",
-      "filer_name": "한국전력공사",
-      "remarks": "유",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800389",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "주주명부폐쇄기간또는기준일설정              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00124540",
-      "corp_name": "대우건설",
-      "stock_code": "047040",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261030800384",
-      "receipt_date": "20261030",
-      "filer_name": "대우건설",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800384",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00124540",
-      "corp_name": "대우건설",
-      "stock_code": "047040",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261030800255",
-      "receipt_date": "20261030",
-      "filer_name": "대우건설",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800255",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00164788",
-      "corp_name": "현대모비스",
-      "stock_code": "012330",
+      "corp_code": "01316245",
+      "corp_name": "효성중공업",
+      "stock_code": "298040",
       "report_name": "기업설명회(IR)개최(안내공시)              ",
-      "receipt_no": "20261030800253",
+      "receipt_no": "20261030800927",
       "receipt_date": "20261030",
-      "filer_name": "현대모비스",
+      "filer_name": "효성중공업",
       "remarks": "유",
-      "industry_code": "AUTOMOTIVE",
-      "industry_name": "자동차",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800253",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800927",
       "posco_relevance": {
         "decision": "EXCLUDE",
         "reason_code": "IR_CONTENT_MISSING",
@@ -379,46 +572,131 @@
       }
     },
     {
-      "corp_code": "00111704",
-      "corp_name": "한화오션",
-      "stock_code": "042660",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261030800228",
+      "corp_code": "00852175",
+      "corp_name": "SK에너지",
+      "stock_code": "",
+      "report_name": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+      "receipt_no": "20261030000499",
       "receipt_date": "20261030",
-      "filer_name": "한화오션",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
+      "filer_name": "SK에너지",
+      "remarks": "공",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800228",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000499",
       "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
         ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
+        "reevaluation_required": true,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "evidence_text": "동일인등출자계열회사와의상품ㆍ용역거래변경",
         "body_fetched": false,
         "reevaluated_at": null
       }
     },
     {
-      "corp_code": "00164788",
-      "corp_name": "현대모비스",
-      "stock_code": "012330",
-      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-      "receipt_no": "20261030800221",
+      "corp_code": "01019096",
+      "corp_name": "홍성건설",
+      "stock_code": "",
+      "report_name": "연결감사보고서 (2026.06)",
+      "receipt_no": "20261030000490",
       "receipt_date": "20261030",
-      "filer_name": "현대모비스",
+      "filer_name": "선진회계법인",
+      "remarks": "",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000490",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "GOVERNANCE_ONLY",
+        "matched_evidence": [
+          "감사보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "연결감사보고서 (2026.06)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00164742",
+      "corp_name": "현대자동차",
+      "stock_code": "005380",
+      "report_name": "풍문또는보도에대한해명(미확정)              ",
+      "receipt_no": "20261030800867",
+      "receipt_date": "20261030",
+      "filer_name": "현대자동차",
       "remarks": "유",
       "industry_code": "AUTOMOTIVE",
       "industry_name": "자동차",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800221",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800867",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "풍문또는보도에대한해명(미확정)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01032486",
+      "corp_name": "두산밥캣",
+      "stock_code": "241560",
+      "report_name": "투자판단관련주요경영사항(자회사의 주요경영사항)              ",
+      "receipt_no": "20261030800858",
+      "receipt_date": "20261030",
+      "filer_name": "두산밥캣",
+      "remarks": "유",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800858",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "투자판단관련주요경영사항(자회사의 주요경영사항)              ",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01042775",
+      "corp_name": "HL만도",
+      "stock_code": "204320",
+      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+      "receipt_no": "20261030800817",
+      "receipt_date": "20261030",
+      "filer_name": "HL만도",
+      "remarks": "유",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800817",
       "posco_relevance": {
         "decision": "EXCLUDE",
         "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
@@ -435,57 +713,151 @@
       }
     },
     {
-      "corp_code": "00120030",
-      "corp_name": "GS건설",
-      "stock_code": "006360",
-      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-      "receipt_no": "20261030800192",
+      "corp_code": "00123541",
+      "corp_name": "보해양조",
+      "stock_code": "000890",
+      "report_name": "주요사항보고서(자기주식취득결정)",
+      "receipt_no": "20261030000418",
       "receipt_date": "20261030",
-      "filer_name": "GS건설",
-      "remarks": "유",
+      "filer_name": "보해양조",
+      "remarks": "",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000418",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "주요사항보고서(자기주식취득결정)",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00442631",
+      "corp_name": "태양기계",
+      "stock_code": "116100",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261030000434",
+      "receipt_date": "20261030",
+      "filer_name": "박창엽",
+      "remarks": "",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000434",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01559567",
+      "corp_name": "디아이건설",
+      "stock_code": "",
+      "report_name": "특수관계인으로부터자금차입",
+      "receipt_no": "20261030000427",
+      "receipt_date": "20261030",
+      "filer_name": "디아이건설",
+      "remarks": "공",
       "industry_code": "CONSTRUCTION",
       "industry_name": "건설",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800192",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000427",
       "posco_relevance": {
         "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
+        "reason_code": "FINANCING_PURPOSE_UNKNOWN",
+        "matched_evidence": [
+          "차입"
+        ],
         "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
+          "시설자금",
+          "공장",
+          "증설",
+          "생산라인",
+          "신사업",
+          "인수",
+          "설비"
         ],
         "reevaluation_required": true,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "evidence_text": "특수관계인으로부터자금차입",
         "body_fetched": false,
         "reevaluated_at": null
       }
     },
     {
-      "corp_code": "00161383",
-      "corp_name": "한미반도체",
-      "stock_code": "042700",
-      "report_name": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-      "receipt_no": "20261030800184",
+      "corp_code": "00442631",
+      "corp_name": "태양기계",
+      "stock_code": "116100",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261030000421",
       "receipt_date": "20261030",
-      "filer_name": "한미반도체",
-      "remarks": "유",
-      "industry_code": "SEMICONDUCTOR",
-      "industry_name": "반도체",
+      "filer_name": "박경희",
+      "remarks": "",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800184",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000421",
       "posco_relevance": {
         "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
         ],
-        "reevaluation_required": true,
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00164478",
+      "corp_name": "현대건설",
+      "stock_code": "000720",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261030000359",
+      "receipt_date": "20261030",
+      "filer_name": "국민연금공단",
+      "remarks": "",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000359",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
         "body_fetched": false,
         "reevaluated_at": null
       }
@@ -495,14 +867,14 @@
       "corp_name": "현대차증권",
       "stock_code": "001500",
       "report_name": "증권발행실적보고서",
-      "receipt_no": "20261030000043",
+      "receipt_no": "20261030000338",
       "receipt_date": "20261030",
       "filer_name": "현대차증권",
       "remarks": "",
       "industry_code": "AUTOMOTIVE",
       "industry_name": "자동차",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000043",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000338",
       "posco_relevance": {
         "decision": "EXCLUDE",
         "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
@@ -519,74 +891,76 @@
       }
     },
     {
-      "corp_code": "00585538",
-      "corp_name": "에스에너지",
-      "stock_code": "095910",
-      "report_name": "기타시장안내              (주가 미달에 따른 상장폐지 우려 관련 안내)",
-      "receipt_no": "20261029900891",
-      "receipt_date": "20261029",
-      "filer_name": "코스닥시장본부",
-      "remarks": "코",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900891",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "기타시장안내              (주가 미달에 따른 상장폐지 우려 관련 안내)",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00125150",
-      "corp_name": "SGC에너지",
-      "stock_code": "005090",
-      "report_name": "[기재정정]유형자산취득결정(종속회사의주요경영사항)              ",
-      "receipt_no": "20261029800794",
-      "receipt_date": "20261029",
-      "filer_name": "SGC에너지",
-      "remarks": "유",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800794",
-      "posco_relevance": {
-        "decision": "EXCLUDE",
-        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
-        "matched_evidence": [],
-        "missing_evidence": [
-          "생산·프로젝트·설비 변화",
-          "철강 수요 연결 근거"
-        ],
-        "reevaluation_required": true,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]유형자산취득결정(종속회사의주요경영사항)              ",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01032486",
-      "corp_name": "두산밥캣",
-      "stock_code": "241560",
-      "report_name": "특수관계인과의수익증권거래",
-      "receipt_no": "20261029000603",
-      "receipt_date": "20261029",
-      "filer_name": "두산밥캣",
-      "remarks": "공",
+      "corp_code": "00257732",
+      "corp_name": "한국정밀기계",
+      "stock_code": "101680",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261030000335",
+      "receipt_date": "20261030",
+      "filer_name": "하종식",
+      "remarks": "",
       "industry_code": "MACHINERY",
       "industry_name": "기계",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000603",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000335",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00257732",
+      "corp_name": "한국정밀기계",
+      "stock_code": "101680",
+      "report_name": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "receipt_no": "20261030000335",
+      "receipt_date": "20261030",
+      "filer_name": "하종식",
+      "remarks": "",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000335",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "OWNERSHIP_ONLY",
+        "matched_evidence": [
+          "임원ㆍ주요주주특정증권등소유상황보고서"
+        ],
+        "missing_evidence": [
+          "생산·설비·프로젝트 변화"
+        ],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00887506",
+      "corp_name": "지에스동해전력",
+      "stock_code": "",
+      "report_name": "[기재정정]특수관계인에대한부동산매도",
+      "receipt_no": "20261030000317",
+      "receipt_date": "20261030",
+      "filer_name": "지에스동해전력",
+      "remarks": "공",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000317",
       "posco_relevance": {
         "decision": "EXCLUDE",
         "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
@@ -597,11 +971,103 @@
         ],
         "reevaluation_required": true,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "특수관계인과의수익증권거래",
+        "evidence_text": "[기재정정]특수관계인에대한부동산매도",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00887506",
+      "corp_name": "지에스동해전력",
+      "stock_code": "",
+      "report_name": "[기재정정]특수관계인에대한부동산매도",
+      "receipt_no": "20261030000315",
+      "receipt_date": "20261030",
+      "filer_name": "지에스동해전력",
+      "remarks": "공",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000315",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]특수관계인에대한부동산매도",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00887506",
+      "corp_name": "지에스동해전력",
+      "stock_code": "",
+      "report_name": "동일인등출자계열회사와의상품ㆍ용역거래",
+      "receipt_no": "20261030000302",
+      "receipt_date": "20261030",
+      "filer_name": "지에스동해전력",
+      "remarks": "공",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000302",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "PHYSICAL_CHANGE_NOT_FOUND",
+        "matched_evidence": [],
+        "missing_evidence": [
+          "생산·프로젝트·설비 변화",
+          "철강 수요 연결 근거"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "동일인등출자계열회사와의상품ㆍ용역거래",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00164788",
+      "corp_name": "현대모비스",
+      "stock_code": "012330",
+      "report_name": "기업설명회(IR)개최(안내공시)              ",
+      "receipt_no": "20261030800645",
+      "receipt_date": "20261030",
+      "filer_name": "현대모비스",
+      "remarks": "유",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800645",
+      "posco_relevance": {
+        "decision": "EXCLUDE",
+        "reason_code": "IR_CONTENT_MISSING",
+        "matched_evidence": [
+          "기업설명회"
+        ],
+        "missing_evidence": [
+          "시설투자",
+          "설비투자",
+          "공장",
+          "증설",
+          "생산",
+          "수주",
+          "신사업",
+          "공급망"
+        ],
+        "reevaluation_required": true,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "기업설명회(IR)개최(안내공시)              ",
         "body_fetched": false,
         "reevaluated_at": null
       }
     }
   ],
-  "evaluated_count": 21
+  "evaluated_count": 37
 }
