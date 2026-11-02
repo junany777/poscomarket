@@ -3,17 +3,17 @@
   "connected": true,
   "status": "CONNECTED",
   "period": {
-    "bgn_de": "20261025",
-    "end_de": "20261101"
+    "bgn_de": "20261026",
+    "end_de": "20261102"
   },
   "manufacturing_only": true,
   "posco_relevance_only": true,
   "summary": {
-    "filtered_disclosures": 2,
-    "excluded_disclosures": 39,
-    "raw_disclosures": 3719,
+    "filtered_disclosures": 3,
+    "excluded_disclosures": 37,
+    "raw_disclosures": 3739,
     "industry_counts": {
-      "AUTOMOTIVE": 0,
+      "AUTOMOTIVE": 1,
       "SHIPBUILDING": 0,
       "CONSTRUCTION": 0,
       "ENERGY": 2,
@@ -25,6 +25,10 @@
       {
         "corp_name": "강원에너지",
         "count": 2
+      },
+      {
+        "corp_name": "금호타이어",
+        "count": 1
       }
     ],
     "signal_counts": {

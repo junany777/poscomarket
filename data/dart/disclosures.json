@@ -6,6 +6,33 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00481454",
+      "corp_name": "금호타이어",
+      "stock_code": "073240",
+      "report_name": "생산중단              ",
+      "receipt_no": "20261102800014",
+      "receipt_date": "20261102",
+      "filer_name": "금호타이어",
+      "remarks": "유",
+      "industry_code": "AUTOMOTIVE",
+      "industry_name": "자동차",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102800014",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "생산중단"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "생산중단               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00100601",
       "corp_name": "강원에너지",
       "stock_code": "114190",
@@ -62,19 +89,19 @@
       }
     }
   ],
-  "total_count": 2,
-  "evaluated_count": 41,
-  "kept_count": 2,
-  "excluded_count": 39,
+  "total_count": 3,
+  "evaluated_count": 40,
+  "kept_count": 3,
+  "excluded_count": 37,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "OWNERSHIP_ONLY": 5,
+    "PHYSICAL_IMPACT_UNKNOWN": 1,
+    "OWNERSHIP_ONLY": 3,
     "PHYSICAL_CHANGE_NOT_FOUND": 27,
     "IR_CONTENT_MISSING": 2,
-    "GOVERNANCE_ONLY": 4,
-    "FINANCING_PURPOSE_UNKNOWN": 1
+    "GOVERNANCE_ONLY": 4
   },
-  "raw_total_count": 3719,
+  "raw_total_count": 3739,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -110,7 +137,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261025",
-    "end_de": "20261101"
+    "bgn_de": "20261026",
+    "end_de": "20261102"
   }
 }
