@@ -9,56 +9,57 @@
   "manufacturing_only": true,
   "posco_relevance_only": true,
   "summary": {
-    "filtered_disclosures": 4,
-    "excluded_disclosures": 32,
-    "raw_disclosures": 3880,
+    "filtered_disclosures": 3,
+    "excluded_disclosures": 17,
+    "raw_disclosures": 4313,
     "industry_counts": {
-      "AUTOMOTIVE": 1,
-      "SHIPBUILDING": 1,
-      "CONSTRUCTION": 0,
-      "ENERGY": 2,
+      "AUTOMOTIVE": 0,
+      "SHIPBUILDING": 2,
+      "CONSTRUCTION": 1,
+      "ENERGY": 0,
       "HOME_APPLIANCE": 0,
       "MACHINERY": 0,
       "SEMICONDUCTOR": 0
     },
     "top_companies": [
       {
-        "corp_name": "강원에너지",
-        "count": 2
-      },
-      {
-        "corp_name": "HJ중공업",
+        "corp_name": "동부건설",
         "count": 1
       },
       {
-        "corp_name": "금호타이어",
+        "corp_name": "HD한국조선해양",
+        "count": 1
+      },
+      {
+        "corp_name": "HD현대중공업",
         "count": 1
       }
     ],
     "signal_counts": {
       "CAPEX": 0,
       "CONTRACT": 3,
-      "CORPORATE_ACTION": 0,
+      "CORPORATE_ACTION": 1,
       "FINANCING": 0,
       "GOVERNANCE": 0
     },
     "high_priority_signals": 0,
-    "high_signal_score_count": 2
+    "high_signal_score_count": 1
   },
   "signals": [
     {
       "score": 65,
       "signal_types": [
-        "CONTRACT"
+        "CONTRACT",
+        "CORPORATE_ACTION"
       ],
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "corp_name": "강원에너지",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "remarks": "코",
-      "receipt_no": "20261030901294",
-      "receipt_date": "20261030",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901294",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "corp_name": "HD한국조선해양",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
+      "remarks": "유",
+      "receipt_no": "20261102800620",
+      "receipt_date": "20261102",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102800620",
       "relevance_decision": "KEEP_DATA",
       "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
       "matched_evidence": [
@@ -77,11 +78,10 @@
         "product_candidates": [],
         "unavailable_product_families": [],
         "route_reason": "UNKNOWN / UNKNOWN / 공시 원문에서 적용처·부품·사양 확인",
-        "signal_label": "계약·수주",
-        "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
+        "signal_label": "계약·수주·기업행위",
+        "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인 / 기업행위가 사업 포트폴리오와 고객 전략 변화로 이어지는지 확인",
         "industry_hypotheses": [
-          "API_STEEL",
-          "OFFSHORE_PLATE"
+          "SHIPBUILDING_PLATE"
         ],
         "router_sources": [
           "knowledge/posco/index.md",
@@ -97,18 +97,18 @@
       "priority_eligible": false
     },
     {
-      "score": 65,
+      "score": 50,
       "signal_types": [
         "CONTRACT"
       ],
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
-      "corp_name": "강원에너지",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "corp_name": "동부건설",
       "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "remarks": "코",
-      "receipt_no": "20261030901279",
-      "receipt_date": "20261030",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901279",
+      "remarks": "유",
+      "receipt_no": "20261102800661",
+      "receipt_date": "20261102",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102800661",
       "relevance_decision": "KEEP_DATA",
       "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
       "matched_evidence": [
@@ -130,8 +130,8 @@
         "signal_label": "계약·수주",
         "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
         "industry_hypotheses": [
-          "API_STEEL",
-          "OFFSHORE_PLATE"
+          "CONSTRUCTION_PLATE",
+          "GALVANIZED_STEEL"
         ],
         "router_sources": [
           "knowledge/posco/index.md",
@@ -153,12 +153,12 @@
       ],
       "industry_code": "SHIPBUILDING",
       "industry_name": "조선",
-      "corp_name": "HJ중공업",
+      "corp_name": "HD현대중공업",
       "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
       "remarks": "유",
-      "receipt_no": "20261102800290",
+      "receipt_no": "20261102800599",
       "receipt_date": "20261102",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102800290",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102800599",
       "relevance_decision": "KEEP_DATA",
       "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
       "matched_evidence": [
