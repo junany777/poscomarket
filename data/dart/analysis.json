@@ -10,24 +10,24 @@
   "posco_relevance_only": true,
   "summary": {
     "filtered_disclosures": 2,
-    "excluded_disclosures": 21,
-    "raw_disclosures": 3887,
+    "excluded_disclosures": 10,
+    "raw_disclosures": 4329,
     "industry_counts": {
       "AUTOMOTIVE": 0,
       "SHIPBUILDING": 0,
-      "CONSTRUCTION": 2,
+      "CONSTRUCTION": 1,
       "ENERGY": 0,
       "HOME_APPLIANCE": 0,
-      "MACHINERY": 0,
+      "MACHINERY": 1,
       "SEMICONDUCTOR": 0
     },
     "top_companies": [
       {
-        "corp_name": "동부건설",
+        "corp_name": "서희건설",
         "count": 1
       },
       {
-        "corp_name": "일성건설",
+        "corp_name": "한국정밀기계",
         "count": 1
       }
     ],
@@ -49,12 +49,12 @@
       ],
       "industry_code": "CONSTRUCTION",
       "industry_name": "건설",
-      "corp_name": "동부건설",
+      "corp_name": "서희건설",
       "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "remarks": "유",
-      "receipt_no": "20261103800606",
-      "receipt_date": "20261103",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800606",
+      "remarks": "코",
+      "receipt_no": "20261104900355",
+      "receipt_date": "20261104",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104900355",
       "relevance_decision": "KEEP_DATA",
       "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
       "matched_evidence": [
@@ -97,19 +97,19 @@
       "signal_types": [
         "CONTRACT"
       ],
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "corp_name": "일성건설",
-      "report_name": "단일판매ㆍ공급계약해지              ",
-      "remarks": "유",
-      "receipt_no": "20261103800525",
-      "receipt_date": "20261103",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800525",
+      "industry_code": "MACHINERY",
+      "industry_name": "기계",
+      "corp_name": "한국정밀기계",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "remarks": "코",
+      "receipt_no": "20261104900310",
+      "receipt_date": "20261104",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104900310",
       "relevance_decision": "KEEP_DATA",
       "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
       "matched_evidence": [
-        "공급계약",
-        "계약해지"
+        "단일판매ㆍ공급계약체결",
+        "공급계약"
       ],
       "reevaluation_required": false,
       "knowledge_route": {
@@ -126,8 +126,8 @@
         "signal_label": "계약·수주",
         "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
         "industry_hypotheses": [
-          "CONSTRUCTION_PLATE",
-          "GALVANIZED_STEEL"
+          "POS_TEN",
+          "POS_AR"
         ],
         "router_sources": [
           "knowledge/posco/index.md",
