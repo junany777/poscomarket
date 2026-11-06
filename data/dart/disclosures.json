@@ -32,71 +32,15 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00164830",
-      "corp_name": "HD한국조선해양",
-      "stock_code": "009540",
-      "report_name": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
-      "receipt_no": "20261106800323",
-      "receipt_date": "20261106",
-      "filer_name": "HD한국조선해양",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800323",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01390344",
-      "corp_name": "HD현대중공업",
-      "stock_code": "329180",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261106800310",
-      "receipt_date": "20261106",
-      "filer_name": "HD현대중공업",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800310",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 3,
-  "evaluated_count": 31,
-  "kept_count": 3,
-  "excluded_count": 28,
+  "total_count": 1,
+  "evaluated_count": 26,
+  "kept_count": 1,
+  "excluded_count": 25,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "OWNERSHIP_ONLY": 15,
+    "OWNERSHIP_ONLY": 12,
     "PHYSICAL_CHANGE_NOT_FOUND": 8,
     "FINANCING_PURPOSE_UNKNOWN": 1,
     "SECURITIES_OFFERING_ONLY": 1,
@@ -104,7 +48,7 @@
     "ACQUISITION_PURPOSE_UNKNOWN": 1,
     "GOVERNANCE_ONLY": 1
   },
-  "raw_total_count": 4059,
+  "raw_total_count": 4088,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
