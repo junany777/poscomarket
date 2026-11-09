@@ -6,46 +6,18 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
-      "corp_code": "00164830",
-      "corp_name": "HD한국조선해양",
-      "stock_code": "009540",
-      "report_name": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
-      "receipt_no": "20261109800197",
-      "receipt_date": "20261109",
-      "filer_name": "HD한국조선해양",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800197",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01390344",
-      "corp_name": "HD현대중공업",
-      "stock_code": "329180",
+      "corp_code": "00120030",
+      "corp_name": "GS건설",
+      "stock_code": "006360",
       "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261109800193",
+      "receipt_no": "20261109800420",
       "receipt_date": "20261109",
-      "filer_name": "HD현대중공업",
+      "filer_name": "GS건설",
       "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800193",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800420",
       "posco_relevance": {
         "decision": "KEEP_DATA",
         "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
@@ -60,21 +32,49 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
+    },
+    {
+      "corp_code": "00102432",
+      "corp_name": "계룡건설산업",
+      "stock_code": "013580",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261109800309",
+      "receipt_date": "20261109",
+      "filer_name": "계룡건설산업",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800309",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
     }
   ],
   "total_count": 2,
-  "evaluated_count": 22,
+  "evaluated_count": 37,
   "kept_count": 2,
-  "excluded_count": 20,
+  "excluded_count": 35,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 9,
-    "OWNERSHIP_ONLY": 8,
-    "FINANCING_PURPOSE_UNKNOWN": 1,
-    "SECURITIES_OFFERING_ONLY": 1,
-    "IR_CONTENT_MISSING": 1
+    "PHYSICAL_IMPACT_UNKNOWN": 1,
+    "PHYSICAL_CHANGE_NOT_FOUND": 15,
+    "OWNERSHIP_ONLY": 7,
+    "IR_CONTENT_MISSING": 11,
+    "GOVERNANCE_ONLY": 1
   },
-  "raw_total_count": 3076,
+  "raw_total_count": 3567,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
