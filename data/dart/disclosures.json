@@ -6,101 +6,128 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
-      "corp_code": "00102432",
-      "corp_name": "계룡건설산업",
-      "stock_code": "013580",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261110800210",
-      "receipt_date": "20261110",
-      "filer_name": "계룡건설산업",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800210",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01205842",
-      "corp_name": "HD건설기계",
-      "stock_code": "267270",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261110800183",
-      "receipt_date": "20261110",
-      "filer_name": "HD건설기계",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800183",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "01678905",
-      "corp_name": "금오도해상풍력",
+      "corp_code": "01559567",
+      "corp_name": "디아이건설",
       "stock_code": "",
-      "report_name": "영업양도결정",
-      "receipt_no": "20261110000026",
+      "report_name": "회사합병결정",
+      "receipt_no": "20261110000429",
       "receipt_date": "20261110",
-      "filer_name": "금오도해상풍력",
+      "filer_name": "디아이건설",
       "remarks": "공",
-      "industry_code": "ENERGY",
-      "industry_name": "에너지",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000026",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000429",
       "posco_relevance": {
         "decision": "KEEP_DATA",
         "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
         "matched_evidence": [
-          "영업양도"
+          "합병"
         ],
         "missing_evidence": [],
         "reevaluation_required": false,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "영업양도결정 공",
+        "evidence_text": "회사합병결정 공",
         "body_fetched": false,
         "reevaluated_at": null
       }
     },
     {
-      "corp_code": "00120030",
-      "corp_name": "GS건설",
-      "stock_code": "006360",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261109800420",
-      "receipt_date": "20261109",
-      "filer_name": "GS건설",
-      "remarks": "유",
+      "corp_code": "01460519",
+      "corp_name": "엘리움건설",
+      "stock_code": "",
+      "report_name": "회사합병결정",
+      "receipt_no": "20261110000423",
+      "receipt_date": "20261110",
+      "filer_name": "엘리움건설",
+      "remarks": "공",
       "industry_code": "CONSTRUCTION",
       "industry_name": "건설",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800420",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000423",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "합병"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "회사합병결정 공",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00164830",
+      "corp_name": "HD한국조선해양",
+      "stock_code": "009540",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
+      "receipt_no": "20261110800533",
+      "receipt_date": "20261110",
+      "filer_name": "HD한국조선해양",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800533",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00633835",
+      "corp_name": "HJ중공업",
+      "stock_code": "097230",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261110800423",
+      "receipt_date": "20261110",
+      "filer_name": "HJ중공업",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800423",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00633835",
+      "corp_name": "HJ중공업",
+      "stock_code": "097230",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261110800324",
+      "receipt_date": "20261110",
+      "filer_name": "HJ중공업",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800324",
       "posco_relevance": {
         "decision": "KEEP_DATA",
         "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
@@ -117,20 +144,20 @@
       }
     }
   ],
-  "total_count": 4,
-  "evaluated_count": 28,
-  "kept_count": 4,
-  "excluded_count": 24,
-  "non_target_issuer_count": 0,
+  "total_count": 5,
+  "evaluated_count": 32,
+  "kept_count": 5,
+  "excluded_count": 27,
+  "non_target_issuer_count": 2,
   "exclusion_reasons": {
-    "IR_CONTENT_MISSING": 10,
-    "PHYSICAL_CHANGE_NOT_FOUND": 6,
-    "OWNERSHIP_ONLY": 5,
+    "ACQUISITION_PURPOSE_UNKNOWN": 1,
+    "PHYSICAL_CHANGE_NOT_FOUND": 15,
+    "OWNERSHIP_ONLY": 6,
+    "GOVERNANCE_ONLY": 2,
     "FINANCING_PURPOSE_UNKNOWN": 1,
-    "PHYSICAL_IMPACT_UNKNOWN": 1,
-    "GOVERNANCE_ONLY": 1
+    "NON_TARGET_ISSUER": 2
   },
-  "raw_total_count": 3227,
+  "raw_total_count": 3698,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
