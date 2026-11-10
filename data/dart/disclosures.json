@@ -6,6 +6,89 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00102432",
+      "corp_name": "계룡건설산업",
+      "stock_code": "013580",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261110800210",
+      "receipt_date": "20261110",
+      "filer_name": "계룡건설산업",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800210",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01205842",
+      "corp_name": "HD건설기계",
+      "stock_code": "267270",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261110800183",
+      "receipt_date": "20261110",
+      "filer_name": "HD건설기계",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800183",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01678905",
+      "corp_name": "금오도해상풍력",
+      "stock_code": "",
+      "report_name": "영업양도결정",
+      "receipt_no": "20261110000026",
+      "receipt_date": "20261110",
+      "filer_name": "금오도해상풍력",
+      "remarks": "공",
+      "industry_code": "ENERGY",
+      "industry_name": "에너지",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000026",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "영업양도"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "영업양도결정 공",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00120030",
       "corp_name": "GS건설",
       "stock_code": "006360",
@@ -32,49 +115,22 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00102432",
-      "corp_name": "계룡건설산업",
-      "stock_code": "013580",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261109800309",
-      "receipt_date": "20261109",
-      "filer_name": "계룡건설산업",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800309",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 2,
-  "evaluated_count": 37,
-  "kept_count": 2,
-  "excluded_count": 35,
+  "total_count": 4,
+  "evaluated_count": 28,
+  "kept_count": 4,
+  "excluded_count": 24,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
+    "IR_CONTENT_MISSING": 10,
+    "PHYSICAL_CHANGE_NOT_FOUND": 6,
+    "OWNERSHIP_ONLY": 5,
+    "FINANCING_PURPOSE_UNKNOWN": 1,
     "PHYSICAL_IMPACT_UNKNOWN": 1,
-    "PHYSICAL_CHANGE_NOT_FOUND": 15,
-    "OWNERSHIP_ONLY": 7,
-    "IR_CONTENT_MISSING": 11,
     "GOVERNANCE_ONLY": 1
   },
-  "raw_total_count": 3567,
+  "raw_total_count": 3227,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -110,7 +166,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261102",
-    "end_de": "20261109"
+    "bgn_de": "20261103",
+    "end_de": "20261110"
   }
 }
