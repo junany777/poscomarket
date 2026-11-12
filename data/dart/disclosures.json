@@ -6,6 +6,34 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
+      "corp_code": "00182696",
+      "corp_name": "대한조선",
+      "stock_code": "439260",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261112800130",
+      "receipt_date": "20261112",
+      "filer_name": "대한조선",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800130",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
       "corp_code": "00633835",
       "corp_name": "HJ중공업",
       "stock_code": "097230",
@@ -60,47 +88,19 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00120030",
-      "corp_name": "GS건설",
-      "stock_code": "006360",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261111800268",
-      "receipt_date": "20261111",
-      "filer_name": "GS건설",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800268",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
   "total_count": 3,
-  "evaluated_count": 20,
+  "evaluated_count": 17,
   "kept_count": 3,
-  "excluded_count": 17,
+  "excluded_count": 14,
   "non_target_issuer_count": 1,
   "exclusion_reasons": {
-    "NON_TARGET_ISSUER": 1,
-    "PHYSICAL_CHANGE_NOT_FOUND": 13,
-    "OWNERSHIP_ONLY": 3
+    "PHYSICAL_CHANGE_NOT_FOUND": 10,
+    "OWNERSHIP_ONLY": 3,
+    "NON_TARGET_ISSUER": 1
   },
-  "raw_total_count": 3787,
+  "raw_total_count": 3377,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -136,7 +136,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261104",
-    "end_de": "20261111"
+    "bgn_de": "20261105",
+    "end_de": "20261112"
   }
 }
