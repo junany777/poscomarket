@@ -3,19 +3,48 @@
   "configured": true,
   "connected": true,
   "status": "CONNECTED",
-  "message": "POSCO 연관 공시가 없습니다.",
-  "items": [],
-  "total_count": 0,
-  "evaluated_count": 20,
-  "kept_count": 0,
-  "excluded_count": 20,
+  "message": "POSCO 연관 공시를 조회했습니다.",
+  "items": [
+    {
+      "corp_code": "00126478",
+      "corp_name": "삼성중공업",
+      "stock_code": "010140",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261116800077",
+      "receipt_date": "20261116",
+      "filer_name": "삼성중공업",
+      "remarks": "유",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116800077",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    }
+  ],
+  "total_count": 1,
+  "evaluated_count": 16,
+  "kept_count": 1,
+  "excluded_count": 15,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 16,
-    "FINANCING_PURPOSE_UNKNOWN": 1,
-    "OWNERSHIP_ONLY": 3
+    "OWNERSHIP_ONLY": 5,
+    "PHYSICAL_CHANGE_NOT_FOUND": 9,
+    "FINANCING_PURPOSE_UNKNOWN": 1
   },
-  "raw_total_count": 4480,
+  "raw_total_count": 4622,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -51,7 +80,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261108",
-    "end_de": "20261115"
+    "bgn_de": "20261109",
+    "end_de": "20261116"
   }
 }
