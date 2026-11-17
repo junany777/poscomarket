@@ -42,7 +42,7 @@
   "exclusion_reasons": {
     "PHYSICAL_CHANGE_NOT_FOUND": 19
   },
-  "raw_total_count": 6940,
+  "raw_total_count": 6445,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -78,7 +78,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261109",
-    "end_de": "20261116"
+    "bgn_de": "20261110",
+    "end_de": "20261117"
   }
 }
