@@ -6,18 +6,18 @@
   "message": "POSCO 연관 공시를 조회했습니다.",
   "items": [
     {
-      "corp_code": "00106313",
-      "corp_name": "금호건설",
-      "stock_code": "002990",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261120800170",
+      "corp_code": "00115612",
+      "corp_name": "동부건설",
+      "stock_code": "005960",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261120800853",
       "receipt_date": "20261120",
-      "filer_name": "금호건설",
+      "filer_name": "동부건설",
       "remarks": "유",
       "industry_code": "CONSTRUCTION",
       "industry_name": "건설",
       "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120800170",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120800853",
       "posco_relevance": {
         "decision": "KEEP_DATA",
         "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
@@ -28,25 +28,136 @@
         "missing_evidence": [],
         "reevaluation_required": false,
         "evidence_source": "OpenDART list.json",
-        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               유",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00116408",
+      "corp_name": "동신건설",
+      "stock_code": "025950",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261120900854",
+      "receipt_date": "20261120",
+      "filer_name": "동신건설",
+      "remarks": "코",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900854",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               코",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "00106313",
+      "corp_name": "금호건설",
+      "stock_code": "002990",
+      "report_name": "단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261120800722",
+      "receipt_date": "20261120",
+      "filer_name": "금호건설",
+      "remarks": "유",
+      "industry_code": "CONSTRUCTION",
+      "industry_name": "건설",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120800722",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "단일판매ㆍ공급계약체결               유",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01676642",
+      "corp_name": "사피엔반도체",
+      "stock_code": "452430",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261120900676",
+      "receipt_date": "20261120",
+      "filer_name": "사피엔반도체",
+      "remarks": "코",
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900676",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               코",
+        "body_fetched": false,
+        "reevaluated_at": null
+      }
+    },
+    {
+      "corp_code": "01676642",
+      "corp_name": "사피엔반도체",
+      "stock_code": "452430",
+      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "receipt_no": "20261120900657",
+      "receipt_date": "20261120",
+      "filer_name": "사피엔반도체",
+      "remarks": "코",
+      "industry_code": "SEMICONDUCTOR",
+      "industry_name": "반도체",
+      "manufacturing_relevant": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900657",
+      "posco_relevance": {
+        "decision": "KEEP_DATA",
+        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
+        "matched_evidence": [
+          "단일판매ㆍ공급계약체결",
+          "공급계약"
+        ],
+        "missing_evidence": [],
+        "reevaluation_required": false,
+        "evidence_source": "OpenDART list.json",
+        "evidence_text": "[기재정정]단일판매ㆍ공급계약체결               코",
         "body_fetched": false,
         "reevaluated_at": null
       }
     }
   ],
-  "total_count": 1,
-  "evaluated_count": 26,
-  "kept_count": 1,
+  "total_count": 5,
+  "evaluated_count": 30,
+  "kept_count": 5,
   "excluded_count": 25,
-  "non_target_issuer_count": 10,
+  "non_target_issuer_count": 5,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 6,
-    "NON_TARGET_ISSUER": 10,
-    "IR_CONTENT_MISSING": 1,
-    "GOVERNANCE_ONLY": 2,
-    "OWNERSHIP_ONLY": 6
+    "OWNERSHIP_ONLY": 5,
+    "PHYSICAL_CHANGE_NOT_FOUND": 13,
+    "ACQUISITION_PURPOSE_UNKNOWN": 2,
+    "NON_TARGET_ISSUER": 5
   },
-  "raw_total_count": 6035,
+  "raw_total_count": 6468,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
