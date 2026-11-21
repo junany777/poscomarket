@@ -157,7 +157,7 @@
     "ACQUISITION_PURPOSE_UNKNOWN": 2,
     "NON_TARGET_ISSUER": 5
   },
-  "raw_total_count": 6468,
+  "raw_total_count": 4602,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -193,7 +193,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261113",
-    "end_de": "20261120"
+    "bgn_de": "20261114",
+    "end_de": "20261121"
   }
 }
