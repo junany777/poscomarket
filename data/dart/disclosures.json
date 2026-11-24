@@ -32,104 +32,20 @@
         "body_fetched": false,
         "reevaluated_at": null
       }
-    },
-    {
-      "corp_code": "00163673",
-      "corp_name": "한진중공업홀딩스",
-      "stock_code": "003480",
-      "report_name": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
-      "receipt_no": "20261123800217",
-      "receipt_date": "20261123",
-      "filer_name": "한진중공업홀딩스",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800217",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00164830",
-      "corp_name": "HD한국조선해양",
-      "stock_code": "009540",
-      "report_name": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)              ",
-      "receipt_no": "20261123800187",
-      "receipt_date": "20261123",
-      "filer_name": "HD한국조선해양",
-      "remarks": "유",
-      "industry_code": "SHIPBUILDING",
-      "industry_name": "조선",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800187",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
-    },
-    {
-      "corp_code": "00124540",
-      "corp_name": "대우건설",
-      "stock_code": "047040",
-      "report_name": "단일판매ㆍ공급계약체결              ",
-      "receipt_no": "20261123800132",
-      "receipt_date": "20261123",
-      "filer_name": "대우건설",
-      "remarks": "유",
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "manufacturing_relevant": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800132",
-      "posco_relevance": {
-        "decision": "KEEP_DATA",
-        "reason_code": "STRATEGIC_PHYSICAL_CHANGE",
-        "matched_evidence": [
-          "단일판매ㆍ공급계약체결",
-          "공급계약"
-        ],
-        "missing_evidence": [],
-        "reevaluation_required": false,
-        "evidence_source": "OpenDART list.json",
-        "evidence_text": "단일판매ㆍ공급계약체결               유",
-        "body_fetched": false,
-        "reevaluated_at": null
-      }
     }
   ],
-  "total_count": 4,
-  "evaluated_count": 33,
-  "kept_count": 4,
-  "excluded_count": 29,
+  "total_count": 1,
+  "evaluated_count": 27,
+  "kept_count": 1,
+  "excluded_count": 26,
   "non_target_issuer_count": 0,
   "exclusion_reasons": {
-    "PHYSICAL_CHANGE_NOT_FOUND": 20,
-    "OWNERSHIP_ONLY": 6,
+    "PHYSICAL_CHANGE_NOT_FOUND": 16,
+    "OWNERSHIP_ONLY": 7,
     "GOVERNANCE_ONLY": 2,
     "IR_CONTENT_MISSING": 1
   },
-  "raw_total_count": 5103,
+  "raw_total_count": 2794,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -165,7 +81,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261116",
-    "end_de": "20261123"
+    "bgn_de": "20261117",
+    "end_de": "20261124"
   }
 }
