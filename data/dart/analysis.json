@@ -3,19 +3,19 @@
   "connected": true,
   "status": "CONNECTED",
   "period": {
-    "bgn_de": "20261118",
-    "end_de": "20261125"
+    "bgn_de": "20261119",
+    "end_de": "20261126"
   },
   "manufacturing_only": true,
   "posco_relevance_only": true,
   "summary": {
     "filtered_disclosures": 1,
-    "excluded_disclosures": 25,
-    "raw_disclosures": 3957,
+    "excluded_disclosures": 28,
+    "raw_disclosures": 3844,
     "industry_counts": {
       "AUTOMOTIVE": 0,
-      "SHIPBUILDING": 0,
-      "CONSTRUCTION": 1,
+      "SHIPBUILDING": 1,
+      "CONSTRUCTION": 0,
       "ENERGY": 0,
       "HOME_APPLIANCE": 0,
       "MACHINERY": 0,
@@ -23,7 +23,7 @@
     },
     "top_companies": [
       {
-        "corp_name": "계룡건설산업",
+        "corp_name": "HJ중공업",
         "count": 1
       }
     ],
@@ -43,14 +43,14 @@
       "signal_types": [
         "CONTRACT"
       ],
-      "industry_code": "CONSTRUCTION",
-      "industry_name": "건설",
-      "corp_name": "계룡건설산업",
-      "report_name": "[기재정정]단일판매ㆍ공급계약체결              ",
+      "industry_code": "SHIPBUILDING",
+      "industry_name": "조선",
+      "corp_name": "HJ중공업",
+      "report_name": "단일판매ㆍ공급계약체결              ",
       "remarks": "유",
-      "receipt_no": "20261125800388",
-      "receipt_date": "20261125",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800388",
+      "receipt_no": "20261126800200",
+      "receipt_date": "20261126",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800200",
       "relevance_decision": "KEEP_DATA",
       "relevance_reason_code": "STRATEGIC_PHYSICAL_CHANGE",
       "matched_evidence": [
@@ -72,8 +72,7 @@
         "signal_label": "계약·수주",
         "strategy_statement": "계약·수주가 신규 프로젝트와 공급망 진입 기회로 이어지는지 확인",
         "industry_hypotheses": [
-          "CONSTRUCTION_PLATE",
-          "GALVANIZED_STEEL"
+          "SHIPBUILDING_PLATE"
         ],
         "router_sources": [
           "knowledge/posco/index.md",
