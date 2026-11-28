@@ -43,7 +43,7 @@
     "PHYSICAL_CHANGE_NOT_FOUND": 34,
     "OWNERSHIP_ONLY": 7
   },
-  "raw_total_count": 6112,
+  "raw_total_count": 5232,
   "page_no": 1,
   "page_count": 100,
   "manufacturing_only": true,
@@ -79,7 +79,7 @@
     }
   ],
   "period": {
-    "bgn_de": "20261120",
-    "end_de": "20261127"
+    "bgn_de": "20261121",
+    "end_de": "20261128"
   }
 }
